@@ -5,12 +5,49 @@ import pandas as pd
 def strip_text(text):
     return re.sub(' +', ' ', text.strip())
 
+username = "Yash"
+
+flower_bracket_start = '{'
+flower_bracket_end = '}'
+
+#default structure for dict
+default_json_string = flower_bracket_start+'"User":"'+username+'","Tables":[]'+flower_bracket_end
+default_data_type_json_string = flower_bracket_start+'"User":"'+username+'","Tables":[]'+flower_bracket_end
+
+try:
+    file1 = open(""+username+"_Tables.txt", "r")
+    tables_file = file1.read()
+    file1.close()
+    file2 = open(""+username+"_Tables_Datatypes.txt", "r")
+    tables_datatype_file = file2.read()
+    file2.close()
+    # write default struct only if empty generally done when user created, check later
+    if (len(tables_file) == 0):
+        file1 = open("" + username + "_Tables.txt", "w+")
+        file1.write(default_json_string)
+        file1.close()
+    if (len(tables_datatype_file) == 0):
+        file2 = open("" + username + "_Tables_Datatypes.txt", "w+")
+        file2.write(default_data_type_json_string)
+        file2.close()
+except:
+    print("user file doesn't exist.. creating new default structure")
+    file1 = open("" + username + "_Tables.txt", "w+")
+    file1.write(default_json_string)
+    file1.close()
+    file2 = open("" + username + "_Tables_Datatypes.txt", "w+")
+    file2.write(default_data_type_json_string)
+    file2.close()
+
+
+
+
 is_create_query = False
 query = "CREATE TABLE Player (player_id int NOT NULL AUTO_INCREMENT,team_id int DEFAULT NULL,league_id int NOT NULL,player_name varchar(45) NOT NULL,position varchar(45) NOT NULL,age int NOT NULL,PRIMARY KEY (player_id),FOREIGN KEY (team_id) REFERENCES Team (team_id),FOREIGN KEY (league_id) REFERENCES League (league_id));"
+
 if re.split(" ",query)[0].lower() == "create":
     is_create_query=True
 
-username = "Yash"
 table_name = strip_text(re.findall(r'table(.*?)\(',query.lower())[0])
 query_tablelevel = re.findall(r'\((.*?)\);',query.lower())[0]
 table_columns = re.split(",",strip_text(query_tablelevel))
@@ -46,7 +83,6 @@ table_data_type.remove('key')
 for i in range(0,num_of_foreign_keys) :
     table_columns_list.remove('foreign')
     table_data_type.remove('key')
-
 
 num_of_table_columns = len(table_columns_list)
 table_columns_string = ""
@@ -103,12 +139,10 @@ table_data_type_columns_string+= ']'
 
 table_datatype_string = table_columns_name_string +","+table_data_type_columns_string+","+table_columns_primary_key_string+","+table_columns_foreign_key_string+","+table_columns_relationship_string
 
-flower_bracket_start = '{'
-flower_bracket_end = '}'
 final_table_columns_string = flower_bracket_start+table_columns_string+flower_bracket_end
 final_table_datatype_string = flower_bracket_start+table_datatype_string+flower_bracket_end
-my_table_json_string = flower_bracket_start+'"User":"'+username+'","Tables":['+flower_bracket_start+'"Table_name":"'+table_name+'","Table_columns":['+final_table_columns_string+ ']'+flower_bracket_end+']'+flower_bracket_end
-my_table_data_type_json_string = flower_bracket_start+'"User":"'+username+'","Tables":['+flower_bracket_start+'"Table_name":"'+table_name+'","Table_columns":['+final_table_datatype_string+ ']'+flower_bracket_end+']'+flower_bracket_end
+my_table_json_string = flower_bracket_start+'"Table_name":"'+table_name+'","Table_columns":['+final_table_columns_string+ ']'+flower_bracket_end
+my_table_data_type_json_string = flower_bracket_start+'"Table_name":"'+table_name+'","Table_columns":['+final_table_datatype_string+ ']'+flower_bracket_end
 usertable_dict_obj = json.loads(my_table_json_string)
 usertable_datatype_dict_obj = json.loads(my_table_data_type_json_string)
 
@@ -116,15 +150,56 @@ usertable_datatype_dict_obj = json.loads(my_table_data_type_json_string)
 # table_name_dict =  usertable_dict_obj['Tables'][0]['Table_name']
 # latest_obj = usertable_dict_obj['Tables'][0]['Table_columns'].append(my_temp_dict)
 
-file1 = open(""+username+"_Tables.txt", "a")
-file1.write(json.dumps(usertable_dict_obj))
+file1 = open(""+username+"_Tables.txt", "r")
+f1 = file1.read()
 file1.close()
 
-#createdatatype and primary key foriegn key
-file2 = open(""+username+"_Tables_Datatypes.txt", "a")
-file2.write(json.dumps(usertable_datatype_dict_obj))
+f2 = json.loads(f1)
+for k,v in f2.items():
+    if(k=="Tables"):
+        if(len(v)==0):
+            v.append(json.loads(my_table_json_string))
+        else:
+            for tables in v:
+                for k1,v1 in tables.items():
+                    if(k1=="Table_name"):
+                        if(v1==table_name):
+                            print("Error!!! Table already exists")
+
+file3 = open(""+username+"_Tables.txt", "w+")
+file3.write(json.dumps(f2))
+file3.close()
+
+file4 = open(""+username+"_Tables_Datatypes.txt", "r")
+f3 = file4.read()
+file4.close()
+
+f4 = json.loads(f3)
+for k,v in f4.items():
+    if(k=="Tables"):
+        if(len(v)==0):
+            v.append(json.loads(my_table_data_type_json_string))
+        else:
+            for tables in v:
+                for k1,v1 in tables.items():
+                    if(k1=="Table_name"):
+                        if(v1==table_name):
+                            print("Error!!! Table already exists")
+
+file5 = open(""+username+"_Tables_Datatypes.txt", "w+")
+file5.write(json.dumps(f4))
+file5.close()
+
+#display
+file1 = open(""+username+"_Tables.txt", "r")
+f1 = file1.read()
+file1.close()
+file2 = open(""+username+"_Tables_Datatypes.txt", "r")
+f2 = file2.read()
 file2.close()
 
+usertable_dict_obj = json.loads(f1)
+usertable_datatype_dict_obj = json.loads(f2)
 print(json.dumps(usertable_dict_obj, indent = 1))
 print(json.dumps(usertable_datatype_dict_obj, indent = 1))
 
