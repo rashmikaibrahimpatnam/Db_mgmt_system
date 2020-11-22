@@ -1,6 +1,7 @@
 import re
 import json
 import pandas as pd
+from tabulate import tabulate
 
 def strip_text(text):
     return re.sub(' +', ' ', text.strip())
@@ -83,11 +84,39 @@ for i in range(0,num_of_foreign_keys) :
     table_data_type.remove('key')
 
 num_of_table_columns = len(table_columns_list)
+
+table_columns_autoincrement_string = ""
+table_columns_autoincrement_string+='"Auto Increment":['
+for i in range(0,len(table_columns_list)):
+    if "auto_increment" in table_columns[i]:
+        table_columns_autoincrement_string +='"Yes"'
+    else:
+        table_columns_autoincrement_string += '"No"'
+    if (i != num_of_table_columns - 1):
+        table_columns_autoincrement_string += ','
+table_columns_autoincrement_string+= ']'
+
 table_columns_string = ""
 for i in range(0,num_of_table_columns):
-    table_columns_string += '"' + table_columns_list[i] + '":"null"'
+    if "auto_increment" in table_columns[i]:
+        table_columns_string += '"' + table_columns_list[i] + '":1'
+    else:
+        table_columns_string += '"' + table_columns_list[i] + '":"defaultval"'
     if(i!=num_of_table_columns-1):
         table_columns_string+= ','
+
+
+table_columns_nullable_string = ""
+table_columns_nullable_string+='"Nullable":['
+for i in range(0,len(table_columns_list)):
+    if "not null" in table_columns[i]:
+        table_columns_nullable_string +='"No"'
+    else:
+        table_columns_nullable_string += '"Yes"'
+    if (i != num_of_table_columns - 1):
+        table_columns_nullable_string += ','
+table_columns_nullable_string+= ']'
+
 
 table_columns_name_string = ""
 table_columns_primary_key_string = ""
@@ -134,8 +163,7 @@ for i in range(0,num_of_table_data_type_columns):
         table_data_type_columns_string+= ','
 table_data_type_columns_string+= ']'
 
-
-table_datatype_string = table_columns_name_string +","+table_data_type_columns_string+","+table_columns_primary_key_string+","+table_columns_foreign_key_string+","+table_columns_relationship_string
+table_datatype_string = table_columns_name_string +","+table_data_type_columns_string+","+table_columns_nullable_string+","+table_columns_autoincrement_string+","+table_columns_primary_key_string+","+table_columns_foreign_key_string+","+table_columns_relationship_string
 
 final_table_columns_string = flower_bracket_start+table_columns_string+flower_bracket_end
 final_table_datatype_string = flower_bracket_start+table_datatype_string+flower_bracket_end
@@ -218,19 +246,22 @@ file2.close()
 
 usertable_dict_obj = json.loads(f1)
 usertable_datatype_dict_obj = json.loads(f2)
-print(json.dumps(usertable_dict_obj, indent = 1))
-print(json.dumps(usertable_datatype_dict_obj, indent = 1))
+# print(json.dumps(usertable_dict_obj, indent = 1))
+# print(json.dumps(usertable_datatype_dict_obj, indent = 1))
 
 print("\n")
-print("\t\t\t\t\tTable Name: "+usertable_dict_obj['Tables'][0]['Table_name'].capitalize())
+print("\t\t\t\t\t\t\t\tTable Name: "+usertable_dict_obj['Tables'][0]['Table_name'].capitalize())
 val = usertable_dict_obj['Tables'][0]['Table_columns']
-print(pd.DataFrame(val, columns=["player_id", "team_id", "league_id", "player_name","position","age"]))
+print(tabulate(pd.DataFrame(val, columns=["player_id", "team_id", "league_id", "player_name","position","age"]),headers = 'keys', tablefmt = 'psql'))
 print("\n")
 
+
+print("\t\t\t\t\t\t\t\t\t\tTable Name: "+usertable_datatype_dict_obj['Tables'][0]['Table_name'].capitalize())
 val2 = usertable_datatype_dict_obj['Tables'][0]['Table_columns'][0]
-print(pd.DataFrame(val2, columns=["Name", "Data Type", "Primary Key", "Foreign Key"]))
+#print(pd.DataFrame(val2, columns=["Name", "Data Type", "Nullable","Auto Increment","Primary Key", "Foreign Key"]))
+print(tabulate(pd.DataFrame(val2, columns=["Name", "Data Type", "Nullable","Auto Increment","Primary Key", "Foreign Key"]),headers = 'keys', tablefmt = 'psql'))
 print("\n")
 
-val3 = usertable_datatype_dict_obj['Tables'][0]['Table_columns'][0]['Relationship']
-print(val3)
-print("\n")
+# val3 = usertable_datatype_dict_obj['Tables'][0]['Table_columns'][0]['Relationship']
+# print(val3)
+# print("\n")
