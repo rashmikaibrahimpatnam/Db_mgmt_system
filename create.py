@@ -129,6 +129,7 @@ print(json.dumps(usertable_dict_obj, indent = 1))
 print(json.dumps(usertable_datatype_dict_obj, indent = 1))
 
 print("\n")
+print("\t\t\t\t\tTable Name: "+usertable_dict_obj['Tables'][0]['Table_name'].capitalize())
 val = usertable_dict_obj['Tables'][0]['Table_columns']
 print(pd.DataFrame(val, columns=["player_id", "team_id", "league_id", "player_name","position","age"]))
 print("\n")
