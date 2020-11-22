@@ -39,11 +39,9 @@ except:
     file2.write(default_data_type_json_string)
     file2.close()
 
-
-
-
 is_create_query = False
 query = "CREATE TABLE Player (player_id int NOT NULL AUTO_INCREMENT,team_id int DEFAULT NULL,league_id int NOT NULL,player_name varchar(45) NOT NULL,position varchar(45) NOT NULL,age int NOT NULL,PRIMARY KEY (player_id),FOREIGN KEY (team_id) REFERENCES Team (team_id),FOREIGN KEY (league_id) REFERENCES League (league_id));"
+#query = "CREATE TABLE Player_duplicate (player_id_duplicate int NOT NULL AUTO_INCREMENT,team_id_duplicate int DEFAULT NULL,league_id_duplicate int NOT NULL,player_name_duplicate varchar(45) NOT NULL,position_duplicate varchar(45) NOT NULL,age_duplicate int NOT NULL,PRIMARY KEY (player_id_duplicate),FOREIGN KEY (team_id_duplicate) REFERENCES Team_duplicate (team_id_duplicate),FOREIGN KEY (league_id_duplicate) REFERENCES League_duplicate (league_id_duplicate));"
 
 if re.split(" ",query)[0].lower() == "create":
     is_create_query=True
@@ -155,16 +153,26 @@ f1 = file1.read()
 file1.close()
 
 f2 = json.loads(f1)
+table_exists=False
 for k,v in f2.items():
     if(k=="Tables"):
         if(len(v)==0):
             v.append(json.loads(my_table_json_string))
+            table_exists = True
+            print("Table added!!")
         else:
             for tables in v:
                 for k1,v1 in tables.items():
                     if(k1=="Table_name"):
                         if(v1==table_name):
+                            table_exists=True
                             print("Error!!! Table already exists")
+
+if(table_exists==False):
+    for k, v in f2.items():
+        if (k == "Tables"):
+            v.append(json.loads(my_table_json_string))
+            print("Table added!!")
 
 file3 = open(""+username+"_Tables.txt", "w+")
 file3.write(json.dumps(f2))
@@ -175,16 +183,26 @@ f3 = file4.read()
 file4.close()
 
 f4 = json.loads(f3)
+table_dt_exists=False
 for k,v in f4.items():
     if(k=="Tables"):
         if(len(v)==0):
             v.append(json.loads(my_table_data_type_json_string))
+            table_dt_exists = True
+            print("Table added!!")
         else:
             for tables in v:
                 for k1,v1 in tables.items():
                     if(k1=="Table_name"):
                         if(v1==table_name):
+                            table_dt_exists = True
                             print("Error!!! Table already exists")
+
+if(table_exists==False):
+    for k, v in f4.items():
+        if (k == "Tables"):
+            v.append(json.loads(my_table_data_type_json_string))
+            print("Table added!!")
 
 file5 = open(""+username+"_Tables_Datatypes.txt", "w+")
 file5.write(json.dumps(f4))
