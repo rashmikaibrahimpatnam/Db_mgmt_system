@@ -11,20 +11,21 @@ username = "Yash"
 flower_bracket_start = '{'
 flower_bracket_end = '}'
 
+schema_name = "assignment_5408"
 #default structure for dict
-default_json_string = flower_bracket_start+'"User":"'+username+'","Tables":[]'+flower_bracket_end
-default_data_type_json_string = flower_bracket_start+'"User":"'+username+'","Tables":[]'+flower_bracket_end
+default_json_string = flower_bracket_start+'"Schema_name":"'+schema_name+'","Tables":[]'+flower_bracket_end
+default_data_type_json_string = flower_bracket_start+'"Schema_name":"'+schema_name+'","Tables":[]'+flower_bracket_end
 
 try:
-    file1 = open(""+username+"_Tables.txt", "r")
+    file1 = open("Tables.txt", "r")
     tables_file = file1.read()
     file1.close()
-    file2 = open(""+username+"_Tables_Datatypes.txt", "r")
+    file2 = open("Tables_Datatypes.txt", "r")
     tables_datatype_file = file2.read()
     file2.close()
     # write default struct only if empty generally done when user created, check later
     if (len(tables_file) == 0):
-        file1 = open("" + username + "_Tables.txt", "w+")
+        file1 = open("Tables.txt", "w+")
         file1.write(default_json_string)
         file1.close()
     if (len(tables_datatype_file) == 0):
@@ -32,11 +33,11 @@ try:
         file2.write(default_data_type_json_string)
         file2.close()
 except:
-    print("user file doesn't exist.. creating new default structure")
-    file1 = open("" + username + "_Tables.txt", "w+")
+    print("schema doesn't exist.. creating new default structure")
+    file1 = open("Tables.txt", "w+")
     file1.write(default_json_string)
     file1.close()
-    file2 = open("" + username + "_Tables_Datatypes.txt", "w+")
+    file2 = open("Tables_Datatypes.txt", "w+")
     file2.write(default_data_type_json_string)
     file2.close()
 
@@ -176,7 +177,7 @@ usertable_datatype_dict_obj = json.loads(my_table_data_type_json_string)
 # table_name_dict =  usertable_dict_obj['Tables'][0]['Table_name']
 # latest_obj = usertable_dict_obj['Tables'][0]['Table_columns'].append(my_temp_dict)
 
-file1 = open(""+username+"_Tables.txt", "r")
+file1 = open("Tables.txt", "r")
 f1 = file1.read()
 file1.close()
 
@@ -202,11 +203,11 @@ if(table_exists==False):
             v.append(json.loads(my_table_json_string))
             print("Table added!!")
 
-file3 = open(""+username+"_Tables.txt", "w+")
+file3 = open("Tables.txt", "w+")
 file3.write(json.dumps(f2))
 file3.close()
 
-file4 = open(""+username+"_Tables_Datatypes.txt", "r")
+file4 = open("Tables_Datatypes.txt", "r")
 f3 = file4.read()
 file4.close()
 
@@ -232,15 +233,15 @@ if(table_exists==False):
             v.append(json.loads(my_table_data_type_json_string))
             print("Table added!!")
 
-file5 = open(""+username+"_Tables_Datatypes.txt", "w+")
+file5 = open("Tables_Datatypes.txt", "w+")
 file5.write(json.dumps(f4))
 file5.close()
 
 #display
-file1 = open(""+username+"_Tables.txt", "r")
+file1 = open("Tables.txt", "r")
 f1 = file1.read()
 file1.close()
-file2 = open(""+username+"_Tables_Datatypes.txt", "r")
+file2 = open("Tables_Datatypes.txt", "r")
 f2 = file2.read()
 file2.close()
 
@@ -254,7 +255,6 @@ print("\t\t\t\t\t\t\t\tTable Name: "+usertable_dict_obj['Tables'][0]['Table_name
 val = usertable_dict_obj['Tables'][0]['Table_columns']
 print(tabulate(pd.DataFrame(val, columns=["player_id", "team_id", "league_id", "player_name","position","age"]),headers = 'keys', tablefmt = 'psql'))
 print("\n")
-
 
 print("\t\t\t\t\t\t\t\t\t\tTable Name: "+usertable_datatype_dict_obj['Tables'][0]['Table_name'].capitalize())
 val2 = usertable_datatype_dict_obj['Tables'][0]['Table_columns'][0]
