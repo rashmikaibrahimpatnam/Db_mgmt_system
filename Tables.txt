@@ -1,1 +1,1 @@
-{"Schema_name": "assignment_5408", "Tables": [{"Table_name": "player", "Table_columns": [{"player_id": 1, "team_id": "defaultval", "league_id": "defaultval", "player_name": "defaultval", "position": "defaultval", "age": "defaultval"}]}]}
+{"Database_name": "assignment_5408", "Tables": [{"Table_name": "player", "Table_columns": [{"player_id": 1, "team_id": "defaultval", "league_id": "defaultval", "player_name": "defaultval", "position": "defaultval", "age": "defaultval"}]}]}

@@ -10,11 +10,11 @@ username = "Yash"
 
 flower_bracket_start = '{'
 flower_bracket_end = '}'
-
-schema_name = "assignment_5408"
+#create database query
+database_name = "assignment_5408"
 #default structure for dict
-default_json_string = flower_bracket_start+'"Schema_name":"'+schema_name+'","Tables":[]'+flower_bracket_end
-default_data_type_json_string = flower_bracket_start+'"Schema_name":"'+schema_name+'","Tables":[]'+flower_bracket_end
+default_json_string = flower_bracket_start+'"Database_name":"'+database_name+'","Tables":[]'+flower_bracket_end
+default_data_type_json_string = flower_bracket_start+'"Database_name":"'+database_name+'","Tables":[]'+flower_bracket_end
 
 try:
     file1 = open("Tables.txt", "r")
