@@ -1,7 +1,5 @@
 import re
 import json
-import pandas as pd
-from tabulate import tabulate
 from fileops import FileOps
 
 
@@ -16,12 +14,6 @@ class CreatQuery:
     def create_table(self, query):
         flower_bracket_start = '{'
         flower_bracket_end = '}'
-        is_create_query = False
-        query = "CREATE TABLE Player (player_id int NOT NULL AUTO_INCREMENT,team_id int DEFAULT NULL,league_id int NOT NULL,player_name varchar(45) NOT NULL,position varchar(45) NOT NULL,age int NOT NULL,PRIMARY KEY (player_id),FOREIGN KEY (team_id) REFERENCES Team (team_id),FOREIGN KEY (league_id) REFERENCES League (league_id));"
-        # query = "CREATE TABLE Player_duplicate (player_id_duplicate int NOT NULL AUTO_INCREMENT,team_id_duplicate int DEFAULT NULL,league_id_duplicate int NOT NULL,player_name_duplicate varchar(45) NOT NULL,position_duplicate varchar(45) NOT NULL,age_duplicate int NOT NULL,PRIMARY KEY (player_id_duplicate),FOREIGN KEY (team_id_duplicate) REFERENCES Team_duplicate (team_id_duplicate),FOREIGN KEY (league_id_duplicate) REFERENCES League_duplicate (league_id_duplicate));"
-
-        if re.split(" ", query)[0].lower() == "create":
-            is_create_query = True
 
         # check user privileges later add a method
 
@@ -81,7 +73,7 @@ class CreatQuery:
             if "auto_increment" in table_columns[i]:
                 table_columns_string += '"' + table_columns_list[i] + '":1'
             else:
-                table_columns_string += '"' + table_columns_list[i] + '":"defaultval"'
+                table_columns_string += '"' + table_columns_list[i] + '":"defnull"'
             if (i != num_of_table_columns - 1):
                 table_columns_string += ','
 
@@ -124,8 +116,8 @@ class CreatQuery:
                 table_columns_foreign_key_string += '"No"'
             for j in range(0, num_of_foreign_keys):
                 if (foreign_key[j] == table_columns_list[i]):
-                    table_columns_relationship_string += '"Table Column: ' + foreign_key[
-                        j] + ' in Table:' + table_name + ' References Table_column: ' + foreign_key_column[
+                    table_columns_relationship_string += '"Foreign Key: ' + foreign_key[
+                        j] + ' in Table:' + table_name + ' References Primary Key: ' + foreign_key_column[
                                                              j] + ' in Table: ' + foreign_key_table_name[j] + '"'
                     if (j != num_of_foreign_keys - 1):
                         table_columns_relationship_string += ','
@@ -163,7 +155,7 @@ class CreatQuery:
                 if (len(v) == 0):
                     v.append(json.loads(my_table_json_string))
                     table_exists = True
-                    print("Table added!!")
+                    print("Table added to Tables!!")
                 else:
                     for tables in v:
                         for k1, v1 in tables.items():
@@ -176,7 +168,7 @@ class CreatQuery:
             for k, v in f2.items():
                 if (k == "Tables"):
                     v.append(json.loads(my_table_json_string))
-                    print("Table added!!")
+                    print("Table added to Tables!!")
 
         self.fileopsobj.filewriter("Tables.txt", json.dumps(f2))
 
@@ -188,7 +180,7 @@ class CreatQuery:
                 if (len(v) == 0):
                     v.append(json.loads(my_table_data_type_json_string))
                     table_dt_exists = True
-                    print("Table added!!")
+                    print("Data Dictionary added!!")
                 else:
                     for tables in v:
                         for k1, v1 in tables.items():
@@ -201,38 +193,23 @@ class CreatQuery:
             for k, v in f4.items():
                 if (k == "Tables"):
                     v.append(json.loads(my_table_data_type_json_string))
-                    print("Table added!!")
+                    print("Data Dictionary added!!")
 
         self.fileopsobj.filewriter("Tables_Datatypes.txt", json.dumps(f4))
 
 
-# display/print create seperate dynamic method
+# call from different method where queries are parsed
 crtObj = CreatQuery()
+
 query = "CREATE TABLE Player (player_id int NOT NULL AUTO_INCREMENT,team_id int DEFAULT NULL,league_id int NOT NULL,player_name varchar(45) NOT NULL,position varchar(45) NOT NULL,age int NOT NULL,PRIMARY KEY (player_id),FOREIGN KEY (team_id) REFERENCES Team (team_id),FOREIGN KEY (league_id) REFERENCES League (league_id));"
-crtObj.create_table(query)
-fileopobj = FileOps()
-f1 = fileopobj.filereader("Tables.txt")
-f2 = fileopobj.filereader("Tables_Datatypes.txt")
-usertable_dict_obj = json.loads(f1)
-usertable_datatype_dict_obj = json.loads(f2)
-# print(json.dumps(usertable_dict_obj, indent = 1))
-# print(json.dumps(usertable_datatype_dict_obj, indent = 1))
+# query = "CREATE TABLE Team (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL,PRIMARY KEY (team_id),FOREIGN KEY (league_id) REFERENCES League (league_id));"
+# query = "CREATE TABLE Player_duplicate (player_id_duplicate int NOT NULL AUTO_INCREMENT,team_id_duplicate int DEFAULT NULL,league_id_duplicate int NOT NULL,player_name_duplicate varchar(45) NOT NULL,position_duplicate varchar(45) NOT NULL,age_duplicate int NOT NULL,PRIMARY KEY (player_id_duplicate),FOREIGN KEY (team_id_duplicate) REFERENCES Team_duplicate (team_id_duplicate),FOREIGN KEY (league_id_duplicate) REFERENCES League_duplicate (league_id_duplicate));"
 
-print("\n")
-print("\t\t\t\t\t\t\t\tTable Name: " + usertable_dict_obj['Tables'][0]['Table_name'].capitalize())
-val = usertable_dict_obj['Tables'][0]['Table_columns']
-print(tabulate(pd.DataFrame(val, columns=["player_id", "team_id", "league_id", "player_name", "position", "age"]),
-               headers='keys', tablefmt='psql'))
-print("\n")
 
-print("\t\t\t\t\t\t\t\t\t\tTable Name: " + usertable_datatype_dict_obj['Tables'][0]['Table_name'].capitalize())
-val2 = usertable_datatype_dict_obj['Tables'][0]['Table_columns'][0]
-# print(pd.DataFrame(val2, columns=["Name", "Data Type", "Nullable","Auto Increment","Primary Key", "Foreign Key"]))
-print(tabulate(
-    pd.DataFrame(val2, columns=["Name", "Data Type", "Nullable", "Auto Increment", "Primary Key", "Foreign Key"]),
-    headers='keys', tablefmt='psql'))
-print("\n")
-
-# val3 = usertable_datatype_dict_obj['Tables'][0]['Table_columns'][0]['Relationship']
-# print(val3)
-# print("\n")
+is_create_query = False
+if re.split(" ", query)[0].lower() == "create":
+    is_create_query = True
+try:
+    crtObj.create_table(query)
+except:
+    print("Error in Create Query")
