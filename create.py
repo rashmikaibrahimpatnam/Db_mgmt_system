@@ -1,6 +1,6 @@
 import re
 import json
-import pandas as pd
+#import pandas as pd
 from tabulate import tabulate
 
 def strip_text(text):
@@ -253,14 +253,14 @@ usertable_datatype_dict_obj = json.loads(f2)
 print("\n")
 print("\t\t\t\t\t\t\t\tTable Name: "+usertable_dict_obj['Tables'][0]['Table_name'].capitalize())
 val = usertable_dict_obj['Tables'][0]['Table_columns']
-print(tabulate(pd.DataFrame(val, columns=["player_id", "team_id", "league_id", "player_name","position","age"]),headers = 'keys', tablefmt = 'psql'))
-print("\n")
+#print(tabulate(pd.DataFrame(val, columns=["player_id", "team_id", "league_id", "player_name","position","age"]),headers = 'keys', tablefmt = 'psql'))
+#print("\n")
 
-print("\t\t\t\t\t\t\t\t\t\tTable Name: "+usertable_datatype_dict_obj['Tables'][0]['Table_name'].capitalize())
-val2 = usertable_datatype_dict_obj['Tables'][0]['Table_columns'][0]
-#print(pd.DataFrame(val2, columns=["Name", "Data Type", "Nullable","Auto Increment","Primary Key", "Foreign Key"]))
-print(tabulate(pd.DataFrame(val2, columns=["Name", "Data Type", "Nullable","Auto Increment","Primary Key", "Foreign Key"]),headers = 'keys', tablefmt = 'psql'))
-print("\n")
+# print("\t\t\t\t\t\t\t\t\t\tTable Name: "+usertable_datatype_dict_obj['Tables'][0]['Table_name'].capitalize())
+# val2 = usertable_datatype_dict_obj['Tables'][0]['Table_columns'][0]
+# #print(pd.DataFrame(val2, columns=["Name", "Data Type", "Nullable","Auto Increment","Primary Key", "Foreign Key"]))
+# print(tabulate(pd.DataFrame(val2, columns=["Name", "Data Type", "Nullable","Auto Increment","Primary Key", "Foreign Key"]),headers = 'keys', tablefmt = 'psql'))
+# print("\n")
 
 # val3 = usertable_datatype_dict_obj['Tables'][0]['Table_columns'][0]['Relationship']
 # print(val3)
