@@ -1,0 +1,20 @@
+2020-11-25 16:41:43,374 entering login
+2020-11-25 16:42:05,170 parsing select query, select * from player;
+2020-11-25 16:42:05,171 data fetched from the table  player
+2020-11-25 16:43:47,762 entering login
+2020-11-25 16:44:06,089 parsing select query, select * from player;
+2020-11-25 16:44:06,089 data fetched from the table  player
+2020-11-25 16:44:42,392 parsing select query, select player_id from player where player_id > 1;
+2020-11-25 16:44:42,402 data fetched from the table player
+2020-11-25 16:45:38,966 entering login
+2020-11-25 16:46:00,544 parsing delete query, delete from player where player_id = 2;
+2020-11-25 16:46:00,547 data is deleted from the table player
+2020-11-25 16:49:15,761 parsing delete query, delete from player;
+2020-11-25 16:49:15,784 data is deleted from the table  player
+2020-11-25 16:49:15,785 data is deleted from the table  player
+2020-11-25 16:49:15,785 data is deleted from the table  player
+2020-11-25 16:49:18,010 User sai has selected assignment_5408 database
+2020-11-25 16:53:33,026 entering login
+2020-11-25 16:54:06,048 parsing delete query, delete from player where player_id = 1;
+2020-11-25 16:55:39,541 data is deleted from the table player
+2020-11-25 17:04:02,356 User sai has selected assignment_5408 database

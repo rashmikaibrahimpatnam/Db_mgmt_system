@@ -4,7 +4,6 @@ import json
 import os.path
 
 class Signup():        
-
     def validate_username(self,uname):
         if uname.isalpha():
             print("valid username")
@@ -42,7 +41,7 @@ class Signup():
             print("Invalid password")
             return False
 
-    def signup_user(self):
+    def signup_user(self,logger):
         print("-------------------Signup----------------------")
         uname = input("enter username: ")
         check_uname = self.validate_username(uname)
@@ -51,6 +50,7 @@ class Signup():
             check_pwd = self.validate_password(pwd=pwd)
             
             if check_pwd != False:
+                logger.info("user {} has created an account in the database".format(uname))
                 file_exists = os.path.isfile("user_details.json")
                 if file_exists:
                     with open("user_details.json") as user_details:
@@ -59,10 +59,11 @@ class Signup():
                         detail_dict = {'username':uname,'password':pwd, 'granted_privileges' : ['select']}
                         usrs.append(detail_dict)
                         with open("user_details.json",'w') as usr_details:
-                            json.dump(data,usr_details,indent=4)      
+                            json.dump(data,usr_details,indent=4) 
+                            logger.info("user {} details are saved in the file".format(uname))     
                         usr_details.close()          
                     user_details.close()
-                    Login().user_login()
+                    Login().user_login(logger)
                 else:
                     user_dict = {}
                     details = []
@@ -71,7 +72,8 @@ class Signup():
                     user_dict['User_Details'] = details
                     with open("user_details.json",'a') as user_details:
                         json.dump(user_dict,user_details,indent=4)
+                        logger.info("user {} details are saved in the file".format(uname))     
                     user_details.close()
-                    Login().user_login()
+                    Login().user_login(logger)
         
             
