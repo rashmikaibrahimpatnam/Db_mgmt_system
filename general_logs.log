@@ -23,3 +23,7 @@
 2020-11-28 22:41:54,921 Invalid userame or password
 2020-11-28 23:09:36,482 User sai has selected 5408_group2 database
 2020-11-28 23:10:59,654 User sai has selected 5408_group2 database
+2020-11-28 23:20:38,089 User sai has selected 5408_group2 database
+2020-11-28 23:25:23,539 parsing select query, select * from player;
+2020-11-28 23:25:23,540 data fetched from the table  player
+2020-11-28 23:26:16,630 User sai has selected 5408_group2 database
