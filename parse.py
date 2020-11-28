@@ -3,6 +3,8 @@ from fetchdata import FindData
 from deletedata import DeleteOp
 from droptable import DropOp
 from usedb import UseDb
+from create import CreatQuery
+from insert import InsertQuery
 import json
 import os
 from tabulate import tabulate
@@ -68,6 +70,18 @@ class ParseQuery():
             elif words[0].lower() == 'drop':
                 #drop table
                 self.parse_drop(username,dbname,query,logger)
+            elif words[0].lower() == 'create':
+                crtObj = CreatQuery()
+                try:
+                    crtObj.create_table(username,dbname,query,logger)
+                except:
+                    print("Error in your Create query!!! Please check syntax!!")
+            elif words[0].lower() == 'insert':
+                insertObj = InsertQuery()
+                try:
+                    insertObj.insert_row(username,dbname,query,logger)
+                except:
+                    print("Error in your Insert query!!! Please check syntax!!")
         else:
             print("no permissions granted")
 
