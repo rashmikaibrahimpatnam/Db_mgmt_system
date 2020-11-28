@@ -15,8 +15,7 @@ class UseDb():
             return False
         else:
             #create database/ file structure(redirect to defaut db.py)
-            print('im here')
-            valdict = {'structure' : 'use other code'}
+            '''valdict = {'structure' : 'use other code'}
             with open(dbname+"_Tables.txt",'a') as db_data:
-                json.dump(valdict,db_data,indent=4)
+                json.dump(valdict,db_data,indent=4)'''
             return True

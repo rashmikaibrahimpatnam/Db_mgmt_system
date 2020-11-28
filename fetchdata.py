@@ -64,9 +64,6 @@ class FindData():
 
                     elif not fetched_data == False and col != "*":
                         logger.info("data fetched from the table {}".format(table_name))
-                        df = pd.DataFrame(fetched_data[table['Table_name']], columns=columns)
-                        print(df) 
-                        print(fetched_data[table['Table_name']])
                         print(tabulate(pd.DataFrame(fetched_data[table['Table_name']], columns=columns),headers = 'keys', tablefmt = 'psql'))
 
                     

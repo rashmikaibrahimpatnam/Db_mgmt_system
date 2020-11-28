@@ -10,13 +10,14 @@ class DeleteOp():
             for table in tables:
                 if table['Table_name'] == table_name.lstrip():
                     table_data = table['Table_columns']
-                    for data in table_data:
-                        if condition == None:
+                    if condition == None:
+                        del table_data[1:]
+                        for data in table_data:
                             for key in data:
                                 data[key] = 'null'
-                            #place data into the file
-                            logger.info("data is deleted from the table {}".format(table_name))
-                        else:
+                        logger.info("data is deleted from the table {}".format(table_name))
+                    else:
+                        for data in table_data:
                             g_op = re.search(">",condition)
                             l_op = re.search("<",condition)
                             e_op = re.search("=",condition)
@@ -25,8 +26,6 @@ class DeleteOp():
                                 if data[lst[0].lower().strip()] != 'null' and int(data[lst[0].lower().strip()]) > int(lst[1].lower().strip()):
                                     for key in data:
                                         data[key] = 'null'
-                                    print('modified',data)
-                                    #place data into the file
                                     logger.info("data is deleted from the table {}".format(table_name))
                                     
                             elif l_op:
@@ -34,8 +33,6 @@ class DeleteOp():
                                 if data[lst[0].lower().strip()] != 'null' and int(data[lst[0].lower().strip()]) < int(lst[1].lower().strip()):
                                     for key in data:
                                         data[key] = 'null'
-                                    print('modified',data)
-                                    #place data into the file
                                     logger.info("data is deleted from the table {}".format(table_name))
                                     
                             elif e_op:
@@ -45,12 +42,11 @@ class DeleteOp():
                                     given = int(lst[1].lower().strip())
                                 else:
                                     given = lst[1].lower().strip()                                
-                                if data[lst[0].lower().strip()] == given:
+                                if data[lst[0].lower().strip()] == given :
                                     for key in data:
                                         data[key] = 'null'
-                                    print('modified',data)
-                                    #place data into the file
                                     logger.info("data is deleted from the table {}".format(table_name))
+            
             with open(dbname+"_Tables.txt",'w') as usr_details:
                 json.dump(jdata,usr_details,indent=4) 
             usr_details.close()
