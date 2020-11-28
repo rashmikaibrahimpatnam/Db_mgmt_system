@@ -38,8 +38,11 @@ class Login():
                 else:     
                     query= input("use already created database or create a new one using sql query only: ")
                     format = query.lower().split(' ')
-                    if len(format) == 2 and (format[0] == 'use' or format[0] == 'create'):                        
-                        ParseQuery().create_use(username,query,logger)
+                    if len(format) == 2 and (format[0] == 'use' or format[0] == 'create' or format[0] == 'show'):
+                        if format[0] == 'show':
+                            ParseQuery().showdb(username,logger)
+                        else:                        
+                            ParseQuery().create_use(username,query,logger)
                     else:
                         print("select proper database to access or store data")
                 

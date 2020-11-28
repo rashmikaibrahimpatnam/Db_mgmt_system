@@ -4,6 +4,9 @@ from deletedata import DeleteOp
 from droptable import DropOp
 from usedb import UseDb
 import json
+import os
+from tabulate import tabulate
+import pandas as pd
 
 class ParseQuery():
 
@@ -18,11 +21,26 @@ class ParseQuery():
             data = json.load(user_details)
             usrs = data['User_Details']
             flag = 0
-            print(usrs)
             for usr in usrs:
                 if usr['username'] == username:
                     permissions = usr['granted_privileges']
                     return permissions
+
+    def showdb(self,username,logger):
+        files = os.listdir()
+        print("-------------------List Of Databases----------------------")
+        db_dict = {}
+        lst_db = []
+        for file in files:
+            if file.endswith('_Tables.txt'):                
+                lst_db.append(file[0:-11])
+                db_dict['databases'] = lst_db
+        databases = db_dict['databases']
+        print(tabulate(pd.DataFrame(databases, columns=db_dict.keys()),headers = 'keys', tablefmt = 'psql'))
+        query= input("use already created database or create a new one using sql query only: ")
+        format = query.lower().split(' ')
+        if len(format) == 2 and (format[0] == 'use' or format[0] == 'create'):
+            self.create_use(username,query,logger)
 
     def create_use(self,username,query,logger):
         query = query.lower()

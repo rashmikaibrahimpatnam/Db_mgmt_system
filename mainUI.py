@@ -10,7 +10,6 @@ class MainUi():
         if option == '0':
             #redirect to login
             logger = ConfigureLogs().configure_log("general")
-            logger.info("entering login")
             Login().user_login(logger)
         elif option == '1':
             #redirect to signup
