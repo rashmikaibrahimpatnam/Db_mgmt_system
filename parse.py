@@ -74,12 +74,14 @@ class ParseQuery():
                 crtObj = CreatQuery()
                 try:
                     crtObj.create_table(username,dbname,query,logger)
+                    self.login_status(username, dbname, logger)
                 except:
                     print("Error in your Create query!!! Please check syntax!!")
             elif words[0].lower() == 'insert':
                 insertObj = InsertQuery()
                 try:
                     insertObj.insert_row(username,dbname,query,logger)
+                    self.login_status(username, dbname, logger)
                 except:
                     print("Error in your Insert query!!! Please check syntax!!")
         else:
