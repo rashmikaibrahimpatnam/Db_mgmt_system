@@ -4,6 +4,9 @@
             "username": "sai",
             "password": "Sai@9697",
             "granted_privileges": [
+                "create",
+                "insert",
+                "update",
                 "select",
                 "delete",
                 "drop"

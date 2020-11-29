@@ -11,7 +11,7 @@ class CreatQuery:
     def strip_text(self, text):
         return re.sub(' +', ' ', text.strip())
 
-    def create_table(self, query):
+    def create_table(self, username,dbname,query,logger):
         flower_bracket_start = '{'
         flower_bracket_end = '}'
 
@@ -148,7 +148,7 @@ class CreatQuery:
         # table_name_dict =  usertable_dict_obj['Tables'][0]['Table_name']
         # latest_obj = usertable_dict_obj['Tables'][0]['Table_columns'].append(my_temp_dict)
 
-        f2 = json.loads(self.fileopsobj.filereader("Tables.txt"))
+        f2 = json.loads(self.fileopsobj.filereader(dbname+"_Tables.txt"))
         table_exists = False
         for k, v in f2.items():
             if (k == "Tables"):
@@ -170,9 +170,9 @@ class CreatQuery:
                     v.append(json.loads(my_table_json_string))
                     print("Table added to Tables!!")
 
-        self.fileopsobj.filewriter("Tables.txt", json.dumps(f2))
+        self.fileopsobj.filewriter(dbname+"_Tables.txt", json.dumps(f2))
 
-        f4 = json.loads(self.fileopsobj.filereader("Tables_Datatypes.txt"))
+        f4 = json.loads(self.fileopsobj.filereader(dbname+"_Tables_Datatypes.txt"))
 
         table_dt_exists = False
         for k, v in f4.items():
@@ -195,21 +195,22 @@ class CreatQuery:
                     v.append(json.loads(my_table_data_type_json_string))
                     print("Data Dictionary added!!")
 
-        self.fileopsobj.filewriter("Tables_Datatypes.txt", json.dumps(f4))
+        self.fileopsobj.filewriter(dbname+"_Tables_Datatypes.txt", json.dumps(f4))
+        self.fileopsobj.filewriterAppend(dbname + "_SQLDUMPT.sql", query)
 
 
-# call from different method where queries are parsed
-crtObj = CreatQuery()
-
-query = "CREATE TABLE Player (player_id int NOT NULL AUTO_INCREMENT,team_id int DEFAULT NULL,league_id int NOT NULL,player_name varchar(45) NOT NULL,position varchar(45) NOT NULL,age int NOT NULL,PRIMARY KEY (player_id),FOREIGN KEY (team_id) REFERENCES Team (team_id),FOREIGN KEY (league_id) REFERENCES League (league_id));"
-# query = "CREATE TABLE Team (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL,PRIMARY KEY (team_id),FOREIGN KEY (league_id) REFERENCES League (league_id));"
-# query = "CREATE TABLE Player_duplicate (player_id_duplicate int NOT NULL AUTO_INCREMENT,team_id_duplicate int DEFAULT NULL,league_id_duplicate int NOT NULL,player_name_duplicate varchar(45) NOT NULL,position_duplicate varchar(45) NOT NULL,age_duplicate int NOT NULL,PRIMARY KEY (player_id_duplicate),FOREIGN KEY (team_id_duplicate) REFERENCES Team_duplicate (team_id_duplicate),FOREIGN KEY (league_id_duplicate) REFERENCES League_duplicate (league_id_duplicate));"
-
-
-is_create_query = False
-if re.split(" ", query)[0].lower() == "create":
-    is_create_query = True
-try:
-    crtObj.create_table(query)
-except:
-    print("Error in Create Query")
+# # call from different method where queries are parsed
+# crtObj = CreatQuery()
+#
+# query = "CREATE TABLE Player (player_id int NOT NULL AUTO_INCREMENT,team_id int DEFAULT NULL,league_id int NOT NULL,player_name varchar(45) NOT NULL,position varchar(45) NOT NULL,age int NOT NULL,PRIMARY KEY (player_id),FOREIGN KEY (team_id) REFERENCES Team (team_id),FOREIGN KEY (league_id) REFERENCES League (league_id));"
+# # query = "CREATE TABLE Team (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL,PRIMARY KEY (team_id),FOREIGN KEY (league_id) REFERENCES League (league_id));"
+# # query = "CREATE TABLE Player_duplicate (player_id_duplicate int NOT NULL AUTO_INCREMENT,team_id_duplicate int DEFAULT NULL,league_id_duplicate int NOT NULL,player_name_duplicate varchar(45) NOT NULL,position_duplicate varchar(45) NOT NULL,age_duplicate int NOT NULL,PRIMARY KEY (player_id_duplicate),FOREIGN KEY (team_id_duplicate) REFERENCES Team_duplicate (team_id_duplicate),FOREIGN KEY (league_id_duplicate) REFERENCES League_duplicate (league_id_duplicate));"
+#
+#
+# is_create_query = False
+# if re.split(" ", query)[0].lower() == "create":
+#     is_create_query = True
+# try:
+#     crtObj.create_table(query)
+# except:
+#     print("Error in Create Query")

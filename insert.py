@@ -11,7 +11,7 @@ class InsertQuery:
     def strip_text(self, text):
         return re.sub(' +', ' ', text.strip())
 
-    def insert_row(self, query):
+    def insert_row(self, username,dbname,query,logger):
 
         table_name = re.split(" ", self.strip_text(re.findall(r'into(.*?)\(', query.lower())[0]))[0]
 
@@ -28,8 +28,8 @@ class InsertQuery:
 
             # DIRECT INSERT with out columns indication
             print("Inserted rows in Table")
-            f1 = json.loads(self.fileObj.filereader("Tables.txt"))
-            f2 = json.loads(self.fileObj.filereader("Tables_Datatypes.txt"))
+            f1 = json.loads(self.fileObj.filereader(dbname+"_Tables.txt"))
+            f2 = json.loads(self.fileObj.filereader(dbname+"_Tables_Datatypes.txt"))
 
             auto_increment_list = []
             original_table_col_list = []
@@ -79,7 +79,7 @@ class InsertQuery:
                                             if (i < len(table_columns_values_list)):
                                                 v1[len(v1) - 1][k2] = table_columns_values_list[i].capitalize()
                                                 i += 1
-                self.fileObj.filewriter("Tables.txt", json.dumps(f1))
+                self.fileObj.filewriter(dbname+"_Tables.txt", json.dumps(f1))
 
             else:
                 print("Null values not allowed for the columns: "+str(null_check_list) +" in Table: "+table_name.capitalize())
@@ -88,8 +88,8 @@ class InsertQuery:
         elif len(re.findall(r'\((.*?)\)', query.lower())) == 2:
             # insert values in specific columns
             print("Inserted rows in Table")
-            f1 = json.loads(self.fileObj.filereader("Tables.txt"))
-            f2 = json.loads(self.fileObj.filereader("Tables_Datatypes.txt"))
+            f1 = json.loads(self.fileObj.filereader(dbname+"_Tables.txt"))
+            f2 = json.loads(self.fileObj.filereader(dbname+"_Tables_Datatypes.txt"))
 
             is_this_table_flag = False
             auto_increment_list = []
@@ -154,25 +154,25 @@ class InsertQuery:
                                                 v1[len(v1) - 1][k2] = "null"
                                                 j += 1
 
-                self.fileObj.filewriter("Tables.txt", json.dumps(f1))
+                self.fileObj.filewriter(dbname+"_Tables.txt", json.dumps(f1))
             else:
                 print("Null values not allowed for the columns: "+str(null_check_list) +" in Table: "+table_name.capitalize())
                 print("Please re-enter your query.")
         else:
             print("ERROR IN INSERT QUERY!!!")
             print("Please re-enter your query.")
-
-
-# call from different method where queries are parsed
-insertObj = InsertQuery()
-
-# query = "INSERT INTO Player(player_id,team_id,league_id,player_name,position,age) VALUES(2,2,1,'Robinder Dhillon','Goalie',22);"
-#query = "INSERT INTO Player VALUES(24,1,2,'Sam','Forward',27);"
-#query = "INSERT INTO Team(league_id) VALUES(7);"
-query = "INSERT INTO Player(league_id,player_name,position,age) VALUES(1,'Kethan','Forward',22);"
-#query = "INSERT INTO Player(player_name) VALUES('Jordan');"
-
-insertObj.insert_row(query)
-is_insert_query = False
-if re.split(" ", query)[0].lower() == "insert":
-    is_insert_query = True
+#
+#
+# # call from different method where queries are parsed
+# insertObj = InsertQuery()
+#
+# # query = "INSERT INTO Player(player_id,team_id,league_id,player_name,position,age) VALUES(2,2,1,'Robinder Dhillon','Goalie',22);"
+# #query = "INSERT INTO Player VALUES(24,1,2,'Sam','Forward',27);"
+# #query = "INSERT INTO Team(league_id) VALUES(7);"
+# query = "INSERT INTO Player(league_id,player_name,position,age) VALUES(1,'Kethan','Forward',22);"
+# #query = "INSERT INTO Player(player_name) VALUES('Jordan');"
+#
+# insertObj.insert_row(query)
+# is_insert_query = False
+# if re.split(" ", query)[0].lower() == "insert":
+#     is_insert_query = True
