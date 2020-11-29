@@ -77,14 +77,10 @@ class ParseQuery():
                     print("Error in your Delete query!!! Please check syntax!!")
             elif words[0].lower() == 'drop':
                 #drop table
-<<<<<<< HEAD
                 try:
                     self.parse_drop(username,dbname,query,logger,fname)
                 except:
                     print("Error in your drop query!!! Please check syntax!!")
-=======
-                self.parse_drop(username,dbname,query,logger)
->>>>>>> 3b818cbd26019ce533b714faae70b6b086e4aac2
             elif words[0].lower() == 'create':
                 crtObj = CreatQuery()
                 try:
