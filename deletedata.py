@@ -1,10 +1,22 @@
 import re
 import json
-#from parse import ParseQuery
+import shutil
+from lockstatus import LockStatus
 
-class DeleteOp():
-    def delete_data(self,dbname,table_name,condition=None,logger=None):
-        with open(dbname+"_Tables.txt",'r') as user_tables:
+class DeleteOp():        
+
+    def delete_data(self,username,dbname,table_name,condition=None,logger=None,fname=None):
+        check_lock = LockStatus().checklock(username)
+        #create db copy
+        src_fname = dbname+"_Tables.txt"
+        dest_dname = dbname+"_Tables_copy.txt"
+        if fname == None:            
+            filename = src_fname
+            status = False
+        else:
+            filename = dest_dname
+            status = True
+        with open(filename,'r') as user_tables:
             jdata = json.load(user_tables)
             tables = jdata['Tables']
             for table in tables:
@@ -47,9 +59,10 @@ class DeleteOp():
                                         data[key] = 'null'
                                     logger.info("data is deleted from the table {}".format(table_name))
             
-            with open(dbname+"_Tables.txt",'w') as usr_details:
+            with open(filename,'w') as usr_details:
                 json.dump(jdata,usr_details,indent=4) 
             usr_details.close()
         user_tables.close()
+        return status
 
 
