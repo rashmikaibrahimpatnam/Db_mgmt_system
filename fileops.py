@@ -12,3 +12,8 @@ class FileOps:
         # add encryption
         file2.write(content)
         file2.close()
+
+    def filewriterAppend(self,filename,content):
+        file3 = open(filename, "a")
+        file3.write(content)
+        file3.close()
