@@ -1,0 +1,5 @@
+2020-11-30 16:19:28,211 INFO DB query given by user is use 5408_group2;
+2020-11-30 16:19:32,882 INFO Query sent by the user sai, is select * from player;
+2020-11-30 16:19:32,883 INFO parsing select query, select * from player;
+2020-11-30 16:19:32,884 INFO data fetched from the table  player
+2020-11-30 16:19:36,434 INFO User sai has selected 5408_group2 database

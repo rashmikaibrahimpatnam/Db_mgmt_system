@@ -17,7 +17,7 @@ import sys
 
 class ParseQuery():
     def logrecords(self,dbname,total_time):
-        eventlogger = ConfigureLogs().configure_log("General")
+        eventlogger = ConfigureLogs().configure_log("GeneralLogs","General")
         eventlogger.info("Query execution time: {}".format(total_time))
         with open(dbname+"_Tables.txt") as user_tables:
             data = json.load(user_tables)
@@ -46,8 +46,6 @@ class ParseQuery():
                 for line in dump:
                     print(line)
             dump_data.close()
-        else:
-            sys.exit()
 
     def check_permissions(self,username):
         with open("user_details.json") as user_details:
