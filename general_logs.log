@@ -1,29 +1,7 @@
-2020-11-25 16:41:43,374 entering login
-2020-11-25 16:42:05,170 parsing select query, select * from player;
-2020-11-25 16:42:05,171 data fetched from the table  player
-2020-11-25 16:43:47,762 entering login
-2020-11-25 16:44:06,089 parsing select query, select * from player;
-2020-11-25 16:44:06,089 data fetched from the table  player
-2020-11-25 16:44:42,392 parsing select query, select player_id from player where player_id > 1;
-2020-11-25 16:44:42,402 data fetched from the table player
-2020-11-25 16:45:38,966 entering login
-2020-11-25 16:46:00,544 parsing delete query, delete from player where player_id = 2;
-2020-11-25 16:46:00,547 data is deleted from the table player
-2020-11-25 16:49:15,761 parsing delete query, delete from player;
-2020-11-25 16:49:15,784 data is deleted from the table  player
-2020-11-25 16:49:15,785 data is deleted from the table  player
-2020-11-25 16:49:15,785 data is deleted from the table  player
-2020-11-25 16:49:18,010 User sai has selected assignment_5408 database
-2020-11-25 16:53:33,026 entering login
-2020-11-25 16:54:06,048 parsing delete query, delete from player where player_id = 1;
-2020-11-25 16:55:39,541 data is deleted from the table player
-2020-11-25 17:04:02,356 User sai has selected assignment_5408 database
-2020-11-28 22:41:01,905 user sai has created an account in the database
-2020-11-28 22:41:01,906 user sai details are saved in the file
-2020-11-28 22:41:54,921 Invalid userame or password
-2020-11-28 23:09:36,482 User sai has selected 5408_group2 database
-2020-11-28 23:10:59,654 User sai has selected 5408_group2 database
-2020-11-28 23:20:38,089 User sai has selected 5408_group2 database
-2020-11-28 23:25:23,539 parsing select query, select * from player;
-2020-11-28 23:25:23,540 data fetched from the table  player
-2020-11-28 23:26:16,630 User sai has selected 5408_group2 database
+2020-11-30 16:19:32,889 INFO Query execution time: 0.0062520503997802734
+2020-11-30 16:19:32,889 INFO Number of tables in the database, 5408_group2 is 5
+2020-11-30 16:19:32,890 INFO Number of rows in the table, player : 1
+2020-11-30 16:19:32,890 INFO Number of rows in the table, player_trio : 3
+2020-11-30 16:19:32,890 INFO Number of rows in the table, player_fourier : 1
+2020-11-30 16:19:32,890 INFO Number of rows in the table, player_sixfix : 1
+2020-11-30 16:19:32,890 INFO Number of rows in the table, player_seven : 1
