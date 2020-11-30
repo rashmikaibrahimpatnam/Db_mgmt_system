@@ -9,11 +9,11 @@ class MainUi():
         option = input("your option: ")
         if option == '0':
             #redirect to login
-            logger = ConfigureLogs().configure_log("general")
+            logger = ConfigureLogs().configure_log("Event")
             Login().user_login(logger)
         elif option == '1':
             #redirect to signup
-            logger = ConfigureLogs().configure_log("general")
+            logger = ConfigureLogs().configure_log("Event")
             Signup().signup_user(logger)
         else:
             print('enter correct option')

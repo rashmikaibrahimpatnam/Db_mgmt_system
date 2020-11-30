@@ -47,8 +47,7 @@ class Signup():
         check_uname = self.validate_username(uname)
         if check_uname:
             pwd = input("enter pwd: ")
-            check_pwd = self.validate_password(pwd=pwd)
-            
+            check_pwd = self.validate_password(pwd=pwd)            
             if check_pwd != False:
                 logger.info("user {} has created an account in the database".format(uname))
                 file_exists = os.path.isfile("user_details.json")

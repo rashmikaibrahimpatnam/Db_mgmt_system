@@ -1,6 +1,7 @@
 import re
 import json
 from fileops import FileOps
+from lockstatus import LockStatus
 
 
 class InsertQuery:
@@ -11,7 +12,19 @@ class InsertQuery:
     def strip_text(self, text):
         return re.sub(' +', ' ', text.strip())
 
-    def insert_row(self, username,dbname,query,logger):
+    def insert_row(self,username,dbname,query,logger,fname):
+        check_lock = LockStatus().checklock(username)
+        #create db copy
+        src_fname = dbname+"_Tables.txt"
+        dest_dname = dbname+"_Tables_copy.txt"
+        if fname == None:            
+            filename = src_fname
+            dtname = dbname+"_Tables_Datatypes.txt"
+            status = False
+        else:
+            filename = dest_dname
+            dtname = dbname+"_Tables_Datatypes_copy.txt"
+            status = True
 
         table_name = re.split(" ", self.strip_text(re.findall(r'into(.*?)\(', query.lower())[0]))[0]
 
@@ -28,8 +41,8 @@ class InsertQuery:
 
             # DIRECT INSERT with out columns indication
             print("Inserted rows in Table")
-            f1 = json.loads(self.fileObj.filereader(dbname+"_Tables.txt"))
-            f2 = json.loads(self.fileObj.filereader(dbname+"_Tables_Datatypes.txt"))
+            f1 = json.loads(self.fileObj.filereader(filename))
+            f2 = json.loads(self.fileObj.filereader(dtname))
 
             auto_increment_list = []
             original_table_col_list = []
@@ -79,7 +92,7 @@ class InsertQuery:
                                             if (i < len(table_columns_values_list)):
                                                 v1[len(v1) - 1][k2] = table_columns_values_list[i].capitalize()
                                                 i += 1
-                self.fileObj.filewriter(dbname+"_Tables.txt", json.dumps(f1))
+                self.fileObj.filewriter(filename, json.dumps(f1))
 
             else:
                 print("Null values not allowed for the columns: "+str(null_check_list) +" in Table: "+table_name.capitalize())
@@ -88,8 +101,8 @@ class InsertQuery:
         elif len(re.findall(r'\((.*?)\)', query.lower())) == 2:
             # insert values in specific columns
             print("Inserted rows in Table")
-            f1 = json.loads(self.fileObj.filereader(dbname+"_Tables.txt"))
-            f2 = json.loads(self.fileObj.filereader(dbname+"_Tables_Datatypes.txt"))
+            f1 = json.loads(self.fileObj.filereader(filename))
+            f2 = json.loads(self.fileObj.filereader(dtname))
 
             is_this_table_flag = False
             auto_increment_list = []
@@ -154,7 +167,7 @@ class InsertQuery:
                                                 v1[len(v1) - 1][k2] = "null"
                                                 j += 1
 
-                self.fileObj.filewriter(dbname+"_Tables.txt", json.dumps(f1))
+                self.fileObj.filewriter(filename, json.dumps(f1))
             else:
                 print("Null values not allowed for the columns: "+str(null_check_list) +" in Table: "+table_name.capitalize())
                 print("Please re-enter your query.")

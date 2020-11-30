@@ -1,4 +1,4 @@
-class CreateDefault:
+class CreateDefault():
 
     def database(self,dbname):
         if len(dbname)== 0 :
