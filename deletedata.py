@@ -27,7 +27,7 @@ class DeleteOp():
                         for data in table_data:
                             for key in data:
                                 data[key] = 'null'
-                        logger.info("data is deleted from the table {}".format(table_name))
+                        logger.info("data is deleted from the table {}".format(table_name))                        
                     else:
                         for data in table_data:
                             g_op = re.search(">",condition)

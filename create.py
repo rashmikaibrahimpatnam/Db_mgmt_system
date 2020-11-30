@@ -1,7 +1,7 @@
 import re
 import json
 from fileops import FileOps
-
+from lockstatus import LockStatus
 
 class CreatQuery:
 
@@ -11,7 +11,22 @@ class CreatQuery:
     def strip_text(self, text):
         return re.sub(' +', ' ', text.strip())
 
-    def create_table(self, username,dbname,query,logger):
+    def create_table(self, username,dbname,query,logger,fname):
+        check_lock = LockStatus().checklock(username)
+        #create db copy
+        src_fname = dbname+"_Tables.txt"
+        dest_dname = dbname+"_Tables_copy.txt"
+        if fname == None:            
+            filename = src_fname
+            dtname = dbname+"_Tables_Datatypes.txt"
+            dumpname = dbname + "_SQLDUMPT.sql"
+            status = False
+        else:
+            filename = dest_dname
+            dtname = dbname+"_Tables_Datatypes_copy.txt"
+            dumpname = dbname + "_SQLDUMPT_copy.sql"
+            status = True
+            
         flower_bracket_start = '{'
         flower_bracket_end = '}'
 
@@ -148,7 +163,7 @@ class CreatQuery:
         # table_name_dict =  usertable_dict_obj['Tables'][0]['Table_name']
         # latest_obj = usertable_dict_obj['Tables'][0]['Table_columns'].append(my_temp_dict)
 
-        f2 = json.loads(self.fileopsobj.filereader(dbname+"_Tables.txt"))
+        f2 = json.loads(self.fileopsobj.filereader(filename))
         table_exists = False
         for k, v in f2.items():
             if (k == "Tables"):
@@ -170,9 +185,9 @@ class CreatQuery:
                     v.append(json.loads(my_table_json_string))
                     print("Table added to Tables!!")
 
-        self.fileopsobj.filewriter(dbname+"_Tables.txt", json.dumps(f2))
+        self.fileopsobj.filewriter(filename, json.dumps(f2))
 
-        f4 = json.loads(self.fileopsobj.filereader(dbname+"_Tables_Datatypes.txt"))
+        f4 = json.loads(self.fileopsobj.filereader(dtname))
 
         table_dt_exists = False
         for k, v in f4.items():
@@ -195,8 +210,9 @@ class CreatQuery:
                     v.append(json.loads(my_table_data_type_json_string))
                     print("Data Dictionary added!!")
 
-        self.fileopsobj.filewriter(dbname+"_Tables_Datatypes.txt", json.dumps(f4))
-        self.fileopsobj.filewriterAppend(dbname + "_SQLDUMPT.sql", query)
+        self.fileopsobj.filewriter(dtname, json.dumps(f4))
+        self.fileopsobj.filewriterAppend(dumpname, query+'\n')
+        return status
 
 
 # # call from different method where queries are parsed
