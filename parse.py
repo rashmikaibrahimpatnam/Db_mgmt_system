@@ -129,8 +129,11 @@ class ParseQuery():
             elif words[0].lower() == 'insert':
                 insertObj = InsertQuery()
                 try:
-                    insertObj.insert_row(username,dbname,query,logger)
-                    self.login_status(username, dbname, logger,start_time)
+                    status = insertObj.insert_row(username,dbname,query,logger)
+                    if status:
+                        return
+                    else:
+                        self.login_status(username,dbname,logger,start_time)
                 except:
                     print("Error in your Insert query!!! Please check syntax!!")
                     logger.error("Error in your Insert query!!! Please check syntax!!")
@@ -140,20 +143,28 @@ class ParseQuery():
                     fileopobj = FileOps()
                     f1 = fileopobj.filereader(dbname+"_Tables.txt")
                     usertable_dict_obj = json.loads(f1)
-                    displayObj.print_tables(usertable_dict_obj)
+                    status = displayObj.print_tables(usertable_dict_obj)
+                    if status:
+                        return
+                    else:
+                        self.login_status(username,dbname,logger,start_time)
                 except:
                     print("Error in your query!!! Please check syntax!! Show Tables;")
                     logger.error("Error in your query!!! Please check syntax!! Show Tables;")
-            elif words[0].lower() == 'export' and words[1].lower() == 'data':
+            elif words[0].lower() == 'export' and words[1].lower() == 'data' and words[2].lower() == 'dictionary':
                 try:
                     displayObj = Display()
                     fileopobj = FileOps()
                     f1 = fileopobj.filereader(dbname+"_Tables_Datatypes.txt")
                     usertable_datatype_dict_obj = json.loads(f1)
-                    displayObj.print_datadictionary("DataDictionary.txt",usertable_datatype_dict_obj)
+                    status = displayObj.print_datadictionary("DataDictionary.txt",usertable_datatype_dict_obj)
+                    if status:
+                        return
+                    else:
+                        self.login_status(username,dbname,logger,start_time)
                 except:
                     print("Error in your query!!! Please check syntax!! export data dictionary;")
-                    logger.error("Error in your query!!! Please check syntax!! Show Tables;")
+                    logger.error("Error in your query!!! Please check syntax!! export data dictionary;")
         else:
             print("no permissions granted")
 

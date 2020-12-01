@@ -174,8 +174,8 @@ class InsertQuery:
         else:
             print("ERROR IN INSERT QUERY!!!")
             print("Please re-enter your query.")
-#
-#
+        return status
+
 # # call from different method where queries are parsed
 # insertObj = InsertQuery()
 #
