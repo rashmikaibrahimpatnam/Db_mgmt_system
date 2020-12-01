@@ -16,3 +16,4 @@ class UseDb():
             return False
         else:
             CreateDefault().database(dbname)
+            return True
