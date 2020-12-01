@@ -7,6 +7,7 @@ from create import CreatQuery
 from insert import InsertQuery
 from display import Display
 from fileops import FileOps
+from export import Export_SQLDUMP
 import json
 import os
 from tabulate import tabulate
@@ -33,7 +34,7 @@ class ParseQuery():
         end_time = time.time()
         total_time = end_time-start_time
         self.logrecords(dbname,total_time)
-        ask_usr = input("Enter 0 if you want to continue, 1 to check the sql dump or any other key to exit: ")
+        ask_usr = input("Enter 0 if you want to continue or any other key to exit: ")
         if ask_usr == '0':
             query= input("enter query in SQL to process: ")
             words = query.lower().split(' ')
@@ -41,13 +42,6 @@ class ParseQuery():
                 self.parse_transactions(username,dbname,logger)
             else:
                 self.parse_query(username,dbname,query,logger)
-        elif ask_usr == '1':
-            with open(dbname+"_SQLDUMPT.sql",'r') as dump_data:
-                dump = dump_data.readlines()
-                print("------------------SQL DUMP-------------------")
-                for line in dump:
-                    print(line)
-            dump_data.close()
 
     def check_permissions(self,username):
         with open("user_details.json") as user_details:
@@ -165,6 +159,20 @@ class ParseQuery():
                 except:
                     print("Error in your query!!! Please check syntax!! export data dictionary;")
                     logger.error("Error in your query!!! Please check syntax!! export data dictionary;")
+            elif words[0].lower() == 'export' and words[1].lower() == 'sql' and words[2].lower() == 'dump':
+                try:
+                    sqldumpObj = Export_SQLDUMP()
+                    status = sqldumpObj.export_sql_dump(dbname,query)
+                    if status:
+                        return
+                    else:
+                        self.login_status(username,dbname,logger,start_time)
+                except:
+                    print("Error in your query!!! Please check syntax!! export sql dump;")
+                    logger.error("Error in your query!!! Please check syntax!! export sql dump;")
+            else:
+                print("Invalid query!!! Please check syntax!!")
+                logger.error("Invalid query!!! Please check syntax!!")
         else:
             print("no permissions granted")
 
@@ -194,8 +202,8 @@ class ParseQuery():
                         src_dtname = db_name+"_Tables_Datatypes.txt"
                         dest_dtname = db_name+"_Tables_Datatypes_copy.txt"     
                         shutil.copy(src_dtname,dest_dtname)
-                        src_dumpname = db_name+"_SQLDUMPT.sql"
-                        dest_dumpname = db_name+"_SQLDUMPT_copy.sql"     
+                        src_dumpname = db_name+"_SQLDUMP.sql"
+                        dest_dumpname = db_name+"_SQLDUMP_copy.sql"
                         shutil.copy(src_dumpname,dest_dumpname)
                 lock_details.close()
             
@@ -212,8 +220,8 @@ class ParseQuery():
                     src_dtname = db_name+"_Tables_Datatypes.txt"
                     dest_dtname = db_name+"_Tables_Datatypes_copy.txt"     
                     shutil.copy(src_dtname,dest_dtname)
-                    src_dumpname = db_name+"_SQLDUMPT.sql"
-                    dest_dumpname = db_name+"_SQLDUMPT_copy.sql"     
+                    src_dumpname = db_name+"_SQLDUMP.sql"
+                    dest_dumpname = db_name+"_SQLDUMP_copy.sql"
                     shutil.copy(src_dumpname,dest_dumpname) 
                 lock_details.close()
 
@@ -226,14 +234,14 @@ class ParseQuery():
             if 'commit' in status.lower():
                 shutil.copy(db_name+"_Tables_copy.txt",db_name+"_Tables.txt")  
                 shutil.copy(db_name + "_Tables_Datatypes_copy.txt",db_name + "_Tables_Datatypes.txt") 
-                file_exists = os.path.isfile(db_name + "_SQLDUMPT_copy.sql")
+                file_exists = os.path.isfile(db_name + "_SQLDUMP_copy.sql")
                 if file_exists:
-                    shutil.copy(db_name + "_SQLDUMPT_copy.sql",db_name + "_SQLDUMPT.sql")
+                    shutil.copy(db_name + "_SQLDUMP_copy.sql",db_name + "_SQLDUMP.sql")
 
             os.remove(db_name+"_Tables_copy.txt")
             os.remove(db_name+"_Tables_Datatypes_copy.txt")
             if file_exists: 
-                os.remove(db_name+"_SQLDUMPT_copy.sql")
+                os.remove(db_name+"_SQLDUMP_copy.sql")
             
             with open("lock_details.json") as lock_details:
                 data = json.load(lock_details)

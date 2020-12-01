@@ -19,12 +19,12 @@ class CreatQuery:
         if fname == None:            
             filename = src_fname
             dtname = dbname+"_Tables_Datatypes.txt"
-            dumpname = dbname + "_SQLDUMPT.sql"
+            dumpname = dbname + "_SQLDUMP.sql"
             status = False
         else:
             filename = dest_dname
             dtname = dbname+"_Tables_Datatypes_copy.txt"
-            dumpname = dbname + "_SQLDUMPT_copy.sql"
+            dumpname = dbname + "_SQLDUMP_copy.sql"
             status = True
             
         flower_bracket_start = '{'

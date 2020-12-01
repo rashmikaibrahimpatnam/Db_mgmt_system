@@ -133,3 +133,31 @@
 2020-12-01 21:59:49,900 INFO DB query given by user is use 5408_group2
 2020-12-01 21:59:54,381 INFO Query sent by the user sai, is export data
 2020-12-01 21:59:54,400 INFO User sai has selected 5408_group2 database
+2020-12-01 22:42:26,940 INFO DB query given by user is use 5408_group2
+2020-12-01 22:43:00,331 INFO Query sent by the user sai, is export sql dump ''
+2020-12-01 22:43:26,727 ERROR Error in your query!!! Please check syntax!! export sql dump file_location;
+2020-12-01 22:43:26,727 INFO User sai has selected 5408_group2 database
+2020-12-01 22:44:40,739 INFO DB query given by user is use 5408_group2
+2020-12-01 22:44:48,939 INFO Query sent by the user sai, is export sql dump ''
+2020-12-01 22:45:10,141 ERROR Error in your query!!! Please check syntax!! export sql dump file_location;
+2020-12-01 22:45:10,142 INFO User sai has selected 5408_group2 database
+2020-12-01 22:45:19,135 ERROR Invalid userame or password
+2020-12-01 22:45:43,926 INFO DB query given by user is use 5408_group2
+2020-12-01 22:45:51,827 INFO Query sent by the user sai, is export sql dump ''
+2020-12-01 22:46:09,865 ERROR Error in your query!!! Please check syntax!! export sql dump file_location;
+2020-12-01 22:46:09,865 INFO User sai has selected 5408_group2 database
+2020-12-01 22:46:32,374 INFO DB query given by user is use 5408_group2
+2020-12-01 22:46:46,560 INFO Query sent by the user sai, is export sql dump '/Users/yash/Desktop'
+2020-12-01 22:50:22,802 ERROR Error in your query!!! Please check syntax!! export sql dump file_location;
+2020-12-01 22:50:22,803 INFO User sai has selected 5408_group2 database
+2020-12-01 22:51:40,995 INFO DB query given by user is 5408_group2
+2020-12-01 22:52:25,515 INFO DB query given by user is use 5408_group2;
+2020-12-01 22:52:30,307 INFO Query sent by the user sai, is export sql dump
+2020-12-01 22:52:30,307 ERROR Error in your query!!! Please check syntax!! export sql dump;
+2020-12-01 22:52:30,307 INFO User sai has selected 5408_group2 database
+2020-12-01 22:53:49,670 INFO DB query given by user is use 5408_group2
+2020-12-01 22:53:53,966 INFO Query sent by the user sai, is export sql dump
+2020-12-01 22:54:37,441 ERROR Error in your query!!! Please check syntax!! export sql dump;
+2020-12-01 22:54:37,441 INFO User sai has selected 5408_group2 database
+2020-12-01 22:55:11,803 INFO DB query given by user is use 5408_group2
+2020-12-01 22:55:19,196 INFO Query sent by the user sai, is export sql dump

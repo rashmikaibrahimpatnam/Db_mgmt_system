@@ -38,3 +38,15 @@
 2020-12-01 21:34:10,426 INFO Query execution time: 0.002856016159057617
 2020-12-01 21:34:10,426 INFO Number of tables in the database, 5408_group2 is 1
 2020-12-01 21:34:10,426 INFO Number of rows in the table, player : 1
+2020-12-01 22:43:00,333 INFO Query execution time: 0.0009648799896240234
+2020-12-01 22:43:00,333 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 22:43:00,334 INFO Number of rows in the table, player : 1
+2020-12-01 22:44:48,943 INFO Query execution time: 0.004057168960571289
+2020-12-01 22:44:48,944 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 22:44:48,944 INFO Number of rows in the table, player : 1
+2020-12-01 22:45:51,828 INFO Query execution time: 0.0009348392486572266
+2020-12-01 22:45:51,829 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 22:45:51,829 INFO Number of rows in the table, player : 1
+2020-12-01 22:55:19,197 INFO Query execution time: 0.001313924789428711
+2020-12-01 22:55:19,198 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 22:55:19,198 INFO Number of rows in the table, player : 1
