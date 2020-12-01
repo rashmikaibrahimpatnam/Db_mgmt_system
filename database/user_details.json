@@ -1,7 +1,7 @@
 {
     "User_Details": [
         {
-            "username": "sai",
+            "username": "Rashmika",
             "password": "Sai@9697",
             "granted_privileges": [
                 "create",
@@ -23,21 +23,18 @@
             ]
         },
         {
-            "username": "qwe",
-            "password": "Qwerty@123",
+            "username": "Yash",
+            "password": "Yash@1234",
             "granted_privileges": [
-                "select",
+                "create",
                 "insert",
-                "delete",
                 "update",
-                "drop"
-            ]
-        },
-        {
-            "username": "Rob",
-            "password": "Rob@1234",
-            "granted_privileges": [
-                "select"
+                "select",
+                "delete",
+                "drop",
+                "show",
+                "export",
+                "truncate"
             ]
         }
     ]
