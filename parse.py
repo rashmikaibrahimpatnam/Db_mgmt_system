@@ -5,6 +5,8 @@ from droptable import DropOp
 from usedb import UseDb
 from create import CreatQuery
 from insert import InsertQuery
+from display import Display
+from fileops import FileOps
 import json
 import os
 from tabulate import tabulate
@@ -132,6 +134,26 @@ class ParseQuery():
                 except:
                     print("Error in your Insert query!!! Please check syntax!!")
                     logger.error("Error in your Insert query!!! Please check syntax!!")
+            elif words[0].lower() == 'show':
+                try:
+                    displayObj = Display()
+                    fileopobj = FileOps()
+                    f1 = fileopobj.filereader(dbname+"_Tables.txt")
+                    usertable_dict_obj = json.loads(f1)
+                    displayObj.print_tables(usertable_dict_obj)
+                except:
+                    print("Error in your query!!! Please check syntax!! Show Tables;")
+                    logger.error("Error in your query!!! Please check syntax!! Show Tables;")
+            elif words[0].lower() == 'export' and words[1].lower() == 'data':
+                try:
+                    displayObj = Display()
+                    fileopobj = FileOps()
+                    f1 = fileopobj.filereader(dbname+"_Tables_Datatypes.txt")
+                    usertable_datatype_dict_obj = json.loads(f1)
+                    displayObj.print_datadictionary("DataDictionary.txt",usertable_datatype_dict_obj)
+                except:
+                    print("Error in your query!!! Please check syntax!! export data dictionary;")
+                    logger.error("Error in your query!!! Please check syntax!! Show Tables;")
         else:
             print("no permissions granted")
 

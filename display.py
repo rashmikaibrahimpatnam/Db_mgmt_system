@@ -18,7 +18,7 @@ class Display:
                            headers='keys', tablefmt='psql'))
             print("\n")
 
-    def print_datadictionary(self,datatype_dict_object):
+    def print_datadictionary(self,file_name,datatype_dict_object):
         # add methods as required seperately donot modify these
         print("\n======Data Dictionary=======")
         for i in datatype_dict_object['Tables']:
@@ -28,6 +28,9 @@ class Display:
             tables_headers.remove("Relationship")
             val = i['Table_columns'][0]
             print(tabulate(pd.DataFrame(val, columns=tables_headers),
+                           headers='keys', tablefmt='psql'))
+            fileopobj = FileOps()
+            fileopobj.filewriter(file_name,tabulate(pd.DataFrame(val, columns=tables_headers),
                            headers='keys', tablefmt='psql'))
             print("\n")
 
@@ -43,20 +46,20 @@ class Display:
                            headers='keys', tablefmt='psql'))
             print("\n")
 
-#call from different method where queries are parsed
-fileopobj = FileOps()
-f1 = fileopobj.filereader("5408_group2_Tables.txt")
-f2 = fileopobj.filereader("5408_group2_Tables_Datatypes.txt")
-usertable_dict_obj = json.loads(f1)
-usertable_datatype_dict_obj = json.loads(f2)
-
-# print(json.dumps(usertable_dict_obj, indent = 1))
-# print(json.dumps(usertable_datatype_dict_obj, indent = 1))
-
-displayObj=Display()
-
-displayObj.print_tables(usertable_dict_obj)
-
-displayObj.print_datadictionary(usertable_datatype_dict_obj)
-
-displayObj.print_relationships(usertable_datatype_dict_obj)
+# #call from different method where queries are parsed
+# fileopobj = FileOps()
+# f1 = fileopobj.filereader("5408_group2_Tables.txt")
+# f2 = fileopobj.filereader("5408_group2_Tables_Datatypes.txt")
+# usertable_dict_obj = json.loads(f1)
+# usertable_datatype_dict_obj = json.loads(f2)
+#
+# # print(json.dumps(usertable_dict_obj, indent = 1))
+# # print(json.dumps(usertable_datatype_dict_obj, indent = 1))
+#
+# displayObj=Display()
+#
+# displayObj.print_tables(usertable_dict_obj)
+#
+# displayObj.print_datadictionary(usertable_datatype_dict_obj)
+#
+# displayObj.print_relationships(usertable_datatype_dict_obj)
