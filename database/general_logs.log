@@ -1,0 +1,559 @@
+2020-11-30 16:19:32,889 INFO Query execution time: 0.0062520503997802734
+2020-11-30 16:19:32,889 INFO Number of tables in the database, 5408_group2 is 5
+2020-11-30 16:19:32,890 INFO Number of rows in the table, player : 1
+2020-11-30 16:19:32,890 INFO Number of rows in the table, player_trio : 3
+2020-11-30 16:19:32,890 INFO Number of rows in the table, player_fourier : 1
+2020-11-30 16:19:32,890 INFO Number of rows in the table, player_sixfix : 1
+2020-11-30 16:19:32,890 INFO Number of rows in the table, player_seven : 1
+2020-12-01 20:43:47,761 INFO Query execution time: 56.98868918418884
+2020-12-01 20:43:47,766 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 20:43:47,767 INFO Number of rows in the table, player : 2
+2020-12-01 21:10:04,693 INFO Query execution time: 152.67155194282532
+2020-12-01 21:10:04,695 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 21:10:04,697 INFO Number of rows in the table, player : 3
+2020-12-01 21:21:15,690 INFO Query execution time: 0.0021779537200927734
+2020-12-01 21:21:15,690 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 21:21:15,690 INFO Number of rows in the table, player : 3
+2020-12-01 21:26:07,526 INFO Query execution time: 0.001857757568359375
+2020-12-01 21:26:07,526 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 21:26:07,526 INFO Number of rows in the table, player : 3
+2020-12-01 21:31:11,116 INFO Query execution time: 0.004137992858886719
+2020-12-01 21:31:11,117 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 21:31:11,118 INFO Number of rows in the table, player : 1
+2020-12-01 21:31:53,022 INFO Query execution time: 0.0013642311096191406
+2020-12-01 21:31:53,022 INFO Query execution time: 0.0013642311096191406
+2020-12-01 21:31:53,023 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 21:31:53,023 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 21:31:53,023 INFO Number of rows in the table, player : 0
+2020-12-01 21:31:53,023 INFO Number of rows in the table, player : 0
+2020-12-01 21:33:29,529 INFO Query execution time: 0.001199960708618164
+2020-12-01 21:33:29,529 INFO Query execution time: 0.001199960708618164
+2020-12-01 21:33:29,529 INFO Query execution time: 0.001199960708618164
+2020-12-01 21:33:29,530 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 21:33:29,530 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 21:33:29,530 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 21:33:29,530 INFO Number of rows in the table, player : 0
+2020-12-01 21:33:29,530 INFO Number of rows in the table, player : 0
+2020-12-01 21:33:29,530 INFO Number of rows in the table, player : 0
+2020-12-01 21:34:10,426 INFO Query execution time: 0.002856016159057617
+2020-12-01 21:34:10,426 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 21:34:10,426 INFO Number of rows in the table, player : 1
+2020-12-01 22:43:00,333 INFO Query execution time: 0.0009648799896240234
+2020-12-01 22:43:00,333 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 22:43:00,334 INFO Number of rows in the table, player : 1
+2020-12-01 22:44:48,943 INFO Query execution time: 0.004057168960571289
+2020-12-01 22:44:48,944 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 22:44:48,944 INFO Number of rows in the table, player : 1
+2020-12-01 22:45:51,828 INFO Query execution time: 0.0009348392486572266
+2020-12-01 22:45:51,829 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 22:45:51,829 INFO Number of rows in the table, player : 1
+2020-12-01 22:55:19,197 INFO Query execution time: 0.001313924789428711
+2020-12-01 22:55:19,198 INFO Number of tables in the database, 5408_group2 is 1
+2020-12-01 22:55:19,198 INFO Number of rows in the table, player : 1
+2020-12-01 23:00:05,170 INFO Query execution time: 0.004563093185424805
+2020-12-01 23:00:05,170 INFO Number of tables in the database, 5408_group2 is 2
+2020-12-01 23:00:05,170 INFO Number of rows in the table, player : 1
+2020-12-01 23:00:05,170 INFO Number of rows in the table, team : 1
+2020-12-01 23:01:55,315 INFO Query execution time: 0.007146120071411133
+2020-12-01 23:01:55,316 INFO Number of tables in the database, 5408_group2 is 2
+2020-12-01 23:01:55,316 INFO Number of rows in the table, player : 1
+2020-12-01 23:01:55,316 INFO Number of rows in the table, team : 1
+2020-12-01 23:09:19,284 INFO Query execution time: 121.27538990974426
+2020-12-01 23:09:19,285 INFO Number of tables in the database, 5408_group2 is 2
+2020-12-01 23:09:19,285 INFO Number of rows in the table, player : 2
+2020-12-01 23:09:19,285 INFO Number of rows in the table, team : 1
+2020-12-01 23:12:05,568 INFO Query execution time: 0.010778665542602539
+2020-12-01 23:12:05,568 INFO Number of tables in the database, 5408_group2 is 2
+2020-12-01 23:12:05,568 INFO Number of rows in the table, player : 2
+2020-12-01 23:12:05,568 INFO Number of rows in the table, team : 1
+2020-12-01 23:12:16,604 INFO Query execution time: 0.008285045623779297
+2020-12-01 23:12:16,604 INFO Query execution time: 0.008285045623779297
+2020-12-01 23:12:16,605 INFO Number of tables in the database, 5408_group2 is 2
+2020-12-01 23:12:16,605 INFO Number of tables in the database, 5408_group2 is 2
+2020-12-01 23:12:16,605 INFO Number of rows in the table, player : 2
+2020-12-01 23:12:16,605 INFO Number of rows in the table, player : 2
+2020-12-01 23:12:16,605 INFO Number of rows in the table, team : 1
+2020-12-01 23:12:16,605 INFO Number of rows in the table, team : 1
+2020-12-01 23:12:26,511 INFO Query execution time: 0.0018188953399658203
+2020-12-01 23:12:26,511 INFO Query execution time: 0.0018188953399658203
+2020-12-01 23:12:26,511 INFO Query execution time: 0.0018188953399658203
+2020-12-01 23:12:26,511 INFO Number of tables in the database, 5408_group2 is 2
+2020-12-01 23:12:26,511 INFO Number of tables in the database, 5408_group2 is 2
+2020-12-01 23:12:26,511 INFO Number of tables in the database, 5408_group2 is 2
+2020-12-01 23:12:26,512 INFO Number of rows in the table, player : 3
+2020-12-01 23:12:26,512 INFO Number of rows in the table, player : 3
+2020-12-01 23:12:26,512 INFO Number of rows in the table, player : 3
+2020-12-01 23:12:26,512 INFO Number of rows in the table, team : 1
+2020-12-01 23:12:26,512 INFO Number of rows in the table, team : 1
+2020-12-01 23:12:26,512 INFO Number of rows in the table, team : 1
+2020-12-01 23:12:32,339 INFO Query execution time: 0.006482124328613281
+2020-12-01 23:12:32,339 INFO Query execution time: 0.006482124328613281
+2020-12-01 23:12:32,339 INFO Query execution time: 0.006482124328613281
+2020-12-01 23:12:32,339 INFO Query execution time: 0.006482124328613281
+2020-12-01 23:12:32,340 INFO Number of tables in the database, 5408_group2 is 2
+2020-12-01 23:12:32,340 INFO Number of tables in the database, 5408_group2 is 2
+2020-12-01 23:12:32,340 INFO Number of tables in the database, 5408_group2 is 2
+2020-12-01 23:12:32,340 INFO Number of tables in the database, 5408_group2 is 2
+2020-12-01 23:12:32,340 INFO Number of rows in the table, player : 3
+2020-12-01 23:12:32,340 INFO Number of rows in the table, player : 3
+2020-12-01 23:12:32,340 INFO Number of rows in the table, player : 3
+2020-12-01 23:12:32,340 INFO Number of rows in the table, player : 3
+2020-12-01 23:12:32,340 INFO Number of rows in the table, team : 1
+2020-12-01 23:12:32,340 INFO Number of rows in the table, team : 1
+2020-12-01 23:12:32,340 INFO Number of rows in the table, team : 1
+2020-12-01 23:12:32,340 INFO Number of rows in the table, team : 1
+2020-12-01 23:18:51,305 INFO Query execution time: 0.007185220718383789
+2020-12-01 23:18:51,306 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:18:51,306 INFO Number of rows in the table, player : 1
+2020-12-01 23:18:56,871 INFO Query execution time: 0.006012916564941406
+2020-12-01 23:18:56,871 INFO Query execution time: 0.006012916564941406
+2020-12-01 23:18:56,872 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:18:56,872 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:18:56,873 INFO Number of rows in the table, player : 1
+2020-12-01 23:18:56,873 INFO Number of rows in the table, player : 1
+2020-12-01 23:19:15,108 INFO Query execution time: 0.0017249584197998047
+2020-12-01 23:19:15,108 INFO Query execution time: 0.0017249584197998047
+2020-12-01 23:19:15,108 INFO Query execution time: 0.0017249584197998047
+2020-12-01 23:19:15,113 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:19:15,113 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:19:15,113 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:19:15,115 INFO Number of rows in the table, player : 1
+2020-12-01 23:19:15,115 INFO Number of rows in the table, player : 1
+2020-12-01 23:19:15,115 INFO Number of rows in the table, player : 1
+2020-12-01 23:19:19,111 INFO Query execution time: 0.002910137176513672
+2020-12-01 23:19:19,111 INFO Query execution time: 0.002910137176513672
+2020-12-01 23:19:19,111 INFO Query execution time: 0.002910137176513672
+2020-12-01 23:19:19,111 INFO Query execution time: 0.002910137176513672
+2020-12-01 23:19:19,111 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:19:19,111 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:19:19,111 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:19:19,111 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:19:19,112 INFO Number of rows in the table, player : 1
+2020-12-01 23:19:19,112 INFO Number of rows in the table, player : 1
+2020-12-01 23:19:19,112 INFO Number of rows in the table, player : 1
+2020-12-01 23:19:19,112 INFO Number of rows in the table, player : 1
+2020-12-01 23:19:29,282 INFO Query execution time: 0.0006010532379150391
+2020-12-01 23:19:29,282 INFO Query execution time: 0.0006010532379150391
+2020-12-01 23:19:29,282 INFO Query execution time: 0.0006010532379150391
+2020-12-01 23:19:29,282 INFO Query execution time: 0.0006010532379150391
+2020-12-01 23:19:29,282 INFO Query execution time: 0.0006010532379150391
+2020-12-01 23:19:29,282 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:19:29,282 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:19:29,282 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:19:29,282 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:19:29,282 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:19:29,282 INFO Number of rows in the table, player : 1
+2020-12-01 23:19:29,282 INFO Number of rows in the table, player : 1
+2020-12-01 23:19:29,282 INFO Number of rows in the table, player : 1
+2020-12-01 23:19:29,282 INFO Number of rows in the table, player : 1
+2020-12-01 23:19:29,282 INFO Number of rows in the table, player : 1
+2020-12-01 23:21:12,423 INFO Query execution time: 0.0014278888702392578
+2020-12-01 23:21:12,423 INFO Query execution time: 0.0014278888702392578
+2020-12-01 23:21:12,423 INFO Query execution time: 0.0014278888702392578
+2020-12-01 23:21:12,423 INFO Query execution time: 0.0014278888702392578
+2020-12-01 23:21:12,423 INFO Query execution time: 0.0014278888702392578
+2020-12-01 23:21:12,423 INFO Query execution time: 0.0014278888702392578
+2020-12-01 23:21:12,423 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:21:12,423 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:21:12,423 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:21:12,423 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:21:12,423 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:21:12,423 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:21:12,424 INFO Number of rows in the table, player : 2
+2020-12-01 23:21:12,424 INFO Number of rows in the table, player : 2
+2020-12-01 23:21:12,424 INFO Number of rows in the table, player : 2
+2020-12-01 23:21:12,424 INFO Number of rows in the table, player : 2
+2020-12-01 23:21:12,424 INFO Number of rows in the table, player : 2
+2020-12-01 23:21:12,424 INFO Number of rows in the table, player : 2
+2020-12-01 23:21:17,655 INFO Query execution time: 0.0032978057861328125
+2020-12-01 23:21:17,655 INFO Query execution time: 0.0032978057861328125
+2020-12-01 23:21:17,655 INFO Query execution time: 0.0032978057861328125
+2020-12-01 23:21:17,655 INFO Query execution time: 0.0032978057861328125
+2020-12-01 23:21:17,655 INFO Query execution time: 0.0032978057861328125
+2020-12-01 23:21:17,655 INFO Query execution time: 0.0032978057861328125
+2020-12-01 23:21:17,655 INFO Query execution time: 0.0032978057861328125
+2020-12-01 23:21:17,656 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:21:17,656 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:21:17,656 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:21:17,656 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:21:17,656 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:21:17,656 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:21:17,656 INFO Number of tables in the database, 5408 is 1
+2020-12-01 23:21:17,657 INFO Number of rows in the table, player : 2
+2020-12-01 23:21:17,657 INFO Number of rows in the table, player : 2
+2020-12-01 23:21:17,657 INFO Number of rows in the table, player : 2
+2020-12-01 23:21:17,657 INFO Number of rows in the table, player : 2
+2020-12-01 23:21:17,657 INFO Number of rows in the table, player : 2
+2020-12-01 23:21:17,657 INFO Number of rows in the table, player : 2
+2020-12-01 23:21:17,657 INFO Number of rows in the table, player : 2
+2020-12-02 00:17:18,242 INFO Query execution time: 0.007250785827636719
+2020-12-02 00:17:18,243 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:17:18,243 INFO Number of rows in the table, player : 2
+2020-12-02 00:18:32,181 INFO Query execution time: 0.0009350776672363281
+2020-12-02 00:18:32,182 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:18:32,182 INFO Number of rows in the table, player : 2
+2020-12-02 00:18:50,202 INFO Query execution time: 0.004690885543823242
+2020-12-02 00:18:50,202 INFO Query execution time: 0.004690885543823242
+2020-12-02 00:18:50,202 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:18:50,202 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:18:50,203 INFO Number of rows in the table, player : 2
+2020-12-02 00:18:50,203 INFO Number of rows in the table, player : 2
+2020-12-02 00:18:57,236 INFO Query execution time: 0.015388965606689453
+2020-12-02 00:18:57,236 INFO Query execution time: 0.015388965606689453
+2020-12-02 00:18:57,236 INFO Query execution time: 0.015388965606689453
+2020-12-02 00:18:57,236 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:18:57,236 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:18:57,236 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:18:57,236 INFO Number of rows in the table, player : 2
+2020-12-02 00:18:57,236 INFO Number of rows in the table, player : 2
+2020-12-02 00:18:57,236 INFO Number of rows in the table, player : 2
+2020-12-02 00:22:50,837 INFO Query execution time: 0.009845972061157227
+2020-12-02 00:22:50,837 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:22:50,838 INFO Number of rows in the table, player : 2
+2020-12-02 00:24:34,821 INFO Query execution time: 0.01141810417175293
+2020-12-02 00:24:34,821 INFO Query execution time: 0.01141810417175293
+2020-12-02 00:24:34,822 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:24:34,822 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:24:34,823 INFO Number of rows in the table, player : 2
+2020-12-02 00:24:34,823 INFO Number of rows in the table, player : 2
+2020-12-02 00:27:40,535 INFO Query execution time: 0.009588241577148438
+2020-12-02 00:27:40,535 INFO Query execution time: 0.009588241577148438
+2020-12-02 00:27:40,535 INFO Query execution time: 0.009588241577148438
+2020-12-02 00:27:40,535 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:27:40,535 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:27:40,535 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:27:40,535 INFO Number of rows in the table, player : 2
+2020-12-02 00:27:40,535 INFO Number of rows in the table, player : 2
+2020-12-02 00:27:40,535 INFO Number of rows in the table, player : 2
+2020-12-02 00:40:42,594 INFO Query execution time: 0.021870136260986328
+2020-12-02 00:40:42,594 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:40:42,595 INFO Number of rows in the table, player : 2
+2020-12-02 00:41:40,963 INFO Query execution time: 47.676206827163696
+2020-12-02 00:41:40,963 INFO Query execution time: 47.676206827163696
+2020-12-02 00:41:40,965 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:41:40,965 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:41:40,966 INFO Number of rows in the table, player : 2
+2020-12-02 00:41:40,966 INFO Number of rows in the table, player : 2
+2020-12-02 00:42:40,401 INFO Query execution time: 0.016234159469604492
+2020-12-02 00:42:40,401 INFO Query execution time: 0.016234159469604492
+2020-12-02 00:42:40,401 INFO Query execution time: 0.016234159469604492
+2020-12-02 00:42:40,402 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:42:40,402 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:42:40,402 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:42:40,402 INFO Number of rows in the table, player : 2
+2020-12-02 00:42:40,402 INFO Number of rows in the table, player : 2
+2020-12-02 00:42:40,402 INFO Number of rows in the table, player : 2
+2020-12-02 00:42:40,403 INFO Number of rows in the table, team : 1
+2020-12-02 00:42:40,403 INFO Number of rows in the table, team : 1
+2020-12-02 00:42:40,403 INFO Number of rows in the table, team : 1
+2020-12-02 00:42:58,782 INFO Query execution time: 0.02643299102783203
+2020-12-02 00:42:58,782 INFO Query execution time: 0.02643299102783203
+2020-12-02 00:42:58,782 INFO Query execution time: 0.02643299102783203
+2020-12-02 00:42:58,782 INFO Query execution time: 0.02643299102783203
+2020-12-02 00:42:58,783 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:42:58,783 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:42:58,783 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:42:58,783 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:42:58,785 INFO Number of rows in the table, player : 2
+2020-12-02 00:42:58,785 INFO Number of rows in the table, player : 2
+2020-12-02 00:42:58,785 INFO Number of rows in the table, player : 2
+2020-12-02 00:42:58,785 INFO Number of rows in the table, player : 2
+2020-12-02 00:42:58,786 INFO Number of rows in the table, team : 1
+2020-12-02 00:42:58,786 INFO Number of rows in the table, team : 1
+2020-12-02 00:42:58,786 INFO Number of rows in the table, team : 1
+2020-12-02 00:42:58,786 INFO Number of rows in the table, team : 1
+2020-12-02 00:46:25,149 INFO Query execution time: 0.00900888442993164
+2020-12-02 00:46:25,150 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:46:25,150 INFO Number of rows in the table, player : 2
+2020-12-02 00:46:25,150 INFO Number of rows in the table, team : 1
+2020-12-02 00:49:27,517 INFO Query execution time: 0.003484964370727539
+2020-12-02 00:49:27,517 INFO Query execution time: 0.003484964370727539
+2020-12-02 00:49:27,518 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:49:27,518 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:49:27,518 INFO Number of rows in the table, player : 2
+2020-12-02 00:49:27,518 INFO Number of rows in the table, player : 2
+2020-12-02 00:49:27,518 INFO Number of rows in the table, team : 1
+2020-12-02 00:49:27,518 INFO Number of rows in the table, team : 1
+2020-12-02 00:49:32,141 INFO Query execution time: 0.003217935562133789
+2020-12-02 00:49:32,141 INFO Query execution time: 0.003217935562133789
+2020-12-02 00:49:32,141 INFO Query execution time: 0.003217935562133789
+2020-12-02 00:49:32,142 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:49:32,142 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:49:32,142 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:49:32,142 INFO Number of rows in the table, player : 2
+2020-12-02 00:49:32,142 INFO Number of rows in the table, player : 2
+2020-12-02 00:49:32,142 INFO Number of rows in the table, player : 2
+2020-12-02 00:49:32,144 INFO Number of rows in the table, team : 1
+2020-12-02 00:49:32,144 INFO Number of rows in the table, team : 1
+2020-12-02 00:49:32,144 INFO Number of rows in the table, team : 1
+2020-12-02 00:52:08,371 INFO Query execution time: 0.00162506103515625
+2020-12-02 00:52:08,371 INFO Query execution time: 0.00162506103515625
+2020-12-02 00:52:08,371 INFO Query execution time: 0.00162506103515625
+2020-12-02 00:52:08,371 INFO Query execution time: 0.00162506103515625
+2020-12-02 00:52:08,371 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:52:08,371 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:52:08,371 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:52:08,371 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:52:08,371 INFO Number of rows in the table, player : 2
+2020-12-02 00:52:08,371 INFO Number of rows in the table, player : 2
+2020-12-02 00:52:08,371 INFO Number of rows in the table, player : 2
+2020-12-02 00:52:08,371 INFO Number of rows in the table, player : 2
+2020-12-02 00:52:08,372 INFO Number of rows in the table, team : 2
+2020-12-02 00:52:08,372 INFO Number of rows in the table, team : 2
+2020-12-02 00:52:08,372 INFO Number of rows in the table, team : 2
+2020-12-02 00:52:08,372 INFO Number of rows in the table, team : 2
+2020-12-02 00:53:31,050 INFO Query execution time: 0.0066030025482177734
+2020-12-02 00:53:31,050 INFO Number of tables in the database, 5408 is 2
+2020-12-02 00:53:31,050 INFO Number of rows in the table, player : 2
+2020-12-02 00:53:31,050 INFO Number of rows in the table, team : 2
+2020-12-02 01:06:25,601 INFO Query execution time: 0.005148887634277344
+2020-12-02 01:06:25,601 INFO Query execution time: 0.005148887634277344
+2020-12-02 01:06:25,601 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:06:25,601 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:06:25,602 INFO Number of rows in the table, player : 2
+2020-12-02 01:06:25,602 INFO Number of rows in the table, player : 2
+2020-12-02 01:06:25,602 INFO Number of rows in the table, team : 2
+2020-12-02 01:06:25,602 INFO Number of rows in the table, team : 2
+2020-12-02 01:11:03,969 INFO Query execution time: 0.009756088256835938
+2020-12-02 01:11:03,969 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:11:03,969 INFO Number of rows in the table, player : 2
+2020-12-02 01:11:03,969 INFO Number of rows in the table, team : 2
+2020-12-02 01:11:55,920 INFO Query execution time: 0.018397808074951172
+2020-12-02 01:11:55,920 INFO Query execution time: 0.018397808074951172
+2020-12-02 01:11:55,921 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:11:55,921 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:11:55,921 INFO Number of rows in the table, player : 2
+2020-12-02 01:11:55,921 INFO Number of rows in the table, player : 2
+2020-12-02 01:11:55,921 INFO Number of rows in the table, team : 2
+2020-12-02 01:11:55,921 INFO Number of rows in the table, team : 2
+2020-12-02 01:29:20,384 INFO Query execution time: 0.017850875854492188
+2020-12-02 01:29:20,386 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:29:20,386 INFO Number of rows in the table, player : 2
+2020-12-02 01:29:20,386 INFO Number of rows in the table, team : 2
+2020-12-02 01:30:50,279 INFO Query execution time: 0.021634817123413086
+2020-12-02 01:30:50,279 INFO Query execution time: 0.021634817123413086
+2020-12-02 01:30:50,279 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:30:50,279 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:30:50,280 INFO Number of rows in the table, player : 2
+2020-12-02 01:30:50,280 INFO Number of rows in the table, player : 2
+2020-12-02 01:30:50,280 INFO Number of rows in the table, team : 2
+2020-12-02 01:30:50,280 INFO Number of rows in the table, team : 2
+2020-12-02 01:32:59,288 INFO Query execution time: 0.016781091690063477
+2020-12-02 01:32:59,289 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:32:59,289 INFO Number of rows in the table, player : 2
+2020-12-02 01:32:59,289 INFO Number of rows in the table, team : 2
+2020-12-02 01:39:26,764 INFO Query execution time: 0.00917816162109375
+2020-12-02 01:39:26,765 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:39:26,765 INFO Number of rows in the table, player : 2
+2020-12-02 01:39:26,765 INFO Number of rows in the table, team : 2
+2020-12-02 01:39:36,958 INFO Query execution time: 0.016785860061645508
+2020-12-02 01:39:36,958 INFO Query execution time: 0.016785860061645508
+2020-12-02 01:39:36,959 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:39:36,959 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:39:36,959 INFO Number of rows in the table, player : 2
+2020-12-02 01:39:36,959 INFO Number of rows in the table, player : 2
+2020-12-02 01:39:36,960 INFO Number of rows in the table, team : 2
+2020-12-02 01:39:36,960 INFO Number of rows in the table, team : 2
+2020-12-02 01:39:43,212 INFO Query execution time: 0.0067691802978515625
+2020-12-02 01:39:43,212 INFO Query execution time: 0.0067691802978515625
+2020-12-02 01:39:43,212 INFO Query execution time: 0.0067691802978515625
+2020-12-02 01:39:43,213 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:39:43,213 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:39:43,213 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:39:43,214 INFO Number of rows in the table, player : 2
+2020-12-02 01:39:43,214 INFO Number of rows in the table, player : 2
+2020-12-02 01:39:43,214 INFO Number of rows in the table, player : 2
+2020-12-02 01:39:43,214 INFO Number of rows in the table, team : 2
+2020-12-02 01:39:43,214 INFO Number of rows in the table, team : 2
+2020-12-02 01:39:43,214 INFO Number of rows in the table, team : 2
+2020-12-02 01:44:18,727 INFO Query execution time: 0.010123014450073242
+2020-12-02 01:44:18,728 INFO Number of tables in the database, 5408 is 3
+2020-12-02 01:44:18,728 INFO Number of rows in the table, player : 2
+2020-12-02 01:44:18,728 INFO Number of rows in the table, team : 2
+2020-12-02 01:44:18,728 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 01:44:24,632 INFO Query execution time: 0.02002882957458496
+2020-12-02 01:44:24,632 INFO Query execution time: 0.02002882957458496
+2020-12-02 01:44:24,632 INFO Number of tables in the database, 5408 is 3
+2020-12-02 01:44:24,632 INFO Number of tables in the database, 5408 is 3
+2020-12-02 01:44:24,632 INFO Number of rows in the table, player : 2
+2020-12-02 01:44:24,632 INFO Number of rows in the table, player : 2
+2020-12-02 01:44:24,632 INFO Number of rows in the table, team : 2
+2020-12-02 01:44:24,632 INFO Number of rows in the table, team : 2
+2020-12-02 01:44:24,632 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 01:44:24,632 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 01:44:34,765 INFO Query execution time: 0.004989147186279297
+2020-12-02 01:44:34,765 INFO Query execution time: 0.004989147186279297
+2020-12-02 01:44:34,765 INFO Query execution time: 0.004989147186279297
+2020-12-02 01:44:34,765 INFO Number of tables in the database, 5408 is 4
+2020-12-02 01:44:34,765 INFO Number of tables in the database, 5408 is 4
+2020-12-02 01:44:34,765 INFO Number of tables in the database, 5408 is 4
+2020-12-02 01:44:34,765 INFO Number of rows in the table, player : 2
+2020-12-02 01:44:34,765 INFO Number of rows in the table, player : 2
+2020-12-02 01:44:34,765 INFO Number of rows in the table, player : 2
+2020-12-02 01:44:34,766 INFO Number of rows in the table, team : 2
+2020-12-02 01:44:34,766 INFO Number of rows in the table, team : 2
+2020-12-02 01:44:34,766 INFO Number of rows in the table, team : 2
+2020-12-02 01:44:34,766 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 01:44:34,766 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 01:44:34,766 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 01:44:34,766 INFO Number of rows in the table, temp : 1
+2020-12-02 01:44:34,766 INFO Number of rows in the table, temp : 1
+2020-12-02 01:44:34,766 INFO Number of rows in the table, temp : 1
+2020-12-02 01:45:05,149 INFO Query execution time: 0.015620231628417969
+2020-12-02 01:45:05,150 INFO Number of tables in the database, 5408 is 4
+2020-12-02 01:45:05,150 INFO Number of rows in the table, player : 2
+2020-12-02 01:45:05,150 INFO Number of rows in the table, team : 2
+2020-12-02 01:45:05,150 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 01:45:05,150 INFO Number of rows in the table, temp : 1
+2020-12-02 01:45:15,848 INFO Query execution time: 0.007369041442871094
+2020-12-02 01:45:15,848 INFO Query execution time: 0.007369041442871094
+2020-12-02 01:45:15,848 INFO Number of tables in the database, 5408 is 4
+2020-12-02 01:45:15,848 INFO Number of tables in the database, 5408 is 4
+2020-12-02 01:45:15,848 INFO Number of rows in the table, player : 2
+2020-12-02 01:45:15,848 INFO Number of rows in the table, player : 2
+2020-12-02 01:45:15,849 INFO Number of rows in the table, team : 2
+2020-12-02 01:45:15,849 INFO Number of rows in the table, team : 2
+2020-12-02 01:45:15,849 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 01:45:15,849 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 01:45:15,849 INFO Number of rows in the table, temp : 1
+2020-12-02 01:45:15,849 INFO Number of rows in the table, temp : 1
+2020-12-02 01:48:20,898 INFO Query execution time: 0.01227712631225586
+2020-12-02 01:48:20,899 INFO Number of tables in the database, 5408 is 5
+2020-12-02 01:48:20,899 INFO Number of rows in the table, player : 2
+2020-12-02 01:48:20,900 INFO Number of rows in the table, team : 2
+2020-12-02 01:48:20,900 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 01:48:20,900 INFO Number of rows in the table, temp : 1
+2020-12-02 01:48:20,900 INFO Number of rows in the table, temp3 : 1
+2020-12-02 01:54:17,213 INFO Query execution time: 2.689032793045044
+2020-12-02 01:54:17,214 INFO Number of tables in the database, 5408 is 5
+2020-12-02 01:54:17,214 INFO Number of rows in the table, player : 2
+2020-12-02 01:54:17,214 INFO Number of rows in the table, team : 2
+2020-12-02 01:54:17,214 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 01:54:17,215 INFO Number of rows in the table, temp : 1
+2020-12-02 01:54:17,215 INFO Number of rows in the table, temp3 : 1
+2020-12-02 01:56:09,647 INFO Query execution time: 0.022031068801879883
+2020-12-02 01:56:09,647 INFO Number of tables in the database, 5408 is 5
+2020-12-02 01:56:09,648 INFO Number of rows in the table, player : 2
+2020-12-02 01:56:09,648 INFO Number of rows in the table, team : 2
+2020-12-02 01:56:09,648 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 01:56:09,648 INFO Number of rows in the table, temp : 1
+2020-12-02 01:56:09,648 INFO Number of rows in the table, temp3 : 1
+2020-12-02 01:57:01,837 INFO Query execution time: 0.0013082027435302734
+2020-12-02 01:57:01,837 INFO Query execution time: 0.0013082027435302734
+2020-12-02 01:57:01,838 INFO Number of tables in the database, 5408 is 5
+2020-12-02 01:57:01,838 INFO Number of tables in the database, 5408 is 5
+2020-12-02 01:57:01,838 INFO Number of rows in the table, player : 2
+2020-12-02 01:57:01,838 INFO Number of rows in the table, player : 2
+2020-12-02 01:57:01,838 INFO Number of rows in the table, team : 2
+2020-12-02 01:57:01,838 INFO Number of rows in the table, team : 2
+2020-12-02 01:57:01,839 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 01:57:01,839 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 01:57:01,839 INFO Number of rows in the table, temp : 1
+2020-12-02 01:57:01,839 INFO Number of rows in the table, temp : 1
+2020-12-02 01:57:01,839 INFO Number of rows in the table, temp3 : 1
+2020-12-02 01:57:01,839 INFO Number of rows in the table, temp3 : 1
+2020-12-02 01:57:10,581 INFO Query execution time: 0.02588200569152832
+2020-12-02 01:57:10,581 INFO Query execution time: 0.02588200569152832
+2020-12-02 01:57:10,581 INFO Query execution time: 0.02588200569152832
+2020-12-02 01:57:10,581 INFO Number of tables in the database, 5408 is 5
+2020-12-02 01:57:10,581 INFO Number of tables in the database, 5408 is 5
+2020-12-02 01:57:10,581 INFO Number of tables in the database, 5408 is 5
+2020-12-02 01:57:10,581 INFO Number of rows in the table, player : 2
+2020-12-02 01:57:10,581 INFO Number of rows in the table, player : 2
+2020-12-02 01:57:10,581 INFO Number of rows in the table, player : 2
+2020-12-02 01:57:10,581 INFO Number of rows in the table, team : 2
+2020-12-02 01:57:10,581 INFO Number of rows in the table, team : 2
+2020-12-02 01:57:10,581 INFO Number of rows in the table, team : 2
+2020-12-02 01:57:10,581 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 01:57:10,581 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 01:57:10,581 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 01:57:10,581 INFO Number of rows in the table, temp : 1
+2020-12-02 01:57:10,581 INFO Number of rows in the table, temp : 1
+2020-12-02 01:57:10,581 INFO Number of rows in the table, temp : 1
+2020-12-02 01:57:10,581 INFO Number of rows in the table, temp3 : 1
+2020-12-02 01:57:10,581 INFO Number of rows in the table, temp3 : 1
+2020-12-02 01:57:10,581 INFO Number of rows in the table, temp3 : 1
+2020-12-02 03:02:39,282 INFO Query execution time: 0.017193078994750977
+2020-12-02 03:02:39,283 INFO Number of tables in the database, 5408 is 5
+2020-12-02 03:02:39,283 INFO Number of rows in the table, player : 2
+2020-12-02 03:02:39,284 INFO Number of rows in the table, team : 2
+2020-12-02 03:02:39,284 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 03:02:39,284 INFO Number of rows in the table, temp : 1
+2020-12-02 03:02:39,285 INFO Number of rows in the table, temp3 : 1
+2020-12-02 03:09:57,572 INFO Query execution time: 0.13175606727600098
+2020-12-02 03:09:57,573 INFO Number of tables in the database, 5408 is 5
+2020-12-02 03:09:57,573 INFO Number of rows in the table, player : 2
+2020-12-02 03:09:57,574 INFO Number of rows in the table, team : 2
+2020-12-02 03:09:57,574 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 03:09:57,574 INFO Number of rows in the table, temp : 1
+2020-12-02 03:09:57,575 INFO Number of rows in the table, temp3 : 1
+2020-12-02 03:17:51,852 INFO Query execution time: 0.026803970336914062
+2020-12-02 03:17:51,853 INFO Number of tables in the database, 5408 is 5
+2020-12-02 03:17:51,853 INFO Number of rows in the table, player : 2
+2020-12-02 03:17:51,853 INFO Number of rows in the table, team : 2
+2020-12-02 03:17:51,853 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 03:17:51,853 INFO Number of rows in the table, temp : 1
+2020-12-02 03:17:51,853 INFO Number of rows in the table, temp3 : 1
+2020-12-02 03:18:01,154 INFO Query execution time: 0.03245806694030762
+2020-12-02 03:18:01,154 INFO Query execution time: 0.03245806694030762
+2020-12-02 03:18:01,154 INFO Number of tables in the database, 5408 is 5
+2020-12-02 03:18:01,154 INFO Number of tables in the database, 5408 is 5
+2020-12-02 03:18:01,154 INFO Number of rows in the table, player : 2
+2020-12-02 03:18:01,154 INFO Number of rows in the table, player : 2
+2020-12-02 03:18:01,154 INFO Number of rows in the table, team : 2
+2020-12-02 03:18:01,154 INFO Number of rows in the table, team : 2
+2020-12-02 03:18:01,154 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 03:18:01,154 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 03:18:01,154 INFO Number of rows in the table, temp : 1
+2020-12-02 03:18:01,154 INFO Number of rows in the table, temp : 1
+2020-12-02 03:18:01,154 INFO Number of rows in the table, temp3 : 1
+2020-12-02 03:18:01,154 INFO Number of rows in the table, temp3 : 1
+2020-12-02 03:18:49,781 INFO Query execution time: 0.0016460418701171875
+2020-12-02 03:18:49,781 INFO Query execution time: 0.0016460418701171875
+2020-12-02 03:18:49,781 INFO Query execution time: 0.0016460418701171875
+2020-12-02 03:18:49,782 INFO Number of tables in the database, 5408 is 5
+2020-12-02 03:18:49,782 INFO Number of tables in the database, 5408 is 5
+2020-12-02 03:18:49,782 INFO Number of tables in the database, 5408 is 5
+2020-12-02 03:18:49,782 INFO Number of rows in the table, player : 2
+2020-12-02 03:18:49,782 INFO Number of rows in the table, player : 2
+2020-12-02 03:18:49,782 INFO Number of rows in the table, player : 2
+2020-12-02 03:18:49,782 INFO Number of rows in the table, team : 2
+2020-12-02 03:18:49,782 INFO Number of rows in the table, team : 2
+2020-12-02 03:18:49,782 INFO Number of rows in the table, team : 2
+2020-12-02 03:18:49,782 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 03:18:49,782 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 03:18:49,782 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 03:18:49,782 INFO Number of rows in the table, temp : 1
+2020-12-02 03:18:49,782 INFO Number of rows in the table, temp : 1
+2020-12-02 03:18:49,782 INFO Number of rows in the table, temp : 1
+2020-12-02 03:18:49,782 INFO Number of rows in the table, temp3 : 1
+2020-12-02 03:18:49,782 INFO Number of rows in the table, temp3 : 1
+2020-12-02 03:18:49,782 INFO Number of rows in the table, temp3 : 1
+2020-12-02 03:19:10,139 INFO Query execution time: 0.0286867618560791
+2020-12-02 03:19:10,139 INFO Query execution time: 0.0286867618560791
+2020-12-02 03:19:10,139 INFO Query execution time: 0.0286867618560791
+2020-12-02 03:19:10,139 INFO Query execution time: 0.0286867618560791
+2020-12-02 03:19:10,139 INFO Number of tables in the database, 5408 is 5
+2020-12-02 03:19:10,139 INFO Number of tables in the database, 5408 is 5
+2020-12-02 03:19:10,139 INFO Number of tables in the database, 5408 is 5
+2020-12-02 03:19:10,139 INFO Number of tables in the database, 5408 is 5
+2020-12-02 03:19:10,139 INFO Number of rows in the table, player : 2
+2020-12-02 03:19:10,139 INFO Number of rows in the table, player : 2
+2020-12-02 03:19:10,139 INFO Number of rows in the table, player : 2
+2020-12-02 03:19:10,139 INFO Number of rows in the table, player : 2
+2020-12-02 03:19:10,139 INFO Number of rows in the table, team : 2
+2020-12-02 03:19:10,139 INFO Number of rows in the table, team : 2
+2020-12-02 03:19:10,139 INFO Number of rows in the table, team : 2
+2020-12-02 03:19:10,139 INFO Number of rows in the table, team : 2
+2020-12-02 03:19:10,140 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 03:19:10,140 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 03:19:10,140 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 03:19:10,140 INFO Number of rows in the table, temp create table temp : 1
+2020-12-02 03:19:10,140 INFO Number of rows in the table, temp : 1
+2020-12-02 03:19:10,140 INFO Number of rows in the table, temp : 1
+2020-12-02 03:19:10,140 INFO Number of rows in the table, temp : 1
+2020-12-02 03:19:10,140 INFO Number of rows in the table, temp : 1
+2020-12-02 03:19:10,140 INFO Number of rows in the table, temp3 : 1
+2020-12-02 03:19:10,140 INFO Number of rows in the table, temp3 : 1
+2020-12-02 03:19:10,140 INFO Number of rows in the table, temp3 : 1
+2020-12-02 03:19:10,140 INFO Number of rows in the table, temp3 : 1

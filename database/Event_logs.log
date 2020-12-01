@@ -1,0 +1,330 @@
+2020-11-30 16:19:28,211 INFO DB query given by user is use 5408_group2;
+2020-11-30 16:19:32,882 INFO Query sent by the user sai, is select * from player;
+2020-11-30 16:19:32,883 INFO parsing select query, select * from player;
+2020-11-30 16:19:32,884 INFO data fetched from the table  player
+2020-11-30 16:19:36,434 INFO User sai has selected 5408_group2 database
+2020-12-01 20:16:22,176 INFO DB query given by user is use 5408_group2
+2020-12-01 20:17:16,937 INFO Query sent by the user sai, is delete from player where player_id = 24;
+2020-12-01 20:17:16,938 INFO parsing delete query, delete from player where player_id = 24;
+2020-12-01 20:30:49,153 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 20:30:49,154 INFO User sai has selected 5408_group2 database
+2020-12-01 20:32:01,907 INFO DB query given by user is use 540_group2
+2020-12-01 20:32:54,890 INFO DB query given by user is use 5408_group2
+2020-12-01 20:33:16,339 INFO Query sent by the user sai, is delete from player where player_id=24
+2020-12-01 20:33:16,340 INFO parsing delete query, delete from player where player_id=24
+2020-12-01 20:39:23,717 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 20:39:23,718 INFO User sai has selected 5408_group2 database
+2020-12-01 20:39:50,536 INFO DB query given by user is use 5408_group2
+2020-12-01 20:39:59,772 INFO Query sent by the user sai, is delete from player where player_id=24
+2020-12-01 20:39:59,773 INFO parsing delete query, delete from player where player_id=24
+2020-12-01 20:41:19,321 INFO data is deleted from the table player
+2020-12-01 20:41:45,144 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 20:41:45,144 INFO User sai has selected 5408_group2 database
+2020-12-01 20:42:34,568 INFO DB query given by user is use 5408_group2
+2020-12-01 20:42:50,768 INFO Query sent by the user sai, is delete from player where player_id = 24
+2020-12-01 20:42:50,769 INFO parsing delete query, delete from player where player_id = 24
+2020-12-01 20:43:29,214 INFO data is deleted from the table player
+2020-12-01 20:43:47,742 INFO data is deleted from the table player
+2020-12-01 20:44:37,585 INFO Query sent by the user sai, is delete from player where player_id =24
+2020-12-01 20:44:37,586 INFO parsing delete query, delete from player where player_id =24
+2020-12-01 20:44:55,268 INFO data is deleted from the table player
+2020-12-01 20:45:21,575 INFO data is deleted from the table player
+2020-12-01 20:49:36,245 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 20:49:36,245 INFO User sai has selected 5408_group2 database
+2020-12-01 20:51:12,013 INFO DB query given by user is use 5408_group2
+2020-12-01 20:51:19,682 INFO Query sent by the user sai, is delete from player where player_id =24
+2020-12-01 20:51:19,683 INFO parsing delete query, delete from player where player_id =24
+2020-12-01 20:54:35,928 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 20:54:35,928 INFO User sai has selected 5408_group2 database
+2020-12-01 20:55:05,056 INFO DB query given by user is use 5408_group2
+2020-12-01 20:56:53,867 INFO Query sent by the user sai, is delete from player where player_id=24
+2020-12-01 20:56:53,867 INFO parsing delete query, delete from player where player_id=24
+2020-12-01 20:57:26,967 INFO data is deleted from the table player
+2020-12-01 20:57:52,308 INFO data is deleted from the table player
+2020-12-01 21:00:19,622 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 21:00:19,622 INFO User sai has selected 5408_group2 database
+2020-12-01 21:00:45,617 INFO DB query given by user is use 5408_group2
+2020-12-01 21:00:54,946 INFO Query sent by the user sai, is delete from player where player_id = 24
+2020-12-01 21:00:54,947 INFO parsing delete query, delete from player where player_id = 24
+2020-12-01 21:00:54,962 INFO data is deleted from the table player
+2020-12-01 21:00:54,963 INFO data is deleted from the table player
+2020-12-01 21:01:41,981 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 21:01:41,982 INFO User sai has selected 5408_group2 database
+2020-12-01 21:02:02,105 INFO DB query given by user is use 5408_group2
+2020-12-01 21:02:11,160 INFO Query sent by the user sai, is delete from player where player_id=24
+2020-12-01 21:02:11,161 INFO parsing delete query, delete from player where player_id=24
+2020-12-01 21:02:11,181 INFO data is deleted from the table player
+2020-12-01 21:02:11,183 INFO data is deleted from the table player
+2020-12-01 21:06:56,259 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 21:06:56,260 INFO User sai has selected 5408_group2 database
+2020-12-01 21:07:20,270 INFO DB query given by user is use 5408_group2
+2020-12-01 21:07:32,019 INFO Query sent by the user sai, is delete from player where player_id=24
+2020-12-01 21:07:32,019 INFO parsing delete query, delete from player where player_id=24
+2020-12-01 21:07:32,032 INFO data is deleted from the table player
+2020-12-01 21:07:32,033 INFO data is deleted from the table player
+2020-12-01 21:21:06,260 INFO DB query given by user is use 5408_group2
+2020-12-01 21:21:15,687 INFO Query sent by the user sai, is delete from player where player_id=24;
+2020-12-01 21:21:15,687 INFO parsing delete query, delete from player where player_id=24;
+2020-12-01 21:21:15,688 INFO data is deleted from the table player
+2020-12-01 21:21:15,688 INFO data is deleted from the table player
+2020-12-01 21:25:32,727 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 21:25:32,727 INFO User sai has selected 5408_group2 database
+2020-12-01 21:25:56,518 INFO DB query given by user is use 5408_group2
+2020-12-01 21:26:07,523 INFO Query sent by the user sai, is delete from player where player_id=24;
+2020-12-01 21:26:07,523 INFO parsing delete query, delete from player where player_id=24;
+2020-12-01 21:26:07,524 INFO data is deleted from the table player
+2020-12-01 21:26:07,524 INFO data is deleted from the table player
+2020-12-01 21:26:28,133 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 21:26:28,133 INFO User sai has selected 5408_group2 database
+2020-12-01 21:26:56,127 INFO DB query given by user is use 5408_group2
+2020-12-01 21:27:06,527 INFO Query sent by the user sai, is delete from player where player_id=24;
+2020-12-01 21:27:06,528 INFO parsing delete query, delete from player where player_id=24;
+2020-12-01 21:27:06,548 INFO data is deleted from the table player
+2020-12-01 21:27:06,550 INFO data is deleted from the table player
+2020-12-01 21:30:29,966 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 21:30:29,966 INFO User sai has selected 5408_group2 database
+2020-12-01 21:30:56,302 INFO DB query given by user is use 5408_group2
+2020-12-01 21:31:11,109 INFO Query sent by the user sai, is delete from player where player_id = 24;
+2020-12-01 21:31:11,111 INFO parsing delete query, delete from player where player_id = 24;
+2020-12-01 21:31:11,112 INFO data is deleted from the table player
+2020-12-01 21:31:11,113 INFO data is deleted from the table player
+2020-12-01 21:31:53,020 INFO Query sent by the user sai, is delete from player where player_id=30
+2020-12-01 21:31:53,021 INFO parsing delete query, delete from player where player_id=30
+2020-12-01 21:31:53,021 INFO data is deleted from the table player
+2020-12-01 21:33:29,527 INFO Query sent by the user sai, is delete from player where player_id=30
+2020-12-01 21:33:29,527 INFO parsing delete query, delete from player where player_id=30
+2020-12-01 21:33:29,527 INFO data is deleted from the table player
+2020-12-01 21:33:43,175 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 21:33:43,175 INFO User sai has selected 5408_group2 database
+2020-12-01 21:34:07,003 INFO DB query given by user is use 5408_group2
+2020-12-01 21:34:10,422 INFO Query sent by the user sai, is delete from player where player_id=30
+2020-12-01 21:34:10,422 INFO parsing delete query, delete from player where player_id=30
+2020-12-01 21:34:10,424 INFO data is deleted from the table player
+2020-12-01 21:34:30,557 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 21:34:30,557 INFO User sai has selected 5408_group2 database
+2020-12-01 21:37:30,163 INFO DB query given by user is show databases;
+2020-12-01 21:43:11,187 INFO Query sent by the user sai, is show tables
+2020-12-01 21:43:11,188 INFO User sai has selected 5408_group2 database
+2020-12-01 21:44:45,627 INFO DB query given by user is show databases;
+2020-12-01 21:44:59,463 INFO Query sent by the user sai, is show tables;
+2020-12-01 21:44:59,463 INFO User sai has selected 5408_group2 database
+2020-12-01 21:46:19,112 INFO DB query given by user is use 5408_group2
+2020-12-01 21:46:26,358 INFO Query sent by the user sai, is show tables;
+2020-12-01 21:51:12,259 INFO DB query given by user is use 5408_group2
+2020-12-01 21:51:26,707 INFO Query sent by the user sai, is export data
+2020-12-01 21:51:26,708 INFO User sai has selected 5408_group2 database
+2020-12-01 21:51:59,695 INFO DB query given by user is use 5408_group2
+2020-12-01 21:52:05,188 INFO Query sent by the user sai, is export data
+2020-12-01 21:53:16,459 INFO DB query given by user is use 5408_group2
+2020-12-01 21:53:20,835 INFO Query sent by the user sai, is export data
+2020-12-01 21:53:20,846 ERROR Error in your query!!! Please check syntax!! Show Tables;
+2020-12-01 21:53:20,847 INFO User sai has selected 5408_group2 database
+2020-12-01 21:55:24,611 INFO DB query given by user is use 5408_group2
+2020-12-01 21:55:36,275 INFO Query sent by the user sai, is show data
+2020-12-01 21:55:36,281 INFO User sai has selected 5408_group2 database
+2020-12-01 21:56:21,635 INFO DB query given by user is use 5408_group2
+2020-12-01 21:56:27,726 INFO Query sent by the user sai, is export data dictionary
+2020-12-01 21:56:27,738 ERROR Error in your query!!! Please check syntax!! Show Tables;
+2020-12-01 21:56:27,738 INFO User sai has selected 5408_group2 database
+2020-12-01 21:57:43,456 INFO DB query given by user is use 5408_group2
+2020-12-01 21:57:48,667 INFO Query sent by the user sai, is export data dictionary
+2020-12-01 21:59:29,396 ERROR Error in your query!!! Please check syntax!! Show Tables;
+2020-12-01 21:59:29,396 INFO User sai has selected 5408_group2 database
+2020-12-01 21:59:49,900 INFO DB query given by user is use 5408_group2
+2020-12-01 21:59:54,381 INFO Query sent by the user sai, is export data
+2020-12-01 21:59:54,400 INFO User sai has selected 5408_group2 database
+2020-12-01 22:42:26,940 INFO DB query given by user is use 5408_group2
+2020-12-01 22:43:00,331 INFO Query sent by the user sai, is export sql dump ''
+2020-12-01 22:43:26,727 ERROR Error in your query!!! Please check syntax!! export sql dump file_location;
+2020-12-01 22:43:26,727 INFO User sai has selected 5408_group2 database
+2020-12-01 22:44:40,739 INFO DB query given by user is use 5408_group2
+2020-12-01 22:44:48,939 INFO Query sent by the user sai, is export sql dump ''
+2020-12-01 22:45:10,141 ERROR Error in your query!!! Please check syntax!! export sql dump file_location;
+2020-12-01 22:45:10,142 INFO User sai has selected 5408_group2 database
+2020-12-01 22:45:19,135 ERROR Invalid userame or password
+2020-12-01 22:45:43,926 INFO DB query given by user is use 5408_group2
+2020-12-01 22:45:51,827 INFO Query sent by the user sai, is export sql dump ''
+2020-12-01 22:46:09,865 ERROR Error in your query!!! Please check syntax!! export sql dump file_location;
+2020-12-01 22:46:09,865 INFO User sai has selected 5408_group2 database
+2020-12-01 22:46:32,374 INFO DB query given by user is use 5408_group2
+2020-12-01 22:46:46,560 INFO Query sent by the user sai, is export sql dump '/Users/yash/Desktop'
+2020-12-01 22:50:22,802 ERROR Error in your query!!! Please check syntax!! export sql dump file_location;
+2020-12-01 22:50:22,803 INFO User sai has selected 5408_group2 database
+2020-12-01 22:51:40,995 INFO DB query given by user is 5408_group2
+2020-12-01 22:52:25,515 INFO DB query given by user is use 5408_group2;
+2020-12-01 22:52:30,307 INFO Query sent by the user sai, is export sql dump
+2020-12-01 22:52:30,307 ERROR Error in your query!!! Please check syntax!! export sql dump;
+2020-12-01 22:52:30,307 INFO User sai has selected 5408_group2 database
+2020-12-01 22:53:49,670 INFO DB query given by user is use 5408_group2
+2020-12-01 22:53:53,966 INFO Query sent by the user sai, is export sql dump
+2020-12-01 22:54:37,441 ERROR Error in your query!!! Please check syntax!! export sql dump;
+2020-12-01 22:54:37,441 INFO User sai has selected 5408_group2 database
+2020-12-01 22:55:11,803 INFO DB query given by user is use 5408_group2
+2020-12-01 22:55:19,196 INFO Query sent by the user sai, is export sql dump
+2020-12-01 22:59:21,451 ERROR Error in your query!!! Please check syntax!! export sql dump;
+2020-12-01 22:59:21,451 INFO User sai has selected 5408_group2 database
+2020-12-01 22:59:43,827 INFO DB query given by user is use 5408_group2
+2020-12-01 23:00:05,164 INFO Query sent by the user sai, is CREATE TABLE Team (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL,PRIMARY KEY (team_id),FOREIGN KEY (league_id) REFERENCES League (league_id));
+2020-12-01 23:00:47,763 INFO User sai has selected 5408_group2 database
+2020-12-01 23:01:27,877 ERROR Invalid userame or password
+2020-12-01 23:01:51,668 INFO DB query given by user is use 5408_group2
+2020-12-01 23:01:55,308 INFO Query sent by the user sai, is show tables
+2020-12-01 23:02:12,555 INFO Query sent by the user sai, is INSERT INTO Player(player_id,team_id,league_id,player_name,position,age) VALUES(2,2,1,'Robinder Dhillon','Goalie',22);
+2020-12-01 23:02:12,555 ERROR Error in your Insert query!!! Please check syntax!!
+2020-12-01 23:02:12,555 INFO User sai has selected 5408_group2 database
+2020-12-01 23:02:56,585 INFO DB query given by user is use 5408_group2
+2020-12-01 23:03:13,100 INFO Query sent by the user sai, is INSERT INTO Player(player_id,team_id,league_id,player_name,position,age) VALUES(2,2,1,'Robinder Dhillon','Goalie',22);
+2020-12-01 23:03:13,101 ERROR Error in your Insert query!!! Please check syntax!!
+2020-12-01 23:03:13,101 INFO User sai has selected 5408_group2 database
+2020-12-01 23:04:09,578 INFO DB query given by user is use 5408_group2
+2020-12-01 23:04:10,908 INFO Query sent by the user sai, is INSERT INTO Player(player_id,team_id,league_id,player_name,position,age) VALUES(2,2,1,'Robinder Dhillon','Goalie',22);
+2020-12-01 23:05:39,736 INFO DB query given by user is use 5408_group2
+2020-12-01 23:07:16,271 INFO DB query given by user is use 5408_group2
+2020-12-01 23:07:18,005 INFO Query sent by the user sai, is INSERT INTO Player(player_id,team_id,league_id,player_name,position,age) VALUES(2,2,1,'Robinder Dhillon','Goalie',22);
+2020-12-01 23:11:16,117 INFO User sai has selected 5408_group2 database
+2020-12-01 23:11:58,268 INFO DB query given by user is use 5408_group2
+2020-12-01 23:12:05,556 INFO Query sent by the user sai, is show tables
+2020-12-01 23:12:16,596 INFO Query sent by the user sai, is show tables
+2020-12-01 23:12:26,508 INFO Query sent by the user sai, is INSERT INTO Player VALUES(24,1,2,'Sam','Forward',27);
+2020-12-01 23:12:32,332 INFO Query sent by the user sai, is show tables;
+2020-12-01 23:13:35,253 ERROR Error in your query!!! Please check syntax!! Show Tables;
+2020-12-01 23:13:35,254 INFO User sai has selected 5408_group2 database
+2020-12-01 23:13:51,592 INFO DB query given by user is create 5408
+2020-12-01 23:14:09,514 INFO User sai has selected 5408 database
+2020-12-01 23:14:56,758 ERROR Invalid userame or password
+2020-12-01 23:15:20,769 INFO DB query given by user is create 5408
+2020-12-01 23:17:32,110 INFO User sai has selected 5408 database
+2020-12-01 23:18:34,223 INFO DB query given by user is create 5408
+2020-12-01 23:18:51,297 INFO Query sent by the user sai, is CREATE TABLE Player (player_id int NOT NULL AUTO_INCREMENT,team_id int DEFAULT NULL,league_id int NOT NULL,player_name varchar(45) NOT NULL,position varchar(45) NOT NULL,age int NOT NULL,PRIMARY KEY (player_id),FOREIGN KEY (team_id) REFERENCES Team (team_id),FOREIGN KEY (league_id) REFERENCES League (league_id));
+2020-12-01 23:18:56,864 INFO Query sent by the user sai, is show tables;
+2020-12-01 23:19:15,106 INFO Query sent by the user sai, is INSERT INTO Player VALUES(24,1,2,'Sam','Forward',27);
+2020-12-01 23:19:19,106 INFO Query sent by the user sai, is show tables
+2020-12-01 23:19:29,281 INFO Query sent by the user sai, is INSERT INTO Player(player_name) VALUES('Jordan');
+2020-12-01 23:21:12,421 INFO Query sent by the user sai, is INSERT INTO Player(league_id,player_name,position,age) VALUES(1,'Kethan','Forward',22);
+2020-12-01 23:21:17,652 INFO Query sent by the user sai, is show tables;
+2020-12-01 23:21:29,552 ERROR Error in your query!!! Please check syntax!! Show Tables;
+2020-12-01 23:21:29,552 INFO User sai has selected 5408 database
+2020-12-01 23:28:47,514 INFO DB query given by user is use 5408
+2020-12-02 00:17:14,489 INFO DB query given by user is use 5408
+2020-12-02 00:17:18,233 INFO Query sent by the user sai, is show tables
+2020-12-02 00:17:23,681 INFO User sai has selected 5408 database
+2020-12-02 00:18:03,562 INFO DB query given by user is use 5498
+2020-12-02 00:18:25,995 INFO DB query given by user is use 5408
+2020-12-02 00:18:32,180 INFO Query sent by the user sai, is export sql dump
+2020-12-02 00:18:50,196 INFO Query sent by the user sai, is show tables
+2020-12-02 00:18:57,220 INFO Query sent by the user sai, is export data dictionary
+2020-12-02 00:22:11,337 INFO Query sent by the user sai, is 0
+2020-12-02 00:22:11,338 INFO User sai has selected 5408 database
+2020-12-02 00:22:36,475 INFO DB query given by user is use 5408
+2020-12-02 00:22:50,827 INFO Query sent by the user sai, is export data dictionary
+2020-12-02 00:24:34,808 INFO Query sent by the user sai, is export data dictionary
+2020-12-02 00:27:40,525 INFO Query sent by the user sai, is export data dictionary
+2020-12-02 00:39:43,041 ERROR Error in your query!!! Please check syntax!! export data dictionary;
+2020-12-02 00:39:43,041 INFO User sai has selected 5408 database
+2020-12-02 00:40:22,865 INFO DB query given by user is use 5408
+2020-12-02 00:40:42,571 INFO Query sent by the user sai, is show tables
+2020-12-02 00:40:53,283 INFO Query sent by the user sai, is export data dictionary
+2020-12-02 00:42:40,383 INFO Query sent by the user sai, is CREATE TABLE Team (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL,PRIMARY KEY (team_id),FOREIGN KEY (league_id) REFERENCES League (league_id));
+2020-12-02 00:42:58,754 INFO Query sent by the user sai, is show tables
+2020-12-02 00:44:00,888 ERROR Error in your query!!! Please check syntax!! Show Tables;
+2020-12-02 00:44:00,889 INFO User sai has selected 5408 database
+2020-12-02 00:46:15,227 INFO DB query given by user is use 5408
+2020-12-02 00:46:25,140 INFO Query sent by the user sai, is show tables;
+2020-12-02 00:49:27,513 INFO Query sent by the user sai, is INSERT INTO Team(league_id) VALUES(7);
+2020-12-02 00:49:32,138 INFO Query sent by the user sai, is show tables
+2020-12-02 00:52:08,369 INFO Query sent by the user sai, is INSERT INTO Team(team_id,team_name,league_id) VALUES(1,'Robinder ki Team Lelo BHai',7);
+2020-12-02 00:52:08,372 INFO User sai has selected 5408 database
+2020-12-02 00:52:35,598 ERROR Invalid userame or password
+2020-12-02 00:53:26,521 INFO DB query given by user is use 5408
+2020-12-02 00:53:31,042 INFO Query sent by the user sai, is show tables;
+2020-12-02 01:06:25,595 INFO Query sent by the user sai, is show tables
+2020-12-02 01:10:21,978 INFO Query sent by the user sai, is 0
+2020-12-02 01:10:21,978 INFO User sai has selected 5408 database
+2020-12-02 01:11:00,627 INFO DB query given by user is use 5408
+2020-12-02 01:11:03,958 INFO Query sent by the user sai, is show tables
+2020-12-02 01:11:55,901 INFO Query sent by the user sai, is export data dictionary
+2020-12-02 01:12:49,181 ERROR Error in your query!!! Please check syntax!! export data dictionary;
+2020-12-02 01:12:49,181 INFO User sai has selected 5408 database
+2020-12-02 01:29:00,311 INFO DB query given by user is use 5408
+2020-12-02 01:29:20,366 INFO Query sent by the user sai, is export erd
+2020-12-02 01:30:50,257 INFO Query sent by the user sai, is export erd
+2020-12-02 01:32:20,194 ERROR Error in your query!!! Please check syntax!! export erd;
+2020-12-02 01:32:20,194 INFO User sai has selected 5408 database
+2020-12-02 01:32:29,505 ERROR Invalid userame or password
+2020-12-02 01:32:49,918 INFO DB query given by user is use 5408
+2020-12-02 01:32:59,271 INFO Query sent by the user sai, is export erd
+2020-12-02 01:34:21,668 INFO Query sent by the user sai, is export data dictionary;
+2020-12-02 01:34:21,669 ERROR Invalid query!!! Please check syntax!!
+2020-12-02 01:34:21,669 INFO User sai has selected 5408 database
+2020-12-02 01:34:36,162 ERROR Invalid userame or password
+2020-12-02 01:34:54,922 INFO DB query given by user is use 5408
+2020-12-02 01:35:01,922 INFO Query sent by the user sai, is export data dictionary;
+2020-12-02 01:35:01,922 ERROR Invalid query!!! Please check syntax!!
+2020-12-02 01:35:01,922 INFO User sai has selected 5408 database
+2020-12-02 01:38:57,969 INFO DB query given by user is use 5408
+2020-12-02 01:39:26,754 INFO Query sent by the user sai, is show tables;
+2020-12-02 01:39:36,940 INFO Query sent by the user sai, is export data dictionary;
+2020-12-02 01:39:43,203 INFO Query sent by the user sai, is export sql dump;
+2020-12-02 01:43:00,232 ERROR Error in your query!!! Please check syntax!! export sql dump;
+2020-12-02 01:43:00,232 INFO User sai has selected 5408 database
+2020-12-02 01:43:19,813 ERROR Invalid userame or password
+2020-12-02 01:43:30,842 INFO DB query given by user is use 5408
+2020-12-02 01:44:18,716 INFO Query sent by the user sai, is create table temp CREATE TABLE TEMP (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL,PRIMARY KEY (team_id));
+2020-12-02 01:44:24,611 INFO Query sent by the user sai, is show tables
+2020-12-02 01:44:34,758 INFO Query sent by the user sai, is CREATE TABLE TEMP (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL,PRIMARY KEY (team_id));
+2020-12-02 01:44:38,437 INFO User sai has selected 5408 database
+2020-12-02 01:45:03,101 INFO DB query given by user is use 5408
+2020-12-02 01:45:05,133 INFO Query sent by the user sai, is show tables
+2020-12-02 01:45:15,840 INFO Query sent by the user sai, is CREATE TABLE TEMP (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL,PRIMARY KEY (team_id));
+2020-12-02 01:45:22,334 INFO User sai has selected 5408 database
+2020-12-02 01:45:50,342 INFO DB query given by user is use 5408
+2020-12-02 01:45:50,974 INFO Query sent by the user sai, is 
+2020-12-02 01:45:50,975 INFO User sai has selected 5408 database
+2020-12-02 01:46:42,848 INFO DB query given by user is use 5408
+2020-12-02 01:46:45,081 INFO Query sent by the user sai, is 
+2020-12-02 01:46:45,082 INFO User sai has selected 5408 database
+2020-12-02 01:48:18,333 INFO DB query given by user is use 5408
+2020-12-02 01:48:20,884 INFO Query sent by the user sai, is CREATE TABLE TEMP3 (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL,PRIMARY KEY (team_id));
+2020-12-02 01:48:27,153 ERROR Error in your drop query!!! Please check syntax!!
+2020-12-02 01:48:27,154 INFO User sai has selected 5408 database
+2020-12-02 01:49:18,289 INFO DB query given by user is use 5408
+2020-12-02 01:49:22,197 INFO Query sent by the user sai, is CREATE TABLE TEMP8 (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL);
+2020-12-02 01:54:10,777 INFO DB query given by user is use 5408
+2020-12-02 01:54:14,521 INFO Query sent by the user sai, is show tables;
+2020-12-02 01:55:30,528 ERROR Error in your query!!! Please check syntax!! Show Tables;
+2020-12-02 01:55:30,538 INFO User sai has selected 5408 database
+2020-12-02 01:55:51,728 INFO DB query given by user is use 5408
+2020-12-02 01:56:09,625 INFO Query sent by the user sai, is export erd;
+2020-12-02 01:56:09,647 ERROR ERD exported. Check your output folder.
+2020-12-02 01:57:01,834 INFO Query sent by the user sai, is export sql dump;
+2020-12-02 01:57:10,554 INFO Query sent by the user sai, is export data dictionary;
+2020-12-02 01:57:10,580 ERROR Data Dictionary exported. Check your output folder.
+2020-12-02 01:58:19,712 ERROR Error in your query!!! Please check syntax!! export data dictionary;
+2020-12-02 01:58:19,712 INFO User sai has selected 5408 database
+2020-12-02 03:02:35,248 INFO DB query given by user is use 5408
+2020-12-02 03:02:39,264 INFO Query sent by the user sai, is show tables;
+2020-12-02 03:02:50,811 INFO Query sent by the user sai, is 
+2020-12-02 03:02:50,811 INFO User sai has selected 5408 database
+2020-12-02 03:04:00,053 INFO DB query given by user is 
+2020-12-02 03:05:09,476 INFO DB query given by user is use 5408;
+2020-12-02 03:06:15,550 INFO Query sent by the user sai, is export data dictionary;
+2020-12-02 03:06:15,551 ERROR Error in your query!!! Please check syntax!! export data dictionary;
+2020-12-02 03:06:15,551 INFO User sai has selected 5408 database
+2020-12-02 03:08:43,983 INFO DB query given by user is use 5408
+2020-12-02 03:08:51,772 INFO Query sent by the user sai, is export sql sumpl
+2020-12-02 03:08:51,774 ERROR Invalid query!!! Please check syntax!!
+2020-12-02 03:08:51,775 INFO User sai has selected 5408 database
+2020-12-02 03:09:29,399 INFO DB query given by user is use5408
+2020-12-02 03:09:51,193 INFO DB query given by user is use 5408;
+2020-12-02 03:09:57,438 INFO Query sent by the user sai, is show tables;
+2020-12-02 03:10:07,001 INFO Query sent by the user sai, is export sql dump;
+2020-12-02 03:10:07,004 ERROR Error in your query!!! Please check syntax!! export sql dump;
+2020-12-02 03:10:07,005 INFO User sai has selected 5408 database
+2020-12-02 03:17:47,528 INFO DB query given by user is use 5408;
+2020-12-02 03:17:51,824 INFO Query sent by the user sai, is show tables;
+2020-12-02 03:18:01,121 INFO Query sent by the user sai, is export data dictionary;
+2020-12-02 03:18:01,153 ERROR Data Dictionary exported. Check your output folder.
+2020-12-02 03:18:49,779 INFO Query sent by the user sai, is export sql dump;
+2020-12-02 03:18:49,781 ERROR SQL Dump exported. Check your output folder.
+2020-12-02 03:19:10,108 INFO Query sent by the user sai, is export erd;
+2020-12-02 03:19:10,138 ERROR ERD exported. Check your output folder.
