@@ -1,24 +1,23 @@
 import re
-from fetchdata import FindData
-from deletedata import DeleteOp
-from droptable import DropOp
-from usedb import UseDb
-from create import CreatQuery
-from insert import InsertQuery
-from update import Update
-from truncate import Truncate
-from display import Display
-from fileops import FileOps
-from export import Export_SQLDUMP
+from database.fetchdata import FindData
+from database.deletedata import DeleteOp
+from database.droptable import DropOp
+from database.usedb import UseDb
+from database.create import CreatQuery
+from database.insert import InsertQuery
+from database.update import Update
+from database.truncate import Truncate
+from database.display import Display
+from database.fileops import FileOps
+from database.export import Export_SQLDUMP
 import json
 import os
 from tabulate import tabulate
 import pandas as pd
-from ast import dump
 import shutil
 import time
-from logger import ConfigureLogs
-import sys
+from database.logger import ConfigureLogs
+
 
 class ParseQuery():
     def logrecords(self,dbname,total_time):
@@ -237,7 +236,7 @@ class ParseQuery():
                     else:
                         detail_dict = {'lock_acquired': True,'username':username}
                         data['Lock_Details'] = detail_dict
-                        with open("lock_details.json",'w') as lck_details:
+                        with open("lock_details.json", 'w') as lck_details:
                             json.dump(data,lck_details,indent=4) 
                         lck_details.close()  
                         src_fname = db_name+"_Tables.txt"
@@ -256,7 +255,7 @@ class ParseQuery():
                 details = []
                 detail_dict = {'lock_acquired': True,'username':username}
                 lock_dict['Lock_Details'] = detail_dict
-                with open("lock_details.json",'a') as lock_details:                      
+                with open("lock_details.json", 'a') as lock_details:
                     json.dump(lock_dict,lock_details,indent=4)
                     src_fname = db_name+"_Tables.txt"
                     dest_dname = db_name+"_Tables_copy.txt"     
@@ -292,7 +291,7 @@ class ParseQuery():
                 lock = data['Lock_Details']               
                 if lock['lock_acquired'] == True:
                     lock['lock_acquired'] = False
-                    with open("lock_details.json",'w') as lck_details:
+                    with open("lock_details.json", 'w') as lck_details:
                         json.dump(data,lck_details,indent=4)
                     lck_details.close()
             lock_details.close()

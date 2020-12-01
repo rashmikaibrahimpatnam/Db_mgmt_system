@@ -1,6 +1,6 @@
 import json
-from parse import ParseQuery
-import time
+from database.parse import ParseQuery
+
 
 class Login():
     def user_login(self,logger):
@@ -33,7 +33,7 @@ class Login():
                                 print('granted permissions', permissions)
                                 permit = input("enter the privilege you want to enable to this user: ")
                                 permissions.append(permit.lower())
-                        with open("user_details.json",'w') as usr_details:
+                        with open("user_details.json", 'w') as usr_details:
                             logger.info("Admin has granted {} permissions for the user, {}".format(permit,grant))     
                             json.dump(data,usr_details,indent=4)      
                 else:     

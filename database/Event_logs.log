@@ -301,3 +301,30 @@
 2020-12-02 01:57:10,580 ERROR Data Dictionary exported. Check your output folder.
 2020-12-02 01:58:19,712 ERROR Error in your query!!! Please check syntax!! export data dictionary;
 2020-12-02 01:58:19,712 INFO User sai has selected 5408 database
+2020-12-02 03:02:35,248 INFO DB query given by user is use 5408
+2020-12-02 03:02:39,264 INFO Query sent by the user sai, is show tables;
+2020-12-02 03:02:50,811 INFO Query sent by the user sai, is 
+2020-12-02 03:02:50,811 INFO User sai has selected 5408 database
+2020-12-02 03:04:00,053 INFO DB query given by user is 
+2020-12-02 03:05:09,476 INFO DB query given by user is use 5408;
+2020-12-02 03:06:15,550 INFO Query sent by the user sai, is export data dictionary;
+2020-12-02 03:06:15,551 ERROR Error in your query!!! Please check syntax!! export data dictionary;
+2020-12-02 03:06:15,551 INFO User sai has selected 5408 database
+2020-12-02 03:08:43,983 INFO DB query given by user is use 5408
+2020-12-02 03:08:51,772 INFO Query sent by the user sai, is export sql sumpl
+2020-12-02 03:08:51,774 ERROR Invalid query!!! Please check syntax!!
+2020-12-02 03:08:51,775 INFO User sai has selected 5408 database
+2020-12-02 03:09:29,399 INFO DB query given by user is use5408
+2020-12-02 03:09:51,193 INFO DB query given by user is use 5408;
+2020-12-02 03:09:57,438 INFO Query sent by the user sai, is show tables;
+2020-12-02 03:10:07,001 INFO Query sent by the user sai, is export sql dump;
+2020-12-02 03:10:07,004 ERROR Error in your query!!! Please check syntax!! export sql dump;
+2020-12-02 03:10:07,005 INFO User sai has selected 5408 database
+2020-12-02 03:17:47,528 INFO DB query given by user is use 5408;
+2020-12-02 03:17:51,824 INFO Query sent by the user sai, is show tables;
+2020-12-02 03:18:01,121 INFO Query sent by the user sai, is export data dictionary;
+2020-12-02 03:18:01,153 ERROR Data Dictionary exported. Check your output folder.
+2020-12-02 03:18:49,779 INFO Query sent by the user sai, is export sql dump;
+2020-12-02 03:18:49,781 ERROR SQL Dump exported. Check your output folder.
+2020-12-02 03:19:10,108 INFO Query sent by the user sai, is export erd;
+2020-12-02 03:19:10,138 ERROR ERD exported. Check your output folder.

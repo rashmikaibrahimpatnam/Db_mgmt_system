@@ -1,8 +1,7 @@
-import json
 import pandas as pd
 import os
 from tabulate import tabulate
-from fileops import FileOps
+from database.fileops import FileOps
 
 class Display:
 

@@ -1,7 +1,7 @@
 import re
 import json
-from fileops import FileOps
-from lockstatus import LockStatus
+from database.fileops import FileOps
+from database.lockstatus import LockStatus
 
 
 class InsertQuery:

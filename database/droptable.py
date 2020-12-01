@@ -1,5 +1,5 @@
 import json
-from lockstatus import LockStatus
+from database.lockstatus import LockStatus
 import re
 
 class DropOp():

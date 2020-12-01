@@ -1,7 +1,6 @@
 import re
 import json
-import shutil
-from lockstatus import LockStatus
+from database.lockstatus import LockStatus
 
 class DeleteOp():        
 

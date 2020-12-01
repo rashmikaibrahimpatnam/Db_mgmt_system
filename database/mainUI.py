@@ -1,6 +1,6 @@
-from authenticate import Login
-from signup import Signup
-from logger import ConfigureLogs
+from database.authenticate import Login
+from database.signup import Signup
+from database.logger import ConfigureLogs
 
 class MainUi():
 
@@ -18,5 +18,6 @@ class MainUi():
         else:
             print('enter correct option')
 
-MainUi().ask_user()
 
+if __name__=="__main__":
+    MainUi().ask_user()

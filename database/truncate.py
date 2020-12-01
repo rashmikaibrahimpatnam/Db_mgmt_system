@@ -1,7 +1,7 @@
 import re
 import json
 
-from lockstatus import LockStatus
+from database.lockstatus import LockStatus
 
 
 class Truncate:

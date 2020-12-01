@@ -1,6 +1,5 @@
 import os
-import json
-from default_database import CreateDefault
+from database.default_database import CreateDefault
 
 class UseDb():
     def use_database(self,dbname):

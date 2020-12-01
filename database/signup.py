@@ -1,4 +1,4 @@
-from authenticate import Login
+from database.authenticate import Login
 import re
 import json
 import os.path
@@ -57,7 +57,7 @@ class Signup():
                         usrs = data['User_Details']
                         detail_dict = {'username':uname,'password':pwd, 'granted_privileges' : ['select']}
                         usrs.append(detail_dict)
-                        with open("user_details.json",'w') as usr_details:
+                        with open("user_details.json", 'w') as usr_details:
                             json.dump(data,usr_details,indent=4) 
                             logger.info("user {} details are saved in the file".format(uname))     
                         usr_details.close()          
@@ -69,7 +69,7 @@ class Signup():
                     detail_dict = {'username':uname,'password':pwd,'granted_privileges' : ['select']}
                     details.append(detail_dict)
                     user_dict['User_Details'] = details
-                    with open("user_details.json",'a') as user_details:
+                    with open("user_details.json", 'a') as user_details:
                         json.dump(user_dict,user_details,indent=4)
                         logger.info("user {} details are saved in the file".format(uname))     
                     user_details.close()
