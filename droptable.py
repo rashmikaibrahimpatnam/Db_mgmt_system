@@ -38,12 +38,12 @@ class DropOp():
         dest_dname = dbname+"_Tables_copy.txt"
         if fname == None:            
             filename = src_fname
-            dumpname = dbname + "_SQLDUMPT.sql"
+            dumpname = dbname + "_SQLDUMP.sql"
             dtname = dbname + "_Tables_Datatypes.txt"
             status = False
         else:
             filename = dest_dname
-            dumpname = dbname + "_SQLDUMPT_copy.sql"
+            dumpname = dbname + "_SQLDUMP_copy.sql"
             dtname = dbname + "_Tables_Datatypes_copy.txt"
             status = True
         delete_tables = []
