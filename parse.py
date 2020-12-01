@@ -144,7 +144,6 @@ class ParseQuery():
                 except:
                     print("Error in your update query!!! Please check syntax!!")
                     logger.error("Error in your update query!!! Please check syntax!!")
-
             elif words[0].lower() == 'truncate':
                 truncateObj = Truncate()
                 try:
@@ -170,13 +169,15 @@ class ParseQuery():
                 except:
                     print("Error in your query!!! Please check syntax!! Show Tables;")
                     logger.error("Error in your query!!! Please check syntax!! Show Tables;")
-            elif words[0].lower() == 'export' and words[1].lower() == 'data' and words[2].lower() == 'dictionary':
+            elif (words[0].lower() == 'export' and words[1].lower() == 'data') and (words[2].lower() == 'dictionary' or words[2].lower() == 'dictionary;'):
                 try:
                     displayObj = Display()
                     fileopobj = FileOps()
                     f1 = fileopobj.filereader(dbname+"_Tables_Datatypes.txt")
                     usertable_datatype_dict_obj = json.loads(f1)
                     status = displayObj.print_datadictionary("DataDictionary.txt",usertable_datatype_dict_obj)
+                    print("Data Dictionary exported. Check your output folder.")
+                    logger.error("Data Dictionary exported. Check your output folder.")
                     if status:
                         return
                     else:
@@ -184,10 +185,28 @@ class ParseQuery():
                 except:
                     print("Error in your query!!! Please check syntax!! export data dictionary;")
                     logger.error("Error in your query!!! Please check syntax!! export data dictionary;")
-            elif words[0].lower() == 'export' and words[1].lower() == 'sql' and words[2].lower() == 'dump':
+            elif (words[0].lower() == 'export') and (words[1].lower() == 'erd' or words[1].lower() == 'erd;'):
+                try:
+                    displayObj = Display()
+                    fileopobj = FileOps()
+                    f1 = fileopobj.filereader(dbname+"_Tables_Datatypes.txt")
+                    usertable_datatype_dict_obj = json.loads(f1)
+                    status = displayObj.print_relationships("ERD.txt",usertable_datatype_dict_obj)
+                    print("ERD exported. Check your output folder.")
+                    logger.error("ERD exported. Check your output folder.")
+                    if status:
+                        return
+                    else:
+                        self.login_status(username,dbname,logger,start_time)
+                except:
+                    print("Error in your query!!! Please check syntax!! export erd;")
+                    logger.error("Error in your query!!! Please check syntax!! export erd;")
+            elif (words[0].lower() == 'export' and words[1].lower() == 'sql') and (words[2].lower() == 'dump' or words[2].lower() == 'dump;'):
                 try:
                     sqldumpObj = Export_SQLDUMP()
                     status = sqldumpObj.export_sql_dump(dbname,query)
+                    print("SQL Dump exported. Check your output folder.")
+                    logger.error("SQL Dump exported. Check your output folder.")
                     if status:
                         return
                     else:

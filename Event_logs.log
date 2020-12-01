@@ -245,3 +245,59 @@
 2020-12-02 01:11:55,901 INFO Query sent by the user sai, is export data dictionary
 2020-12-02 01:12:49,181 ERROR Error in your query!!! Please check syntax!! export data dictionary;
 2020-12-02 01:12:49,181 INFO User sai has selected 5408 database
+2020-12-02 01:29:00,311 INFO DB query given by user is use 5408
+2020-12-02 01:29:20,366 INFO Query sent by the user sai, is export erd
+2020-12-02 01:30:50,257 INFO Query sent by the user sai, is export erd
+2020-12-02 01:32:20,194 ERROR Error in your query!!! Please check syntax!! export erd;
+2020-12-02 01:32:20,194 INFO User sai has selected 5408 database
+2020-12-02 01:32:29,505 ERROR Invalid userame or password
+2020-12-02 01:32:49,918 INFO DB query given by user is use 5408
+2020-12-02 01:32:59,271 INFO Query sent by the user sai, is export erd
+2020-12-02 01:34:21,668 INFO Query sent by the user sai, is export data dictionary;
+2020-12-02 01:34:21,669 ERROR Invalid query!!! Please check syntax!!
+2020-12-02 01:34:21,669 INFO User sai has selected 5408 database
+2020-12-02 01:34:36,162 ERROR Invalid userame or password
+2020-12-02 01:34:54,922 INFO DB query given by user is use 5408
+2020-12-02 01:35:01,922 INFO Query sent by the user sai, is export data dictionary;
+2020-12-02 01:35:01,922 ERROR Invalid query!!! Please check syntax!!
+2020-12-02 01:35:01,922 INFO User sai has selected 5408 database
+2020-12-02 01:38:57,969 INFO DB query given by user is use 5408
+2020-12-02 01:39:26,754 INFO Query sent by the user sai, is show tables;
+2020-12-02 01:39:36,940 INFO Query sent by the user sai, is export data dictionary;
+2020-12-02 01:39:43,203 INFO Query sent by the user sai, is export sql dump;
+2020-12-02 01:43:00,232 ERROR Error in your query!!! Please check syntax!! export sql dump;
+2020-12-02 01:43:00,232 INFO User sai has selected 5408 database
+2020-12-02 01:43:19,813 ERROR Invalid userame or password
+2020-12-02 01:43:30,842 INFO DB query given by user is use 5408
+2020-12-02 01:44:18,716 INFO Query sent by the user sai, is create table temp CREATE TABLE TEMP (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL,PRIMARY KEY (team_id));
+2020-12-02 01:44:24,611 INFO Query sent by the user sai, is show tables
+2020-12-02 01:44:34,758 INFO Query sent by the user sai, is CREATE TABLE TEMP (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL,PRIMARY KEY (team_id));
+2020-12-02 01:44:38,437 INFO User sai has selected 5408 database
+2020-12-02 01:45:03,101 INFO DB query given by user is use 5408
+2020-12-02 01:45:05,133 INFO Query sent by the user sai, is show tables
+2020-12-02 01:45:15,840 INFO Query sent by the user sai, is CREATE TABLE TEMP (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL,PRIMARY KEY (team_id));
+2020-12-02 01:45:22,334 INFO User sai has selected 5408 database
+2020-12-02 01:45:50,342 INFO DB query given by user is use 5408
+2020-12-02 01:45:50,974 INFO Query sent by the user sai, is 
+2020-12-02 01:45:50,975 INFO User sai has selected 5408 database
+2020-12-02 01:46:42,848 INFO DB query given by user is use 5408
+2020-12-02 01:46:45,081 INFO Query sent by the user sai, is 
+2020-12-02 01:46:45,082 INFO User sai has selected 5408 database
+2020-12-02 01:48:18,333 INFO DB query given by user is use 5408
+2020-12-02 01:48:20,884 INFO Query sent by the user sai, is CREATE TABLE TEMP3 (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL,PRIMARY KEY (team_id));
+2020-12-02 01:48:27,153 ERROR Error in your drop query!!! Please check syntax!!
+2020-12-02 01:48:27,154 INFO User sai has selected 5408 database
+2020-12-02 01:49:18,289 INFO DB query given by user is use 5408
+2020-12-02 01:49:22,197 INFO Query sent by the user sai, is CREATE TABLE TEMP8 (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL);
+2020-12-02 01:54:10,777 INFO DB query given by user is use 5408
+2020-12-02 01:54:14,521 INFO Query sent by the user sai, is show tables;
+2020-12-02 01:55:30,528 ERROR Error in your query!!! Please check syntax!! Show Tables;
+2020-12-02 01:55:30,538 INFO User sai has selected 5408 database
+2020-12-02 01:55:51,728 INFO DB query given by user is use 5408
+2020-12-02 01:56:09,625 INFO Query sent by the user sai, is export erd;
+2020-12-02 01:56:09,647 ERROR ERD exported. Check your output folder.
+2020-12-02 01:57:01,834 INFO Query sent by the user sai, is export sql dump;
+2020-12-02 01:57:10,554 INFO Query sent by the user sai, is export data dictionary;
+2020-12-02 01:57:10,580 ERROR Data Dictionary exported. Check your output folder.
+2020-12-02 01:58:19,712 ERROR Error in your query!!! Please check syntax!! export data dictionary;
+2020-12-02 01:58:19,712 INFO User sai has selected 5408 database
