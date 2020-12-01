@@ -153,8 +153,8 @@ class ParseQuery():
                     else:
                         self.login_status(username, dbname, logger, start_time)
                 except:
-                    print("Error in your update query!!! Please check syntax!!")
-                    logger.error("Error in your update query!!! Please check syntax!!")
+                    print("Error in your truncate query!!! Please check syntax!!")
+                    logger.error("Error in your truncate query!!! Please check syntax!!")
             elif words[0].lower() == 'show':
                 try:
                     displayObj = Display()
