@@ -25,7 +25,7 @@ class Display:
         #print("\n======Data Dictionary=======")
         save_path = "/Users/yash/database_5408_project_create_insert/output"
         full_name = os.path.join(save_path, file_name)
-        fileopobj.filewriter(full_name, "\n======Data Dictionary=======")
+        fileopobj.filewriter(full_name, "\n===========Data Dictionary============\n")
         for i in datatype_dict_object['Tables']:
             #print("\n")
             #print("Table Name: " + i['Table_name'].capitalize())
@@ -38,17 +38,23 @@ class Display:
                            headers='keys', tablefmt='psql'))
             #print("\n")
 
-    def print_relationships(self,datatype_dict_object):
+    def print_relationships(self,file_name,datatype_dict_object):
+        fileopobj = FileOps()
         # add methods as required seperately donot modify these
-        print("\n======Relationships between Tables=======")
+        #print("\n======Relationships between Tables=======")
+        save_path = "/Users/yash/database_5408_project_create_insert/output"
+        full_name = os.path.join(save_path, file_name)
+        fileopobj.filewriter(full_name, "\n=========ER Diagram==========\n")
+        fileopobj.filewriterAppend(full_name, "\nRelationships between Tables\n")
         for i in datatype_dict_object['Tables']:
-            print("\n")
-            print("Table Name: " + i['Table_name'].capitalize())
+            #print("\n")
+            #print("Table Name: " + i['Table_name'].capitalize())
+            fileopobj.filewriterAppend(full_name, "\nTable Name: " + i['Table_name'].capitalize()+"\n")
             tables_headers = ["Relationship"]
             val = i['Table_columns'][0]
-            print(tabulate(pd.DataFrame(val, columns=tables_headers),
-                           headers='keys', tablefmt='psql'))
-            print("\n")
+            #print(tabulate(pd.DataFrame(val, columns=tables_headers),headers='keys', tablefmt='psql'))
+            fileopobj.filewriterAppend(full_name,tabulate(pd.DataFrame(val, columns=tables_headers),headers='keys', tablefmt='psql'))
+            #print("\n")
 
 # #call from different method where queries are parsed
 # fileopobj = FileOps()
