@@ -557,3 +557,1351 @@
 2020-12-02 03:19:10,140 INFO Number of rows in the table, temp3 : 1
 2020-12-02 03:19:10,140 INFO Number of rows in the table, temp3 : 1
 2020-12-02 03:19:10,140 INFO Number of rows in the table, temp3 : 1
+2020-12-02 03:51:45,636 INFO Query execution time: 0.0003781318664550781
+2020-12-02 03:51:45,638 INFO Number of tables in the database, db5408 is 0
+2020-12-02 03:52:38,651 INFO Query execution time: 0.009846925735473633
+2020-12-02 03:52:38,651 INFO Query execution time: 0.009846925735473633
+2020-12-02 03:52:38,651 INFO Number of tables in the database, db5408 is 1
+2020-12-02 03:52:38,651 INFO Number of tables in the database, db5408 is 1
+2020-12-02 03:52:38,651 INFO Number of rows in the table, player : 1
+2020-12-02 03:52:38,651 INFO Number of rows in the table, player : 1
+2020-12-02 03:54:30,553 INFO Query execution time: 0.007816314697265625
+2020-12-02 03:54:30,555 INFO Number of tables in the database, db5408 is 1
+2020-12-02 03:54:30,555 INFO Number of rows in the table, player : 1
+2020-12-02 04:02:32,557 INFO Query execution time: 0.010158061981201172
+2020-12-02 04:02:32,557 INFO Query execution time: 0.010158061981201172
+2020-12-02 04:02:32,558 INFO Number of tables in the database, db5408 is 2
+2020-12-02 04:02:32,558 INFO Number of tables in the database, db5408 is 2
+2020-12-02 04:02:32,558 INFO Number of rows in the table, player : 1
+2020-12-02 04:02:32,558 INFO Number of rows in the table, player : 1
+2020-12-02 04:02:32,558 INFO Number of rows in the table, league : 1
+2020-12-02 04:02:32,558 INFO Number of rows in the table, league : 1
+2020-12-02 04:04:27,398 INFO Query execution time: 0.028822898864746094
+2020-12-02 04:04:27,398 INFO Number of tables in the database, db5408 is 2
+2020-12-02 04:04:27,398 INFO Number of rows in the table, player : 1
+2020-12-02 04:04:27,398 INFO Number of rows in the table, league : 1
+2020-12-02 04:04:50,729 INFO Query execution time: 0.016978025436401367
+2020-12-02 04:04:50,729 INFO Query execution time: 0.016978025436401367
+2020-12-02 04:04:50,729 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:04:50,729 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:04:50,730 INFO Number of rows in the table, player : 1
+2020-12-02 04:04:50,730 INFO Number of rows in the table, player : 1
+2020-12-02 04:04:50,730 INFO Number of rows in the table, league : 1
+2020-12-02 04:04:50,730 INFO Number of rows in the table, league : 1
+2020-12-02 04:04:50,730 INFO Number of rows in the table, team : 1
+2020-12-02 04:04:50,730 INFO Number of rows in the table, team : 1
+2020-12-02 04:05:18,239 INFO Query execution time: 0.004067897796630859
+2020-12-02 04:05:18,239 INFO Query execution time: 0.004067897796630859
+2020-12-02 04:05:18,239 INFO Query execution time: 0.004067897796630859
+2020-12-02 04:05:18,240 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:05:18,240 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:05:18,240 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:05:18,240 INFO Number of rows in the table, player : 1
+2020-12-02 04:05:18,240 INFO Number of rows in the table, player : 1
+2020-12-02 04:05:18,240 INFO Number of rows in the table, player : 1
+2020-12-02 04:05:18,241 INFO Number of rows in the table, league : 1
+2020-12-02 04:05:18,241 INFO Number of rows in the table, league : 1
+2020-12-02 04:05:18,241 INFO Number of rows in the table, league : 1
+2020-12-02 04:05:18,242 INFO Number of rows in the table, team : 1
+2020-12-02 04:05:18,242 INFO Number of rows in the table, team : 1
+2020-12-02 04:05:18,242 INFO Number of rows in the table, team : 1
+2020-12-02 04:05:26,696 INFO Query execution time: 0.0014562606811523438
+2020-12-02 04:05:26,696 INFO Query execution time: 0.0014562606811523438
+2020-12-02 04:05:26,696 INFO Query execution time: 0.0014562606811523438
+2020-12-02 04:05:26,696 INFO Query execution time: 0.0014562606811523438
+2020-12-02 04:05:26,697 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:05:26,697 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:05:26,697 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:05:26,697 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:05:26,698 INFO Number of rows in the table, player : 1
+2020-12-02 04:05:26,698 INFO Number of rows in the table, player : 1
+2020-12-02 04:05:26,698 INFO Number of rows in the table, player : 1
+2020-12-02 04:05:26,698 INFO Number of rows in the table, player : 1
+2020-12-02 04:05:26,698 INFO Number of rows in the table, league : 1
+2020-12-02 04:05:26,698 INFO Number of rows in the table, league : 1
+2020-12-02 04:05:26,698 INFO Number of rows in the table, league : 1
+2020-12-02 04:05:26,698 INFO Number of rows in the table, league : 1
+2020-12-02 04:05:26,699 INFO Number of rows in the table, team : 1
+2020-12-02 04:05:26,699 INFO Number of rows in the table, team : 1
+2020-12-02 04:05:26,699 INFO Number of rows in the table, team : 1
+2020-12-02 04:05:26,699 INFO Number of rows in the table, team : 1
+2020-12-02 04:05:54,429 INFO Query execution time: 0.004566192626953125
+2020-12-02 04:05:54,429 INFO Query execution time: 0.004566192626953125
+2020-12-02 04:05:54,429 INFO Query execution time: 0.004566192626953125
+2020-12-02 04:05:54,429 INFO Query execution time: 0.004566192626953125
+2020-12-02 04:05:54,429 INFO Query execution time: 0.004566192626953125
+2020-12-02 04:05:54,431 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:05:54,431 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:05:54,431 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:05:54,431 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:05:54,431 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:05:54,431 INFO Number of rows in the table, player : 1
+2020-12-02 04:05:54,431 INFO Number of rows in the table, player : 1
+2020-12-02 04:05:54,431 INFO Number of rows in the table, player : 1
+2020-12-02 04:05:54,431 INFO Number of rows in the table, player : 1
+2020-12-02 04:05:54,431 INFO Number of rows in the table, player : 1
+2020-12-02 04:05:54,432 INFO Number of rows in the table, league : 1
+2020-12-02 04:05:54,432 INFO Number of rows in the table, league : 1
+2020-12-02 04:05:54,432 INFO Number of rows in the table, league : 1
+2020-12-02 04:05:54,432 INFO Number of rows in the table, league : 1
+2020-12-02 04:05:54,432 INFO Number of rows in the table, league : 1
+2020-12-02 04:05:54,432 INFO Number of rows in the table, team : 1
+2020-12-02 04:05:54,432 INFO Number of rows in the table, team : 1
+2020-12-02 04:05:54,432 INFO Number of rows in the table, team : 1
+2020-12-02 04:05:54,432 INFO Number of rows in the table, team : 1
+2020-12-02 04:05:54,432 INFO Number of rows in the table, team : 1
+2020-12-02 04:06:17,276 INFO Query execution time: 0.001294851303100586
+2020-12-02 04:06:17,276 INFO Query execution time: 0.001294851303100586
+2020-12-02 04:06:17,276 INFO Query execution time: 0.001294851303100586
+2020-12-02 04:06:17,276 INFO Query execution time: 0.001294851303100586
+2020-12-02 04:06:17,276 INFO Query execution time: 0.001294851303100586
+2020-12-02 04:06:17,276 INFO Query execution time: 0.001294851303100586
+2020-12-02 04:06:17,276 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:06:17,276 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:06:17,276 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:06:17,276 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:06:17,276 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:06:17,276 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:06:17,277 INFO Number of rows in the table, player : 2
+2020-12-02 04:06:17,277 INFO Number of rows in the table, player : 2
+2020-12-02 04:06:17,277 INFO Number of rows in the table, player : 2
+2020-12-02 04:06:17,277 INFO Number of rows in the table, player : 2
+2020-12-02 04:06:17,277 INFO Number of rows in the table, player : 2
+2020-12-02 04:06:17,277 INFO Number of rows in the table, player : 2
+2020-12-02 04:06:17,279 INFO Number of rows in the table, league : 1
+2020-12-02 04:06:17,279 INFO Number of rows in the table, league : 1
+2020-12-02 04:06:17,279 INFO Number of rows in the table, league : 1
+2020-12-02 04:06:17,279 INFO Number of rows in the table, league : 1
+2020-12-02 04:06:17,279 INFO Number of rows in the table, league : 1
+2020-12-02 04:06:17,279 INFO Number of rows in the table, league : 1
+2020-12-02 04:06:17,283 INFO Number of rows in the table, team : 1
+2020-12-02 04:06:17,283 INFO Number of rows in the table, team : 1
+2020-12-02 04:06:17,283 INFO Number of rows in the table, team : 1
+2020-12-02 04:06:17,283 INFO Number of rows in the table, team : 1
+2020-12-02 04:06:17,283 INFO Number of rows in the table, team : 1
+2020-12-02 04:06:17,283 INFO Number of rows in the table, team : 1
+2020-12-02 04:06:29,599 INFO Query execution time: 0.0011241436004638672
+2020-12-02 04:06:29,599 INFO Query execution time: 0.0011241436004638672
+2020-12-02 04:06:29,599 INFO Query execution time: 0.0011241436004638672
+2020-12-02 04:06:29,599 INFO Query execution time: 0.0011241436004638672
+2020-12-02 04:06:29,599 INFO Query execution time: 0.0011241436004638672
+2020-12-02 04:06:29,599 INFO Query execution time: 0.0011241436004638672
+2020-12-02 04:06:29,599 INFO Query execution time: 0.0011241436004638672
+2020-12-02 04:06:29,601 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:06:29,601 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:06:29,601 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:06:29,601 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:06:29,601 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:06:29,601 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:06:29,601 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:06:29,602 INFO Number of rows in the table, player : 3
+2020-12-02 04:06:29,602 INFO Number of rows in the table, player : 3
+2020-12-02 04:06:29,602 INFO Number of rows in the table, player : 3
+2020-12-02 04:06:29,602 INFO Number of rows in the table, player : 3
+2020-12-02 04:06:29,602 INFO Number of rows in the table, player : 3
+2020-12-02 04:06:29,602 INFO Number of rows in the table, player : 3
+2020-12-02 04:06:29,602 INFO Number of rows in the table, player : 3
+2020-12-02 04:06:29,602 INFO Number of rows in the table, league : 1
+2020-12-02 04:06:29,602 INFO Number of rows in the table, league : 1
+2020-12-02 04:06:29,602 INFO Number of rows in the table, league : 1
+2020-12-02 04:06:29,602 INFO Number of rows in the table, league : 1
+2020-12-02 04:06:29,602 INFO Number of rows in the table, league : 1
+2020-12-02 04:06:29,602 INFO Number of rows in the table, league : 1
+2020-12-02 04:06:29,602 INFO Number of rows in the table, league : 1
+2020-12-02 04:06:29,602 INFO Number of rows in the table, team : 1
+2020-12-02 04:06:29,602 INFO Number of rows in the table, team : 1
+2020-12-02 04:06:29,602 INFO Number of rows in the table, team : 1
+2020-12-02 04:06:29,602 INFO Number of rows in the table, team : 1
+2020-12-02 04:06:29,602 INFO Number of rows in the table, team : 1
+2020-12-02 04:06:29,602 INFO Number of rows in the table, team : 1
+2020-12-02 04:06:29,602 INFO Number of rows in the table, team : 1
+2020-12-02 04:07:35,467 INFO Query execution time: 0.010239839553833008
+2020-12-02 04:07:35,468 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:07:35,468 INFO Number of rows in the table, player : 3
+2020-12-02 04:07:35,468 INFO Number of rows in the table, league : 1
+2020-12-02 04:07:35,468 INFO Number of rows in the table, team : 1
+2020-12-02 04:09:06,463 INFO Query execution time: 0.0025010108947753906
+2020-12-02 04:09:06,463 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:06,464 INFO Number of rows in the table, player : 3
+2020-12-02 04:09:06,464 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:06,464 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:20,634 INFO Query execution time: 0.0023488998413085938
+2020-12-02 04:09:20,634 INFO Query execution time: 0.0023488998413085938
+2020-12-02 04:09:20,636 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:20,636 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:20,638 INFO Number of rows in the table, player : 4
+2020-12-02 04:09:20,638 INFO Number of rows in the table, player : 4
+2020-12-02 04:09:20,639 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:20,639 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:20,639 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:20,639 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:28,871 INFO Query execution time: 0.0023009777069091797
+2020-12-02 04:09:28,871 INFO Query execution time: 0.0023009777069091797
+2020-12-02 04:09:28,871 INFO Query execution time: 0.0023009777069091797
+2020-12-02 04:09:28,871 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:28,871 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:28,871 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:28,871 INFO Number of rows in the table, player : 5
+2020-12-02 04:09:28,871 INFO Number of rows in the table, player : 5
+2020-12-02 04:09:28,871 INFO Number of rows in the table, player : 5
+2020-12-02 04:09:28,872 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:28,872 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:28,872 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:28,872 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:28,872 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:28,872 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:36,406 INFO Query execution time: 0.002518892288208008
+2020-12-02 04:09:36,406 INFO Query execution time: 0.002518892288208008
+2020-12-02 04:09:36,406 INFO Query execution time: 0.002518892288208008
+2020-12-02 04:09:36,406 INFO Query execution time: 0.002518892288208008
+2020-12-02 04:09:36,407 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:36,407 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:36,407 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:36,407 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:36,407 INFO Number of rows in the table, player : 6
+2020-12-02 04:09:36,407 INFO Number of rows in the table, player : 6
+2020-12-02 04:09:36,407 INFO Number of rows in the table, player : 6
+2020-12-02 04:09:36,407 INFO Number of rows in the table, player : 6
+2020-12-02 04:09:36,407 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:36,407 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:36,407 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:36,407 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:36,408 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:36,408 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:36,408 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:36,408 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:41,764 INFO Query execution time: 0.023144960403442383
+2020-12-02 04:09:41,764 INFO Query execution time: 0.023144960403442383
+2020-12-02 04:09:41,764 INFO Query execution time: 0.023144960403442383
+2020-12-02 04:09:41,764 INFO Query execution time: 0.023144960403442383
+2020-12-02 04:09:41,764 INFO Query execution time: 0.023144960403442383
+2020-12-02 04:09:41,765 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:41,765 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:41,765 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:41,765 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:41,765 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:41,765 INFO Number of rows in the table, player : 6
+2020-12-02 04:09:41,765 INFO Number of rows in the table, player : 6
+2020-12-02 04:09:41,765 INFO Number of rows in the table, player : 6
+2020-12-02 04:09:41,765 INFO Number of rows in the table, player : 6
+2020-12-02 04:09:41,765 INFO Number of rows in the table, player : 6
+2020-12-02 04:09:41,765 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:41,765 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:41,765 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:41,765 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:41,765 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:41,766 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:41,766 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:41,766 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:41,766 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:41,766 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:58,468 INFO Query execution time: 0.005961894989013672
+2020-12-02 04:09:58,468 INFO Query execution time: 0.005961894989013672
+2020-12-02 04:09:58,468 INFO Query execution time: 0.005961894989013672
+2020-12-02 04:09:58,468 INFO Query execution time: 0.005961894989013672
+2020-12-02 04:09:58,468 INFO Query execution time: 0.005961894989013672
+2020-12-02 04:09:58,468 INFO Query execution time: 0.005961894989013672
+2020-12-02 04:09:58,468 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:58,468 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:58,468 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:58,468 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:58,468 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:58,468 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:09:58,469 INFO Number of rows in the table, player : 6
+2020-12-02 04:09:58,469 INFO Number of rows in the table, player : 6
+2020-12-02 04:09:58,469 INFO Number of rows in the table, player : 6
+2020-12-02 04:09:58,469 INFO Number of rows in the table, player : 6
+2020-12-02 04:09:58,469 INFO Number of rows in the table, player : 6
+2020-12-02 04:09:58,469 INFO Number of rows in the table, player : 6
+2020-12-02 04:09:58,469 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:58,469 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:58,469 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:58,469 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:58,469 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:58,469 INFO Number of rows in the table, league : 1
+2020-12-02 04:09:58,469 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:58,469 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:58,469 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:58,469 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:58,469 INFO Number of rows in the table, team : 2
+2020-12-02 04:09:58,469 INFO Number of rows in the table, team : 2
+2020-12-02 04:10:28,590 INFO Query execution time: 0.003584146499633789
+2020-12-02 04:10:28,590 INFO Query execution time: 0.003584146499633789
+2020-12-02 04:10:28,590 INFO Query execution time: 0.003584146499633789
+2020-12-02 04:10:28,590 INFO Query execution time: 0.003584146499633789
+2020-12-02 04:10:28,590 INFO Query execution time: 0.003584146499633789
+2020-12-02 04:10:28,590 INFO Query execution time: 0.003584146499633789
+2020-12-02 04:10:28,590 INFO Query execution time: 0.003584146499633789
+2020-12-02 04:10:28,594 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:10:28,594 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:10:28,594 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:10:28,594 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:10:28,594 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:10:28,594 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:10:28,594 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:10:28,594 INFO Number of rows in the table, player : 6
+2020-12-02 04:10:28,594 INFO Number of rows in the table, player : 6
+2020-12-02 04:10:28,594 INFO Number of rows in the table, player : 6
+2020-12-02 04:10:28,594 INFO Number of rows in the table, player : 6
+2020-12-02 04:10:28,594 INFO Number of rows in the table, player : 6
+2020-12-02 04:10:28,594 INFO Number of rows in the table, player : 6
+2020-12-02 04:10:28,594 INFO Number of rows in the table, player : 6
+2020-12-02 04:10:28,595 INFO Number of rows in the table, league : 1
+2020-12-02 04:10:28,595 INFO Number of rows in the table, league : 1
+2020-12-02 04:10:28,595 INFO Number of rows in the table, league : 1
+2020-12-02 04:10:28,595 INFO Number of rows in the table, league : 1
+2020-12-02 04:10:28,595 INFO Number of rows in the table, league : 1
+2020-12-02 04:10:28,595 INFO Number of rows in the table, league : 1
+2020-12-02 04:10:28,595 INFO Number of rows in the table, league : 1
+2020-12-02 04:10:28,595 INFO Number of rows in the table, team : 2
+2020-12-02 04:10:28,595 INFO Number of rows in the table, team : 2
+2020-12-02 04:10:28,595 INFO Number of rows in the table, team : 2
+2020-12-02 04:10:28,595 INFO Number of rows in the table, team : 2
+2020-12-02 04:10:28,595 INFO Number of rows in the table, team : 2
+2020-12-02 04:10:28,595 INFO Number of rows in the table, team : 2
+2020-12-02 04:10:28,595 INFO Number of rows in the table, team : 2
+2020-12-02 04:11:17,801 INFO Query execution time: 0.0020890235900878906
+2020-12-02 04:11:17,801 INFO Query execution time: 0.0020890235900878906
+2020-12-02 04:11:17,801 INFO Query execution time: 0.0020890235900878906
+2020-12-02 04:11:17,801 INFO Query execution time: 0.0020890235900878906
+2020-12-02 04:11:17,801 INFO Query execution time: 0.0020890235900878906
+2020-12-02 04:11:17,801 INFO Query execution time: 0.0020890235900878906
+2020-12-02 04:11:17,801 INFO Query execution time: 0.0020890235900878906
+2020-12-02 04:11:17,801 INFO Query execution time: 0.0020890235900878906
+2020-12-02 04:11:17,802 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:11:17,802 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:11:17,802 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:11:17,802 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:11:17,802 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:11:17,802 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:11:17,802 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:11:17,802 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:11:17,802 INFO Number of rows in the table, player : 6
+2020-12-02 04:11:17,802 INFO Number of rows in the table, player : 6
+2020-12-02 04:11:17,802 INFO Number of rows in the table, player : 6
+2020-12-02 04:11:17,802 INFO Number of rows in the table, player : 6
+2020-12-02 04:11:17,802 INFO Number of rows in the table, player : 6
+2020-12-02 04:11:17,802 INFO Number of rows in the table, player : 6
+2020-12-02 04:11:17,802 INFO Number of rows in the table, player : 6
+2020-12-02 04:11:17,802 INFO Number of rows in the table, player : 6
+2020-12-02 04:11:17,803 INFO Number of rows in the table, league : 1
+2020-12-02 04:11:17,803 INFO Number of rows in the table, league : 1
+2020-12-02 04:11:17,803 INFO Number of rows in the table, league : 1
+2020-12-02 04:11:17,803 INFO Number of rows in the table, league : 1
+2020-12-02 04:11:17,803 INFO Number of rows in the table, league : 1
+2020-12-02 04:11:17,803 INFO Number of rows in the table, league : 1
+2020-12-02 04:11:17,803 INFO Number of rows in the table, league : 1
+2020-12-02 04:11:17,803 INFO Number of rows in the table, league : 1
+2020-12-02 04:11:17,804 INFO Number of rows in the table, team : 2
+2020-12-02 04:11:17,804 INFO Number of rows in the table, team : 2
+2020-12-02 04:11:17,804 INFO Number of rows in the table, team : 2
+2020-12-02 04:11:17,804 INFO Number of rows in the table, team : 2
+2020-12-02 04:11:17,804 INFO Number of rows in the table, team : 2
+2020-12-02 04:11:17,804 INFO Number of rows in the table, team : 2
+2020-12-02 04:11:17,804 INFO Number of rows in the table, team : 2
+2020-12-02 04:11:17,804 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:34,245 INFO Query execution time: 0.0022630691528320312
+2020-12-02 04:13:34,245 INFO Query execution time: 0.0022630691528320312
+2020-12-02 04:13:34,245 INFO Query execution time: 0.0022630691528320312
+2020-12-02 04:13:34,245 INFO Query execution time: 0.0022630691528320312
+2020-12-02 04:13:34,245 INFO Query execution time: 0.0022630691528320312
+2020-12-02 04:13:34,245 INFO Query execution time: 0.0022630691528320312
+2020-12-02 04:13:34,245 INFO Query execution time: 0.0022630691528320312
+2020-12-02 04:13:34,245 INFO Query execution time: 0.0022630691528320312
+2020-12-02 04:13:34,245 INFO Query execution time: 0.0022630691528320312
+2020-12-02 04:13:34,246 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:34,246 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:34,246 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:34,246 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:34,246 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:34,246 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:34,246 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:34,246 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:34,246 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:34,247 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:34,247 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:34,247 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:34,247 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:34,247 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:34,247 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:34,247 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:34,247 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:34,247 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:34,248 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:34,248 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:34,248 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:34,248 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:34,248 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:34,248 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:34,248 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:34,248 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:34,248 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:34,249 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:34,249 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:34,249 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:34,249 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:34,249 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:34,249 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:34,249 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:34,249 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:34,249 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:51,012 INFO Query execution time: 0.004847049713134766
+2020-12-02 04:13:51,012 INFO Query execution time: 0.004847049713134766
+2020-12-02 04:13:51,012 INFO Query execution time: 0.004847049713134766
+2020-12-02 04:13:51,012 INFO Query execution time: 0.004847049713134766
+2020-12-02 04:13:51,012 INFO Query execution time: 0.004847049713134766
+2020-12-02 04:13:51,012 INFO Query execution time: 0.004847049713134766
+2020-12-02 04:13:51,012 INFO Query execution time: 0.004847049713134766
+2020-12-02 04:13:51,012 INFO Query execution time: 0.004847049713134766
+2020-12-02 04:13:51,012 INFO Query execution time: 0.004847049713134766
+2020-12-02 04:13:51,012 INFO Query execution time: 0.004847049713134766
+2020-12-02 04:13:51,015 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:51,015 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:51,015 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:51,015 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:51,015 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:51,015 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:51,015 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:51,015 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:51,015 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:51,015 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:13:51,017 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:51,017 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:51,017 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:51,017 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:51,017 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:51,017 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:51,017 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:51,017 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:51,017 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:51,017 INFO Number of rows in the table, player : 6
+2020-12-02 04:13:51,018 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:51,018 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:51,018 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:51,018 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:51,018 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:51,018 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:51,018 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:51,018 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:51,018 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:51,018 INFO Number of rows in the table, league : 1
+2020-12-02 04:13:51,018 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:51,018 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:51,018 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:51,018 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:51,018 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:51,018 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:51,018 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:51,018 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:51,018 INFO Number of rows in the table, team : 2
+2020-12-02 04:13:51,018 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:24,864 INFO Query execution time: 0.0010449886322021484
+2020-12-02 04:14:24,864 INFO Query execution time: 0.0010449886322021484
+2020-12-02 04:14:24,864 INFO Query execution time: 0.0010449886322021484
+2020-12-02 04:14:24,864 INFO Query execution time: 0.0010449886322021484
+2020-12-02 04:14:24,864 INFO Query execution time: 0.0010449886322021484
+2020-12-02 04:14:24,864 INFO Query execution time: 0.0010449886322021484
+2020-12-02 04:14:24,864 INFO Query execution time: 0.0010449886322021484
+2020-12-02 04:14:24,864 INFO Query execution time: 0.0010449886322021484
+2020-12-02 04:14:24,864 INFO Query execution time: 0.0010449886322021484
+2020-12-02 04:14:24,864 INFO Query execution time: 0.0010449886322021484
+2020-12-02 04:14:24,864 INFO Query execution time: 0.0010449886322021484
+2020-12-02 04:14:24,866 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:24,866 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:24,866 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:24,866 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:24,866 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:24,866 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:24,866 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:24,866 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:24,866 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:24,866 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:24,866 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:24,868 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:24,868 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:24,868 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:24,868 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:24,868 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:24,868 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:24,868 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:24,868 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:24,868 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:24,868 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:24,868 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:24,870 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:24,870 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:24,870 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:24,870 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:24,870 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:24,870 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:24,870 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:24,870 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:24,870 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:24,870 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:24,870 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:24,871 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:24,871 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:24,871 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:24,871 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:24,871 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:24,871 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:24,871 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:24,871 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:24,871 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:24,871 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:24,871 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:45,192 INFO Query execution time: 0.0012049674987792969
+2020-12-02 04:14:45,192 INFO Query execution time: 0.0012049674987792969
+2020-12-02 04:14:45,192 INFO Query execution time: 0.0012049674987792969
+2020-12-02 04:14:45,192 INFO Query execution time: 0.0012049674987792969
+2020-12-02 04:14:45,192 INFO Query execution time: 0.0012049674987792969
+2020-12-02 04:14:45,192 INFO Query execution time: 0.0012049674987792969
+2020-12-02 04:14:45,192 INFO Query execution time: 0.0012049674987792969
+2020-12-02 04:14:45,192 INFO Query execution time: 0.0012049674987792969
+2020-12-02 04:14:45,192 INFO Query execution time: 0.0012049674987792969
+2020-12-02 04:14:45,192 INFO Query execution time: 0.0012049674987792969
+2020-12-02 04:14:45,192 INFO Query execution time: 0.0012049674987792969
+2020-12-02 04:14:45,192 INFO Query execution time: 0.0012049674987792969
+2020-12-02 04:14:45,193 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:45,193 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:45,193 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:45,193 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:45,193 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:45,193 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:45,193 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:45,193 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:45,193 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:45,193 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:45,193 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:45,193 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:14:45,194 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:45,194 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:45,194 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:45,194 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:45,194 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:45,194 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:45,194 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:45,194 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:45,194 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:45,194 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:45,194 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:45,194 INFO Number of rows in the table, player : 6
+2020-12-02 04:14:45,194 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:45,194 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:45,194 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:45,194 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:45,194 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:45,194 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:45,194 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:45,194 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:45,194 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:45,194 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:45,194 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:45,194 INFO Number of rows in the table, league : 1
+2020-12-02 04:14:45,195 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:45,195 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:45,195 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:45,195 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:45,195 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:45,195 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:45,195 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:45,195 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:45,195 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:45,195 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:45,195 INFO Number of rows in the table, team : 2
+2020-12-02 04:14:45,195 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:00,674 INFO Query execution time: 0.003816843032836914
+2020-12-02 04:15:00,674 INFO Query execution time: 0.003816843032836914
+2020-12-02 04:15:00,674 INFO Query execution time: 0.003816843032836914
+2020-12-02 04:15:00,674 INFO Query execution time: 0.003816843032836914
+2020-12-02 04:15:00,674 INFO Query execution time: 0.003816843032836914
+2020-12-02 04:15:00,674 INFO Query execution time: 0.003816843032836914
+2020-12-02 04:15:00,674 INFO Query execution time: 0.003816843032836914
+2020-12-02 04:15:00,674 INFO Query execution time: 0.003816843032836914
+2020-12-02 04:15:00,674 INFO Query execution time: 0.003816843032836914
+2020-12-02 04:15:00,674 INFO Query execution time: 0.003816843032836914
+2020-12-02 04:15:00,674 INFO Query execution time: 0.003816843032836914
+2020-12-02 04:15:00,674 INFO Query execution time: 0.003816843032836914
+2020-12-02 04:15:00,674 INFO Query execution time: 0.003816843032836914
+2020-12-02 04:15:00,676 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:00,676 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:00,676 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:00,676 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:00,676 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:00,676 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:00,676 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:00,676 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:00,676 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:00,676 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:00,676 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:00,676 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:00,676 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:00,680 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:00,680 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:00,680 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:00,680 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:00,680 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:00,680 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:00,680 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:00,680 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:00,680 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:00,680 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:00,680 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:00,680 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:00,680 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:00,682 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:00,682 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:00,682 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:00,682 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:00,682 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:00,682 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:00,682 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:00,682 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:00,682 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:00,682 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:00,682 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:00,682 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:00,682 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:00,683 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:00,683 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:00,683 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:00,683 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:00,683 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:00,683 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:00,683 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:00,683 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:00,683 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:00,683 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:00,683 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:00,683 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:00,683 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:28,327 INFO Query execution time: 0.011537790298461914
+2020-12-02 04:15:28,327 INFO Query execution time: 0.011537790298461914
+2020-12-02 04:15:28,327 INFO Query execution time: 0.011537790298461914
+2020-12-02 04:15:28,327 INFO Query execution time: 0.011537790298461914
+2020-12-02 04:15:28,327 INFO Query execution time: 0.011537790298461914
+2020-12-02 04:15:28,327 INFO Query execution time: 0.011537790298461914
+2020-12-02 04:15:28,327 INFO Query execution time: 0.011537790298461914
+2020-12-02 04:15:28,327 INFO Query execution time: 0.011537790298461914
+2020-12-02 04:15:28,327 INFO Query execution time: 0.011537790298461914
+2020-12-02 04:15:28,327 INFO Query execution time: 0.011537790298461914
+2020-12-02 04:15:28,327 INFO Query execution time: 0.011537790298461914
+2020-12-02 04:15:28,327 INFO Query execution time: 0.011537790298461914
+2020-12-02 04:15:28,327 INFO Query execution time: 0.011537790298461914
+2020-12-02 04:15:28,327 INFO Query execution time: 0.011537790298461914
+2020-12-02 04:15:28,328 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:28,328 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:28,328 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:28,328 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:28,328 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:28,328 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:28,328 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:28,328 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:28,328 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:28,328 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:28,328 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:28,328 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:28,328 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:28,328 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:15:28,328 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:28,328 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:28,328 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:28,328 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:28,328 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:28,328 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:28,328 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:28,328 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:28,328 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:28,328 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:28,328 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:28,328 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:28,328 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:28,328 INFO Number of rows in the table, player : 6
+2020-12-02 04:15:28,329 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:28,329 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:28,329 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:28,329 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:28,329 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:28,329 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:28,329 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:28,329 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:28,329 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:28,329 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:28,329 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:28,329 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:28,329 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:28,329 INFO Number of rows in the table, league : 1
+2020-12-02 04:15:28,329 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:28,329 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:28,329 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:28,329 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:28,329 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:28,329 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:28,329 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:28,329 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:28,329 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:28,329 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:28,329 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:28,329 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:28,329 INFO Number of rows in the table, team : 2
+2020-12-02 04:15:28,329 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:43,148 INFO Query execution time: 0.002557992935180664
+2020-12-02 04:17:43,148 INFO Query execution time: 0.002557992935180664
+2020-12-02 04:17:43,148 INFO Query execution time: 0.002557992935180664
+2020-12-02 04:17:43,148 INFO Query execution time: 0.002557992935180664
+2020-12-02 04:17:43,148 INFO Query execution time: 0.002557992935180664
+2020-12-02 04:17:43,148 INFO Query execution time: 0.002557992935180664
+2020-12-02 04:17:43,148 INFO Query execution time: 0.002557992935180664
+2020-12-02 04:17:43,148 INFO Query execution time: 0.002557992935180664
+2020-12-02 04:17:43,148 INFO Query execution time: 0.002557992935180664
+2020-12-02 04:17:43,148 INFO Query execution time: 0.002557992935180664
+2020-12-02 04:17:43,148 INFO Query execution time: 0.002557992935180664
+2020-12-02 04:17:43,148 INFO Query execution time: 0.002557992935180664
+2020-12-02 04:17:43,148 INFO Query execution time: 0.002557992935180664
+2020-12-02 04:17:43,148 INFO Query execution time: 0.002557992935180664
+2020-12-02 04:17:43,148 INFO Query execution time: 0.002557992935180664
+2020-12-02 04:17:43,152 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:43,152 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:43,152 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:43,152 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:43,152 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:43,152 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:43,152 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:43,152 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:43,152 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:43,152 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:43,152 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:43,152 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:43,152 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:43,152 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:43,152 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:43,155 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:43,155 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:43,155 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:43,155 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:43,155 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:43,155 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:43,155 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:43,155 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:43,155 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:43,155 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:43,155 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:43,155 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:43,155 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:43,155 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:43,155 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:43,159 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:43,159 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:43,159 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:43,159 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:43,159 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:43,159 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:43,159 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:43,159 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:43,159 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:43,159 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:43,159 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:43,159 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:43,159 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:43,159 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:43,159 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:43,165 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:43,165 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:43,165 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:43,165 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:43,165 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:43,165 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:43,165 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:43,165 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:43,165 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:43,165 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:43,165 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:43,165 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:43,165 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:43,165 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:43,165 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:53,138 INFO Query execution time: 0.00970005989074707
+2020-12-02 04:17:53,138 INFO Query execution time: 0.00970005989074707
+2020-12-02 04:17:53,138 INFO Query execution time: 0.00970005989074707
+2020-12-02 04:17:53,138 INFO Query execution time: 0.00970005989074707
+2020-12-02 04:17:53,138 INFO Query execution time: 0.00970005989074707
+2020-12-02 04:17:53,138 INFO Query execution time: 0.00970005989074707
+2020-12-02 04:17:53,138 INFO Query execution time: 0.00970005989074707
+2020-12-02 04:17:53,138 INFO Query execution time: 0.00970005989074707
+2020-12-02 04:17:53,138 INFO Query execution time: 0.00970005989074707
+2020-12-02 04:17:53,138 INFO Query execution time: 0.00970005989074707
+2020-12-02 04:17:53,138 INFO Query execution time: 0.00970005989074707
+2020-12-02 04:17:53,138 INFO Query execution time: 0.00970005989074707
+2020-12-02 04:17:53,138 INFO Query execution time: 0.00970005989074707
+2020-12-02 04:17:53,138 INFO Query execution time: 0.00970005989074707
+2020-12-02 04:17:53,138 INFO Query execution time: 0.00970005989074707
+2020-12-02 04:17:53,138 INFO Query execution time: 0.00970005989074707
+2020-12-02 04:17:53,139 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:53,139 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:53,139 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:53,139 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:53,139 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:53,139 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:53,139 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:53,139 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:53,139 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:53,139 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:53,139 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:53,139 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:53,139 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:53,139 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:53,139 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:53,139 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:17:53,139 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:53,139 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:53,139 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:53,139 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:53,139 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:53,139 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:53,139 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:53,139 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:53,139 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:53,139 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:53,139 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:53,139 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:53,139 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:53,139 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:53,139 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:53,139 INFO Number of rows in the table, player : 7
+2020-12-02 04:17:53,140 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:53,140 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:53,140 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:53,140 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:53,140 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:53,140 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:53,140 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:53,140 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:53,140 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:53,140 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:53,140 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:53,140 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:53,140 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:53,140 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:53,140 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:53,140 INFO Number of rows in the table, league : 1
+2020-12-02 04:17:53,141 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:53,141 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:53,141 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:53,141 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:53,141 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:53,141 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:53,141 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:53,141 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:53,141 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:53,141 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:53,141 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:53,141 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:53,141 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:53,141 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:53,141 INFO Number of rows in the table, team : 2
+2020-12-02 04:17:53,141 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:03,199 INFO Query execution time: 0.0035393238067626953
+2020-12-02 04:19:03,199 INFO Query execution time: 0.0035393238067626953
+2020-12-02 04:19:03,199 INFO Query execution time: 0.0035393238067626953
+2020-12-02 04:19:03,199 INFO Query execution time: 0.0035393238067626953
+2020-12-02 04:19:03,199 INFO Query execution time: 0.0035393238067626953
+2020-12-02 04:19:03,199 INFO Query execution time: 0.0035393238067626953
+2020-12-02 04:19:03,199 INFO Query execution time: 0.0035393238067626953
+2020-12-02 04:19:03,199 INFO Query execution time: 0.0035393238067626953
+2020-12-02 04:19:03,199 INFO Query execution time: 0.0035393238067626953
+2020-12-02 04:19:03,199 INFO Query execution time: 0.0035393238067626953
+2020-12-02 04:19:03,199 INFO Query execution time: 0.0035393238067626953
+2020-12-02 04:19:03,199 INFO Query execution time: 0.0035393238067626953
+2020-12-02 04:19:03,199 INFO Query execution time: 0.0035393238067626953
+2020-12-02 04:19:03,199 INFO Query execution time: 0.0035393238067626953
+2020-12-02 04:19:03,199 INFO Query execution time: 0.0035393238067626953
+2020-12-02 04:19:03,199 INFO Query execution time: 0.0035393238067626953
+2020-12-02 04:19:03,199 INFO Query execution time: 0.0035393238067626953
+2020-12-02 04:19:03,201 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:03,201 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:03,201 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:03,201 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:03,201 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:03,201 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:03,201 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:03,201 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:03,201 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:03,201 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:03,201 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:03,201 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:03,201 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:03,201 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:03,201 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:03,201 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:03,201 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:03,203 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:03,203 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:03,203 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:03,203 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:03,203 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:03,203 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:03,203 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:03,203 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:03,203 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:03,203 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:03,203 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:03,203 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:03,203 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:03,203 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:03,203 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:03,203 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:03,203 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:03,203 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:03,203 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:03,203 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:03,203 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:03,203 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:03,203 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:03,203 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:03,203 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:03,203 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:03,203 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:03,203 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:03,203 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:03,203 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:03,203 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:03,203 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:03,203 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:03,203 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:03,204 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:03,204 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:03,204 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:03,204 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:03,204 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:03,204 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:03,204 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:03,204 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:03,204 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:03,204 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:03,204 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:03,204 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:03,204 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:03,204 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:03,204 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:03,204 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:03,204 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,923 INFO Query execution time: 0.009424209594726562
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,924 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,925 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:11,927 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,614 INFO Query execution time: 0.0009450912475585938
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,617 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,619 INFO Number of rows in the table, player : 7
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,622 INFO Number of rows in the table, league : 1
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:19:48,623 INFO Number of rows in the table, team : 2
+2020-12-02 04:21:23,864 INFO Query execution time: 0.0062770843505859375
+2020-12-02 04:21:23,865 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:21:23,865 INFO Number of rows in the table, player : 7
+2020-12-02 04:21:23,865 INFO Number of rows in the table, league : 1
+2020-12-02 04:21:23,865 INFO Number of rows in the table, team : 2
+2020-12-02 04:21:37,853 INFO Query execution time: 0.021932125091552734
+2020-12-02 04:21:37,853 INFO Query execution time: 0.021932125091552734
+2020-12-02 04:21:37,854 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:21:37,854 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:21:37,854 INFO Number of rows in the table, player : 7
+2020-12-02 04:21:37,854 INFO Number of rows in the table, player : 7
+2020-12-02 04:21:37,854 INFO Number of rows in the table, league : 1
+2020-12-02 04:21:37,854 INFO Number of rows in the table, league : 1
+2020-12-02 04:21:37,854 INFO Number of rows in the table, team : 2
+2020-12-02 04:21:37,854 INFO Number of rows in the table, team : 2
+2020-12-02 04:23:25,555 INFO Query execution time: 0.0011012554168701172
+2020-12-02 04:23:25,555 INFO Query execution time: 0.0011012554168701172
+2020-12-02 04:23:25,555 INFO Query execution time: 0.0011012554168701172
+2020-12-02 04:23:25,556 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:23:25,556 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:23:25,556 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:23:25,556 INFO Number of rows in the table, player : 7
+2020-12-02 04:23:25,556 INFO Number of rows in the table, player : 7
+2020-12-02 04:23:25,556 INFO Number of rows in the table, player : 7
+2020-12-02 04:23:25,556 INFO Number of rows in the table, league : 1
+2020-12-02 04:23:25,556 INFO Number of rows in the table, league : 1
+2020-12-02 04:23:25,556 INFO Number of rows in the table, league : 1
+2020-12-02 04:23:25,556 INFO Number of rows in the table, team : 2
+2020-12-02 04:23:25,556 INFO Number of rows in the table, team : 2
+2020-12-02 04:23:25,556 INFO Number of rows in the table, team : 2
+2020-12-02 04:23:32,941 INFO Query execution time: 0.01141500473022461
+2020-12-02 04:23:32,941 INFO Query execution time: 0.01141500473022461
+2020-12-02 04:23:32,941 INFO Query execution time: 0.01141500473022461
+2020-12-02 04:23:32,941 INFO Query execution time: 0.01141500473022461
+2020-12-02 04:23:32,941 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:23:32,941 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:23:32,941 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:23:32,941 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:23:32,942 INFO Number of rows in the table, player : 7
+2020-12-02 04:23:32,942 INFO Number of rows in the table, player : 7
+2020-12-02 04:23:32,942 INFO Number of rows in the table, player : 7
+2020-12-02 04:23:32,942 INFO Number of rows in the table, player : 7
+2020-12-02 04:23:32,942 INFO Number of rows in the table, league : 1
+2020-12-02 04:23:32,942 INFO Number of rows in the table, league : 1
+2020-12-02 04:23:32,942 INFO Number of rows in the table, league : 1
+2020-12-02 04:23:32,942 INFO Number of rows in the table, league : 1
+2020-12-02 04:23:32,942 INFO Number of rows in the table, team : 2
+2020-12-02 04:23:32,942 INFO Number of rows in the table, team : 2
+2020-12-02 04:23:32,942 INFO Number of rows in the table, team : 2
+2020-12-02 04:23:32,942 INFO Number of rows in the table, team : 2
+2020-12-02 04:25:32,467 INFO Query execution time: 0.002150297164916992
+2020-12-02 04:25:32,468 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:25:32,468 INFO Number of rows in the table, player : 7
+2020-12-02 04:25:32,468 INFO Number of rows in the table, league : 1
+2020-12-02 04:25:32,468 INFO Number of rows in the table, team : 1
+2020-12-02 04:25:40,650 INFO Query execution time: 0.026705026626586914
+2020-12-02 04:25:40,650 INFO Query execution time: 0.026705026626586914
+2020-12-02 04:25:40,650 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:25:40,650 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:25:40,651 INFO Number of rows in the table, player : 7
+2020-12-02 04:25:40,651 INFO Number of rows in the table, player : 7
+2020-12-02 04:25:40,651 INFO Number of rows in the table, league : 1
+2020-12-02 04:25:40,651 INFO Number of rows in the table, league : 1
+2020-12-02 04:25:40,651 INFO Number of rows in the table, team : 1
+2020-12-02 04:25:40,651 INFO Number of rows in the table, team : 1
+2020-12-02 04:26:36,300 INFO Query execution time: 0.0024492740631103516
+2020-12-02 04:26:36,300 INFO Query execution time: 0.0024492740631103516
+2020-12-02 04:26:36,300 INFO Query execution time: 0.0024492740631103516
+2020-12-02 04:26:36,302 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:26:36,302 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:26:36,302 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:26:36,302 INFO Number of rows in the table, player : 5
+2020-12-02 04:26:36,302 INFO Number of rows in the table, player : 5
+2020-12-02 04:26:36,302 INFO Number of rows in the table, player : 5
+2020-12-02 04:26:36,303 INFO Number of rows in the table, league : 1
+2020-12-02 04:26:36,303 INFO Number of rows in the table, league : 1
+2020-12-02 04:26:36,303 INFO Number of rows in the table, league : 1
+2020-12-02 04:26:36,304 INFO Number of rows in the table, team : 1
+2020-12-02 04:26:36,304 INFO Number of rows in the table, team : 1
+2020-12-02 04:26:36,304 INFO Number of rows in the table, team : 1
+2020-12-02 04:26:58,595 INFO Query execution time: 0.008836030960083008
+2020-12-02 04:26:58,595 INFO Query execution time: 0.008836030960083008
+2020-12-02 04:26:58,595 INFO Query execution time: 0.008836030960083008
+2020-12-02 04:26:58,595 INFO Query execution time: 0.008836030960083008
+2020-12-02 04:26:58,596 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:26:58,596 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:26:58,596 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:26:58,596 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:26:58,596 INFO Number of rows in the table, player : 5
+2020-12-02 04:26:58,596 INFO Number of rows in the table, player : 5
+2020-12-02 04:26:58,596 INFO Number of rows in the table, player : 5
+2020-12-02 04:26:58,596 INFO Number of rows in the table, player : 5
+2020-12-02 04:26:58,596 INFO Number of rows in the table, league : 1
+2020-12-02 04:26:58,596 INFO Number of rows in the table, league : 1
+2020-12-02 04:26:58,596 INFO Number of rows in the table, league : 1
+2020-12-02 04:26:58,596 INFO Number of rows in the table, league : 1
+2020-12-02 04:26:58,596 INFO Number of rows in the table, team : 1
+2020-12-02 04:26:58,596 INFO Number of rows in the table, team : 1
+2020-12-02 04:26:58,596 INFO Number of rows in the table, team : 1
+2020-12-02 04:26:58,596 INFO Number of rows in the table, team : 1
+2020-12-02 04:34:25,945 INFO Query execution time: 183.20137000083923
+2020-12-02 04:34:25,945 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:34:25,945 INFO Number of rows in the table, player : 6
+2020-12-02 04:34:25,945 INFO Number of rows in the table, league : 1
+2020-12-02 04:34:25,946 INFO Number of rows in the table, team : 1
+2020-12-02 04:34:34,522 INFO Query execution time: 0.01897406578063965
+2020-12-02 04:34:34,522 INFO Query execution time: 0.01897406578063965
+2020-12-02 04:34:34,524 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:34:34,524 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:34:34,525 INFO Number of rows in the table, player : 6
+2020-12-02 04:34:34,525 INFO Number of rows in the table, player : 6
+2020-12-02 04:34:34,525 INFO Number of rows in the table, league : 1
+2020-12-02 04:34:34,525 INFO Number of rows in the table, league : 1
+2020-12-02 04:34:34,525 INFO Number of rows in the table, team : 1
+2020-12-02 04:34:34,525 INFO Number of rows in the table, team : 1
+2020-12-02 04:40:35,815 INFO Query execution time: 0.0005283355712890625
+2020-12-02 04:40:35,815 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:40:35,815 INFO Number of rows in the table, player : 6
+2020-12-02 04:40:35,815 INFO Number of rows in the table, league : 1
+2020-12-02 04:40:35,815 INFO Number of rows in the table, team : 1
+2020-12-02 04:40:54,128 INFO Query execution time: 0.0006999969482421875
+2020-12-02 04:40:54,128 INFO Query execution time: 0.0006999969482421875
+2020-12-02 04:40:54,129 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:40:54,129 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:40:54,129 INFO Number of rows in the table, player : 6
+2020-12-02 04:40:54,129 INFO Number of rows in the table, player : 6
+2020-12-02 04:40:54,129 INFO Number of rows in the table, league : 1
+2020-12-02 04:40:54,129 INFO Number of rows in the table, league : 1
+2020-12-02 04:40:54,129 INFO Number of rows in the table, team : 1
+2020-12-02 04:40:54,129 INFO Number of rows in the table, team : 1
+2020-12-02 04:42:13,532 INFO Query execution time: 0.0015978813171386719
+2020-12-02 04:42:13,535 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:42:13,537 INFO Number of rows in the table, player : 6
+2020-12-02 04:42:13,538 INFO Number of rows in the table, league : 1
+2020-12-02 04:42:13,538 INFO Number of rows in the table, team : 1
+2020-12-02 04:42:34,989 INFO Query execution time: 2.7773020267486572
+2020-12-02 04:42:34,989 INFO Query execution time: 2.7773020267486572
+2020-12-02 04:42:34,994 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:42:34,994 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:42:34,994 INFO Number of rows in the table, player : 6
+2020-12-02 04:42:34,994 INFO Number of rows in the table, player : 6
+2020-12-02 04:42:34,996 INFO Number of rows in the table, league : 1
+2020-12-02 04:42:34,996 INFO Number of rows in the table, league : 1
+2020-12-02 04:42:34,997 INFO Number of rows in the table, team : 1
+2020-12-02 04:42:34,997 INFO Number of rows in the table, team : 1
+2020-12-02 04:43:10,367 INFO Query execution time: 0.0018110275268554688
+2020-12-02 04:43:10,367 INFO Query execution time: 0.0018110275268554688
+2020-12-02 04:43:10,367 INFO Query execution time: 0.0018110275268554688
+2020-12-02 04:43:10,377 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:43:10,377 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:43:10,377 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:43:10,380 INFO Number of rows in the table, player : 6
+2020-12-02 04:43:10,380 INFO Number of rows in the table, player : 6
+2020-12-02 04:43:10,380 INFO Number of rows in the table, player : 6
+2020-12-02 04:43:10,387 INFO Number of rows in the table, league : 1
+2020-12-02 04:43:10,387 INFO Number of rows in the table, league : 1
+2020-12-02 04:43:10,387 INFO Number of rows in the table, league : 1
+2020-12-02 04:43:10,390 INFO Number of rows in the table, team : 1
+2020-12-02 04:43:10,390 INFO Number of rows in the table, team : 1
+2020-12-02 04:43:10,390 INFO Number of rows in the table, team : 1
+2020-12-02 04:43:18,804 INFO Query execution time: 0.001233816146850586
+2020-12-02 04:43:18,804 INFO Query execution time: 0.001233816146850586
+2020-12-02 04:43:18,804 INFO Query execution time: 0.001233816146850586
+2020-12-02 04:43:18,804 INFO Query execution time: 0.001233816146850586
+2020-12-02 04:43:18,806 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:43:18,806 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:43:18,806 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:43:18,806 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:43:18,809 INFO Number of rows in the table, player : 6
+2020-12-02 04:43:18,809 INFO Number of rows in the table, player : 6
+2020-12-02 04:43:18,809 INFO Number of rows in the table, player : 6
+2020-12-02 04:43:18,809 INFO Number of rows in the table, player : 6
+2020-12-02 04:43:18,817 INFO Number of rows in the table, league : 1
+2020-12-02 04:43:18,817 INFO Number of rows in the table, league : 1
+2020-12-02 04:43:18,817 INFO Number of rows in the table, league : 1
+2020-12-02 04:43:18,817 INFO Number of rows in the table, league : 1
+2020-12-02 04:43:18,819 INFO Number of rows in the table, team : 1
+2020-12-02 04:43:18,819 INFO Number of rows in the table, team : 1
+2020-12-02 04:43:18,819 INFO Number of rows in the table, team : 1
+2020-12-02 04:43:18,819 INFO Number of rows in the table, team : 1
+2020-12-02 04:43:30,957 INFO Query execution time: 58.745771169662476
+2020-12-02 04:43:30,957 INFO Query execution time: 58.745771169662476
+2020-12-02 04:43:30,957 INFO Query execution time: 58.745771169662476
+2020-12-02 04:43:30,957 INFO Query execution time: 58.745771169662476
+2020-12-02 04:43:30,957 INFO Query execution time: 58.745771169662476
+2020-12-02 04:43:30,958 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:43:30,958 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:43:30,958 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:43:30,958 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:43:30,958 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:43:30,958 INFO Number of rows in the table, player : 6
+2020-12-02 04:43:30,958 INFO Number of rows in the table, player : 6
+2020-12-02 04:43:30,958 INFO Number of rows in the table, player : 6
+2020-12-02 04:43:30,958 INFO Number of rows in the table, player : 6
+2020-12-02 04:43:30,958 INFO Number of rows in the table, player : 6
+2020-12-02 04:43:30,959 INFO Number of rows in the table, league : 1
+2020-12-02 04:43:30,959 INFO Number of rows in the table, league : 1
+2020-12-02 04:43:30,959 INFO Number of rows in the table, league : 1
+2020-12-02 04:43:30,959 INFO Number of rows in the table, league : 1
+2020-12-02 04:43:30,959 INFO Number of rows in the table, league : 1
+2020-12-02 04:43:30,962 INFO Number of rows in the table, team : 1
+2020-12-02 04:43:30,962 INFO Number of rows in the table, team : 1
+2020-12-02 04:43:30,962 INFO Number of rows in the table, team : 1
+2020-12-02 04:43:30,962 INFO Number of rows in the table, team : 1
+2020-12-02 04:43:30,962 INFO Number of rows in the table, team : 1
+2020-12-02 04:43:57,555 INFO Query execution time: 0.028605937957763672
+2020-12-02 04:43:57,557 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:43:57,557 INFO Number of rows in the table, player : 6
+2020-12-02 04:43:57,557 INFO Number of rows in the table, league : 1
+2020-12-02 04:43:57,557 INFO Number of rows in the table, team : 1
+2020-12-02 04:44:19,536 INFO Query execution time: 0.04178595542907715
+2020-12-02 04:44:19,536 INFO Query execution time: 0.04178595542907715
+2020-12-02 04:44:19,537 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:44:19,537 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:44:19,537 INFO Number of rows in the table, player : 6
+2020-12-02 04:44:19,537 INFO Number of rows in the table, player : 6
+2020-12-02 04:44:19,537 INFO Number of rows in the table, league : 1
+2020-12-02 04:44:19,537 INFO Number of rows in the table, league : 1
+2020-12-02 04:44:19,537 INFO Number of rows in the table, team : 1
+2020-12-02 04:44:19,537 INFO Number of rows in the table, team : 1
+2020-12-02 04:44:40,943 INFO Query execution time: 0.0009551048278808594
+2020-12-02 04:44:40,943 INFO Query execution time: 0.0009551048278808594
+2020-12-02 04:44:40,943 INFO Query execution time: 0.0009551048278808594
+2020-12-02 04:44:40,944 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:44:40,944 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:44:40,944 INFO Number of tables in the database, db5408 is 3
+2020-12-02 04:44:40,945 INFO Number of rows in the table, player : 6
+2020-12-02 04:44:40,945 INFO Number of rows in the table, player : 6
+2020-12-02 04:44:40,945 INFO Number of rows in the table, player : 6
+2020-12-02 04:44:40,945 INFO Number of rows in the table, league : 1
+2020-12-02 04:44:40,945 INFO Number of rows in the table, league : 1
+2020-12-02 04:44:40,945 INFO Number of rows in the table, league : 1
+2020-12-02 04:44:40,945 INFO Number of rows in the table, team : 1
+2020-12-02 04:44:40,945 INFO Number of rows in the table, team : 1
+2020-12-02 04:44:40,945 INFO Number of rows in the table, team : 1

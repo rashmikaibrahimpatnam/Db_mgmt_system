@@ -51,21 +51,21 @@ class Update:
                 # search in dict for condition and perform updates
 
             print("Update Query Operation")
-            print(update_set_dict)
+            #print(update_set_dict)
             tables_info = dict_obj['Tables']
-            print(tables_info)
+            #print(tables_info)
             for values in tables_info:
                 if values.get("Table_name") == table_name:
                     print("found")
                     values_info = values['Table_columns']
                     for inside_list_value in values_info:
                         if inside_list_value.get(key_to_search_for_update_condition) == value_update_condition:
-                            print(inside_list_value)
+                            #print(inside_list_value)
                             inside_list_value.update(update_set_dict)
 
-            print(dict_obj)
-            print(values)
-            print('check')
+            #print(dict_obj)
+            #print(values)
+            #print('check')
             file1 = open(filename, "w+")
             f1 = file1.write(json.dumps(dict_obj))
             file1.close()

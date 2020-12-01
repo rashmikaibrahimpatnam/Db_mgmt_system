@@ -11,7 +11,8 @@
                 "delete",
                 "drop",
                 "show",
-                "export"
+                "export",
+                "truncate"
             ]
         },
         {
@@ -25,7 +26,11 @@
             "username": "qwe",
             "password": "Qwerty@123",
             "granted_privileges": [
-                "select"
+                "select",
+                "insert",
+                "delete",
+                "update",
+                "drop"
             ]
         }
     ]

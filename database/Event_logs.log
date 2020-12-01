@@ -328,3 +328,120 @@
 2020-12-02 03:18:49,781 ERROR SQL Dump exported. Check your output folder.
 2020-12-02 03:19:10,108 INFO Query sent by the user sai, is export erd;
 2020-12-02 03:19:10,138 ERROR ERD exported. Check your output folder.
+2020-12-02 03:51:28,909 INFO DB query given by user is create db5408
+2020-12-02 03:51:45,635 INFO Query sent by the user sai, is show tables;
+2020-12-02 03:52:38,640 INFO Query sent by the user sai, is CREATE TABLE Player (player_id int NOT NULL AUTO_INCREMENT,team_id int DEFAULT NULL,league_id int NOT NULL,player_name varchar(45) NOT NULL,position varchar(45) NOT NULL,age int NOT NULL,PRIMARY KEY (player_id),FOREIGN KEY (team_id) REFERENCES Team (team_id),FOREIGN KEY (league_id) REFERENCES League (league_id));
+2020-12-02 03:52:38,652 INFO User sai has selected db5408 database
+2020-12-02 03:54:25,128 INFO DB query given by user is use db5408
+2020-12-02 03:54:30,544 INFO Query sent by the user sai, is show tables;
+2020-12-02 04:02:32,545 INFO Query sent by the user sai, is CREATE TABLE League (league_id int NOT NULL AUTO_INCREMENT,league_name varchar(45) NOT NULL,PRIMARY KEY (league_id));
+2020-12-02 04:02:32,558 INFO User sai has selected db5408 database
+2020-12-02 04:04:21,459 INFO DB query given by user is use db5408
+2020-12-02 04:04:27,368 INFO Query sent by the user sai, is show tables;
+2020-12-02 04:04:50,709 INFO Query sent by the user sai, is CREATE TABLE Team (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL,PRIMARY KEY (team_id),FOREIGN KEY (league_id) REFERENCES League (league_id));
+2020-12-02 04:05:18,229 INFO Query sent by the user sai, is INSERT INTO League (league_id,league_name) VALUES(1,’Dalhousie League’) ;
+2020-12-02 04:05:26,693 INFO Query sent by the user sai, is INSERT INTO Team(team_id,team_name,league_id) VALUES(1,’Hogwarts’,1);
+2020-12-02 04:05:54,424 INFO Query sent by the user sai, is INSERT INTO Player(player_id,team_id,league_id,player_name,position,age) VALUES(1,1,1,’Robinder Dhillon','Goalie',22);
+2020-12-02 04:06:17,272 INFO Query sent by the user sai, is INSERT INTO Player(player_id,team_id,league_id,player_name,position,age) VALUES(2,1,1,’Rashmika’,’Forward’,24);
+2020-12-02 04:06:29,598 INFO Query sent by the user sai, is INSERT INTO Player(player_id,team_id,league_id,player_name,position,age) VALUES(3,2,1,’Saurabh’,’Defense,27);
+2020-12-02 04:06:38,847 INFO Query sent by the user sai, is INSERT INTO Player(player_id,team_id,league_id,player_name,position,age) VALUES(4,21,’Monil','Goalie',25);
+2020-12-02 04:06:38,849 ERROR Error in your Insert query!!! Please check syntax!!
+2020-12-02 04:06:38,849 INFO User sai has selected db5408 database
+2020-12-02 04:07:32,769 INFO DB query given by user is use db5408
+2020-12-02 04:07:35,455 INFO Query sent by the user sai, is show tables;
+2020-12-02 04:07:49,221 INFO Query sent by the user sai, is 
+2020-12-02 04:07:49,222 INFO User sai has selected db5408 database
+2020-12-02 04:08:16,587 INFO DB query given by user is use db5408
+2020-12-02 04:08:19,081 INFO Query sent by the user sai, is 
+2020-12-02 04:08:19,082 INFO User sai has selected db5408 database
+2020-12-02 04:09:02,195 INFO DB query given by user is use db5408
+2020-12-02 04:09:06,459 INFO Query sent by the user sai, is INSERT INTO Team(team_id,team_name,league_id) VALUES(2,’Deccan’,1);
+2020-12-02 04:09:20,631 INFO Query sent by the user sai, is INSERT INTO Player(player_id,team_id,league_id,player_name,position,age) VALUES(2,1,1,’Rashmika’,’Forward’,24);
+2020-12-02 04:09:28,868 INFO Query sent by the user sai, is INSERT INTO Player(player_id,team_id,league_id,player_name,position,age) VALUES(3,2,1,’Saurabh’,’Defense,27);
+2020-12-02 04:09:36,402 INFO Query sent by the user sai, is INSERT INTO Player(player_id,team_id,league_id,player_name,position,age) VALUES(4,2,1,’Monil','Goalie',25);
+2020-12-02 04:09:41,740 INFO Query sent by the user sai, is show tables;
+2020-12-02 04:09:58,461 INFO Query sent by the user sai, is select * from player;
+2020-12-02 04:09:58,461 INFO parsing select query, select * from player;
+2020-12-02 04:09:58,462 INFO data fetched from the table  player
+2020-12-02 04:10:28,585 INFO Query sent by the user sai, is select player_id from player where player_id=1
+2020-12-02 04:10:28,585 INFO parsing select query, select player_id from player where player_id=1
+2020-12-02 04:10:28,586 INFO data fetched from the table player
+2020-12-02 04:11:17,798 INFO Query sent by the user sai, is select player_name from player where team_id=1
+2020-12-02 04:11:17,799 INFO parsing select query, select player_name from player where team_id=1
+2020-12-02 04:11:17,799 INFO data fetched from the table player
+2020-12-02 04:13:34,242 INFO Query sent by the user sai, is UPDATE Player SET position = 'forward' WHERE age = 24;
+2020-12-02 04:13:51,006 INFO Query sent by the user sai, is select * from player;
+2020-12-02 04:13:51,007 INFO parsing select query, select * from player;
+2020-12-02 04:13:51,008 INFO data fetched from the table  player
+2020-12-02 04:14:24,863 INFO Query sent by the user sai, is UPDATE Player SET position = 'forward' WHERE age = 24;
+2020-12-02 04:14:45,191 INFO Query sent by the user sai, is UPDATE Player SET position = ‘Gaolie’ WHERE age = 24;
+2020-12-02 04:15:00,669 INFO Query sent by the user sai, is select * from player;
+2020-12-02 04:15:00,670 INFO parsing select query, select * from player;
+2020-12-02 04:15:00,670 INFO data fetched from the table  player
+2020-12-02 04:15:28,315 INFO Query sent by the user sai, is show tables;
+2020-12-02 04:17:43,145 INFO Query sent by the user sai, is INSERT INTO Player(player_id,team_id,league_id,player_name,position,age) VALUES(5,2,1,’Sam’,’Forward’,28);
+2020-12-02 04:17:53,127 INFO Query sent by the user sai, is show tables;
+2020-12-02 04:19:03,193 INFO Query sent by the user sai, is UPDATE Team SET team_name = ‘CSK’ WHERE team_name = ‘Deccan’;
+2020-12-02 04:19:11,913 INFO Query sent by the user sai, is show tables;
+2020-12-02 04:19:48,613 INFO Query sent by the user sai, is UPDATE Team SET team_name = ‘CSK’ WHERE team_name = ‘Deccan’;
+2020-12-02 04:20:41,768 INFO Query sent by the user sai, is 0
+2020-12-02 04:20:41,769 INFO User sai has selected db5408 database
+2020-12-02 04:21:01,519 INFO DB query given by user is use db5408
+2020-12-02 04:21:23,854 INFO Query sent by the user sai, is UPDATE Player SET player_name = ‘Bob’ WHERE age = 24;
+2020-12-02 04:21:37,831 INFO Query sent by the user sai, is show tables;
+2020-12-02 04:23:25,553 INFO Query sent by the user sai, is UPDATE Player SET player_name = 'ABC', position = 'forward' WHERE team_id = '1';
+2020-12-02 04:23:32,929 INFO Query sent by the user sai, is show tables;
+2020-12-02 04:24:21,282 INFO Query sent by the user sai, is Truncate Table Team;
+2020-12-02 04:24:21,283 INFO User sai has selected db5408 database
+2020-12-02 04:24:59,205 INFO DB query given by user is use db5408
+2020-12-02 04:25:32,463 INFO Query sent by the user sai, is truncate table team;
+2020-12-02 04:25:40,623 INFO Query sent by the user sai, is show tables;
+2020-12-02 04:26:36,297 INFO Query sent by the user sai, is Delete from Player where player_id=2;
+2020-12-02 04:26:36,297 INFO parsing delete query, delete from player where player_id=2;
+2020-12-02 04:26:36,298 INFO data is deleted from the table player
+2020-12-02 04:26:36,298 INFO data is deleted from the table player
+2020-12-02 04:26:58,585 INFO Query sent by the user sai, is select * from player;
+2020-12-02 04:26:58,586 INFO parsing select query, select * from player;
+2020-12-02 04:26:58,586 INFO data fetched from the table  player
+2020-12-02 04:29:16,051 INFO DB query given by user is use db5408
+2020-12-02 04:29:48,219 INFO other user is already accessing the database
+2020-12-02 04:29:48,220 INFO User sai has selected db5408 database
+2020-12-02 04:30:40,094 ERROR Invalid userame or password
+2020-12-02 04:30:54,830 INFO DB query given by user is use db408
+2020-12-02 04:31:19,606 INFO DB query given by user is use db5408
+2020-12-02 04:32:45,986 INFO Query sent by the user qwe, is drop table player;
+2020-12-02 04:32:45,988 INFO User qwe has selected db5408 database
+2020-12-02 04:33:14,683 INFO DB query given by user is use db5408
+2020-12-02 04:33:22,057 INFO Query sent by the user qwe, is UPDATE Player SET player_name = 'ABC', position = 'forward' WHERE team_id = '1';
+2020-12-02 04:33:22,057 INFO User qwe has selected db5408 database
+2020-12-02 04:33:53,604 INFO DB query given by user is use db5408
+2020-12-02 04:33:59,173 INFO Query sent by the user qwe, is UPDATE Player SET player_name = 'ABC', position = 'forward' WHERE team_id = '1';
+2020-12-02 04:33:59,174 ERROR Error in your update query!!! Please check syntax!!
+2020-12-02 04:33:59,174 INFO User qwe has selected db5408 database
+2020-12-02 04:34:25,932 INFO Query sent by the user sai, is INSERT INTO Player(player_id,team_id,league_id,player_name,position,age) VALUES(2,1,1,’Rashmika’,’Forward’,24);
+2020-12-02 04:34:25,938 INFO Query sent by the user sai, is UPDATE Player SET player_name = 'ABC', position = 'forward' WHERE team_id = '1';
+2020-12-02 04:34:34,502 INFO Query sent by the user sai, is show tables;
+2020-12-02 04:39:42,423 ERROR Error in your query!!! Please check syntax!! Show Tables;
+2020-12-02 04:39:42,423 INFO User sai has selected db5408 database
+2020-12-02 04:40:28,518 INFO DB query given by user is use db5408
+2020-12-02 04:40:35,814 INFO Query sent by the user sai, is export data dictionary
+2020-12-02 04:40:35,814 ERROR Error in your query!!! Please check syntax!! export data dictionary;
+2020-12-02 04:40:54,127 INFO Query sent by the user sai, is export data dictionary
+2020-12-02 04:40:54,128 ERROR Error in your query!!! Please check syntax!! export data dictionary;
+2020-12-02 04:42:09,855 INFO DB query given by user is use db5408
+2020-12-02 04:42:13,528 INFO Query sent by the user sai, is export erd;
+2020-12-02 04:42:13,530 ERROR Error in your query!!! Please check syntax!! export erd;
+2020-12-02 04:42:32,210 INFO Query sent by the user sai, is export sql dump;
+2020-12-02 04:42:34,986 INFO SQL Dump exported. Check your output folder.
+2020-12-02 04:43:10,359 INFO Query sent by the user sai, is export data dictionary;
+2020-12-02 04:43:10,361 ERROR Error in your query!!! Please check syntax!! export data dictionary;
+2020-12-02 04:43:18,802 INFO Query sent by the user sai, is export data dictionary;
+2020-12-02 04:43:18,803 ERROR Error in your query!!! Please check syntax!! export data dictionary;
+2020-12-02 04:43:30,956 ERROR Error in your query!!! Please check syntax!! export sql dump;
+2020-12-02 04:43:53,132 INFO DB query given by user is use db5408
+2020-12-02 04:43:57,526 INFO Query sent by the user sai, is export erd;
+2020-12-02 04:43:57,555 INFO ERD exported. Check your output folder.
+2020-12-02 04:44:19,494 INFO Query sent by the user sai, is export data dictionary;
+2020-12-02 04:44:19,535 INFO Data Dictionary exported. Check your output folder.
+2020-12-02 04:44:40,942 INFO Query sent by the user sai, is export sql dump;
+2020-12-02 04:44:40,943 INFO SQL Dump exported. Check your output folder.
