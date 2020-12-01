@@ -38,7 +38,7 @@ class ParseQuery():
         ask_usr = input("Enter 0 if you want to continue or type exit to exit: ")
 
         if ask_usr == 'exit':
-            exit(1)
+            SystemExit
         else:
             query = input("enter query in SQL to process: ")
             words = query.lower().split(' ')

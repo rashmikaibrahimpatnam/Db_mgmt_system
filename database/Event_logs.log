@@ -445,3 +445,49 @@
 2020-12-02 04:44:19,535 INFO Data Dictionary exported. Check your output folder.
 2020-12-02 04:44:40,942 INFO Query sent by the user sai, is export sql dump;
 2020-12-02 04:44:40,943 INFO SQL Dump exported. Check your output folder.
+2020-12-02 04:50:22,433 ERROR Error in your query!!! Please check syntax!! export sql dump;
+2020-12-02 04:54:03,366 ERROR Invalid userame or password
+2020-12-02 04:55:36,985 INFO DB query given by user is use db5408
+2020-12-02 04:55:43,962 INFO Query sent by the user sai, is select * from player;
+2020-12-02 04:55:43,963 INFO parsing select query, select * from player;
+2020-12-02 04:55:43,964 INFO data fetched from the table  player
+2020-12-02 04:57:46,182 INFO user Rob has created an account in the database
+2020-12-02 04:57:46,182 INFO user Rob has created an account in the database
+2020-12-02 04:57:46,182 INFO user Rob has created an account in the database
+2020-12-02 04:57:46,184 INFO user Rob details are saved in the file
+2020-12-02 04:57:46,184 INFO user Rob details are saved in the file
+2020-12-02 04:57:46,184 INFO user Rob details are saved in the file
+2020-12-02 04:58:20,285 INFO DB query given by user is show database
+2020-12-02 04:58:20,285 INFO DB query given by user is show database
+2020-12-02 04:58:20,285 INFO DB query given by user is show database
+2020-12-02 04:59:24,775 INFO Query sent by the user Rob, is select * from player;
+2020-12-02 04:59:24,775 INFO Query sent by the user Rob, is select * from player;
+2020-12-02 04:59:24,775 INFO Query sent by the user Rob, is select * from player;
+2020-12-02 04:59:24,776 INFO parsing select query, select * from player;
+2020-12-02 04:59:24,776 INFO parsing select query, select * from player;
+2020-12-02 04:59:24,776 INFO parsing select query, select * from player;
+2020-12-02 04:59:24,776 INFO data fetched from the table  player
+2020-12-02 04:59:24,776 INFO data fetched from the table  player
+2020-12-02 04:59:24,776 INFO data fetched from the table  player
+2020-12-02 04:59:39,288 INFO Query sent by the user Rob, is drop table player;
+2020-12-02 04:59:39,288 INFO Query sent by the user Rob, is drop table player;
+2020-12-02 04:59:39,288 INFO Query sent by the user Rob, is drop table player;
+2020-12-02 04:59:53,163 INFO Query sent by the user Rob, is 
+2020-12-02 04:59:53,163 INFO Query sent by the user Rob, is 
+2020-12-02 04:59:53,163 INFO Query sent by the user Rob, is 
+2020-12-02 04:59:57,112 INFO Query sent by the user Rob, is exit
+2020-12-02 04:59:57,112 INFO Query sent by the user Rob, is exit
+2020-12-02 04:59:57,112 INFO Query sent by the user Rob, is exit
+2020-12-02 05:00:00,145 ERROR Error in your Select query!!! Please check syntax!!
+2020-12-02 05:00:00,145 ERROR Error in your Select query!!! Please check syntax!!
+2020-12-02 05:00:00,145 ERROR Error in your Select query!!! Please check syntax!!
+2020-12-02 05:01:16,043 INFO DB query given by user is use db5408
+2020-12-02 05:01:25,692 INFO Query sent by the user sai, is select * from player;
+2020-12-02 05:01:25,692 INFO parsing select query, select * from player;
+2020-12-02 05:01:25,693 INFO data fetched from the table  player
+2020-12-02 05:01:27,603 ERROR Error in your Select query!!! Please check syntax!!
+2020-12-02 05:03:52,271 INFO DB query given by user is use db5408
+2020-12-02 05:04:04,720 INFO Query sent by the user sai, is select * from player;
+2020-12-02 05:04:04,721 INFO parsing select query, select * from player;
+2020-12-02 05:04:04,721 INFO data fetched from the table  player
+2020-12-02 05:04:07,348 INFO User sai has selected db5408 database

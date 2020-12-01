@@ -32,6 +32,13 @@
                 "update",
                 "drop"
             ]
+        },
+        {
+            "username": "Rob",
+            "password": "Rob@1234",
+            "granted_privileges": [
+                "select"
+            ]
         }
     ]
 }

@@ -1,6 +1,7 @@
 from database.authenticate import Login
 import re
 import json
+import getpass
 import os.path
 
 class Signup():        
@@ -46,7 +47,8 @@ class Signup():
         uname = input("enter username: ")
         check_uname = self.validate_username(uname)
         if check_uname:
-            pwd = input("enter pwd: ")
+            password = getpass.getpass()
+            pwd = password
             check_pwd = self.validate_password(pwd=pwd)            
             if check_pwd != False:
                 logger.info("user {} has created an account in the database".format(uname))

@@ -15,6 +15,7 @@ class MainUi():
             #redirect to signup
             logger = ConfigureLogs().configure_log("Eventlogs","Event")
             Signup().signup_user(logger)
+            self.ask_user()
         else:
             print('enter correct option')
 
