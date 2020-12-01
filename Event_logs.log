@@ -205,3 +205,50 @@
 2020-12-01 23:21:29,552 ERROR Error in your query!!! Please check syntax!! Show Tables;
 2020-12-01 23:21:29,552 INFO User sai has selected 5408 database
 2020-12-01 23:28:47,514 INFO DB query given by user is use 5408
+2020-12-02 00:32:37,766 INFO DB query given by user is use 5408
+2020-12-02 00:33:47,549 INFO Query sent by the user sai, is UPDATE Player SET player_name = 'ABC', position = 'forward' WHERE team_id = 'Team 1';
+2020-12-02 00:37:28,852 INFO DB query given by user is UPDATE Player SET player_name = 'ABC', position = 'forward' WHERE team_id = 'Team 1';
+2020-12-02 00:38:17,646 INFO DB query given by user is use 5408
+2020-12-02 00:38:32,788 INFO Query sent by the user sai, is UPDATE Player SET player_name = 'ABC', position = 'forward' WHERE team_id = 'Team 1';
+2020-12-02 00:39:48,234 INFO DB query given by user is use 5408
+2020-12-02 00:40:28,365 INFO Query sent by the user sai, is UPDATE Player SET player_name = 'ABC', position = 'forward' WHERE team_id = '1';
+2020-12-02 00:42:14,613 INFO DB query given by user is use 5408
+2020-12-02 00:42:41,580 INFO Query sent by the user sai, is UPDATE Player SET player_name = 'ABC', position = 'forward' WHERE team_id = '1';
+2020-12-02 00:43:23,620 INFO DB query given by user is use 5408
+2020-12-02 00:46:31,309 INFO DB query given by user is use 5408
+2020-12-02 00:46:52,796 INFO Query sent by the user sai, is TRUNCATE table player;
+2020-12-02 00:46:52,797 INFO User sai has selected 5408 database
+2020-12-02 00:47:40,704 INFO DB query given by user is use 5408
+2020-12-02 00:47:49,509 INFO Query sent by the user sai, is TRUNCATE table player;
+2020-12-02 00:47:49,510 ERROR Error in your update query!!! Please check syntax!!
+2020-12-02 00:47:49,510 INFO User sai has selected 5408 database
+2020-12-02 00:49:03,173 INFO DB query given by user is use 5408
+2020-12-02 00:49:30,561 INFO DB query given by user is use 5408
+2020-12-02 00:49:46,014 INFO Query sent by the user sai, is truncate table player
+2020-12-02 00:51:18,300 INFO DB query given by user is use 5408
+2020-12-02 00:51:26,620 INFO Query sent by the user sai, is truncate table player
+2020-12-02 00:51:26,621 ERROR Error in your truncate query!!! Please check syntax!!
+2020-12-02 00:51:26,621 INFO User sai has selected 5408 database
+2020-12-02 00:52:08,554 INFO DB query given by user is use 5408
+2020-12-02 00:52:14,738 INFO Query sent by the user sai, is trucate table player
+2020-12-02 00:52:14,740 INFO User sai has selected 5408 database
+2020-12-02 00:53:01,121 INFO DB query given by user is use 5408
+2020-12-02 00:53:08,111 INFO Query sent by the user sai, is truncate table player
+2020-12-02 00:55:29,584 INFO DB query given by user is use 5408
+2020-12-02 00:55:37,261 INFO Query sent by the user sai, is truncate table player
+2020-12-02 00:58:14,020 INFO DB query given by user is use 5408
+2020-12-02 00:58:20,869 INFO Query sent by the user sai, is truncate table player;
+2020-12-02 01:02:06,972 INFO DB query given by user is use 5408
+2020-12-02 01:02:14,212 INFO Query sent by the user sai, is truncate table player;
+2020-12-02 01:03:53,942 INFO DB query given by user is use 5408
+2020-12-02 01:04:21,332 INFO Query sent by the user sai, is CREATE TABLE Team (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL,PRIMARY KEY (team_id),FOREIGN KEY (league_id) REFERENCES League (league_id));
+2020-12-02 01:04:41,012 INFO Query sent by the user sai, is show tables
+2020-12-02 01:05:09,444 INFO Query sent by the user sai, is truncate table player;
+2020-12-02 01:06:20,309 INFO User sai has selected 5408 database
+2020-12-02 01:07:17,908 INFO DB query given by user is use 5408
+2020-12-02 01:07:45,701 INFO Query sent by the user sai, is UPDATE Player SET player_name = 'ABC', position = 'forward' WHERE team_id = '1';
+2020-12-02 01:10:59,612 INFO DB query given by user is use 5408
+2020-12-02 01:11:14,052 INFO Query sent by the user sai, is UPDATE Player SET player_name = 'ABC', position = 'forward' WHERE team_id = '1';
+2020-12-02 01:11:28,381 INFO Query sent by the user sai, is show tables
+2020-12-02 01:11:53,804 INFO Query sent by the user sai, is truncate table player;
+2020-12-02 01:12:01,509 INFO Query sent by the user sai, is show tables

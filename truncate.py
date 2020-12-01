@@ -3,17 +3,12 @@ import json
 
 from lockstatus import LockStatus
 
-# file1 = open("5408_group2_Tables.txt", "r")
-# f1 = file1.read()
-# file1.close()
-# update_set_dict = {}
-# dict_obj = json.loads(f1)
 
 class Truncate:
-    def strip_text(text):
+    def strip_text(self, text):
         return re.sub(' +', ' ', text.strip())
 
-    def truncate_table(self,username,dbname,query,logger,fname):
+    def truncate_table(self, username, dbname, query, logger, fname):
         check_lock = LockStatus().checklock(username)
         # create db copy
         src_fname = dbname + "_Tables.txt"
@@ -26,8 +21,13 @@ class Truncate:
             filename = dest_dname
             dtname = dbname + "_Tables_Datatypes_copy.txt"
             status = True
+        file1 = open(filename, "r")
+        f1 = file1.read()
+        file1.close()
+        update_set_dict = {}
+        dict_obj = json.loads(f1)
         is_truncate_query = False
-        query = "TRUNCATE table player;"
+        # query = "TRUNCATE table player;"
         if re.split(" ", query)[0].lower() == "truncate":
             is_truncate_query = True
 
@@ -45,8 +45,12 @@ class Truncate:
                     print(values_info)
                     for column_values in values_info:
                         for columns in column_values:
-                            column_values[columns] = None
+                            column_values[columns] = 'defnull'
                         print(column_values)
             print(tables_info)
+            print(dict_obj)
+            file1 = open(filename, "w+")
+            f1 = file1.write(json.dumps(dict_obj))
+            file1.close()
 
         return status

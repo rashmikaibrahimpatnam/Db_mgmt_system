@@ -186,3 +186,86 @@
 2020-12-01 23:21:17,657 INFO Number of rows in the table, player : 2
 2020-12-01 23:21:17,657 INFO Number of rows in the table, player : 2
 2020-12-01 23:21:17,657 INFO Number of rows in the table, player : 2
+2020-12-02 00:33:47,552 INFO Query execution time: 0.00299835205078125
+2020-12-02 00:33:47,552 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:33:47,552 INFO Number of rows in the table, player : 2
+2020-12-02 00:38:32,790 INFO Query execution time: 0.0009980201721191406
+2020-12-02 00:38:32,791 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:38:32,791 INFO Number of rows in the table, player : 2
+2020-12-02 00:42:41,583 INFO Query execution time: 0.0019996166229248047
+2020-12-02 00:42:41,584 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:42:41,584 INFO Number of rows in the table, player : 2
+2020-12-02 00:58:20,871 INFO Query execution time: 0.0009984970092773438
+2020-12-02 00:58:20,872 INFO Number of tables in the database, 5408 is 1
+2020-12-02 00:58:20,872 INFO Number of rows in the table, player : 2
+2020-12-02 01:02:14,213 INFO Query execution time: 0.0010006427764892578
+2020-12-02 01:02:14,213 INFO Number of tables in the database, 5408 is 1
+2020-12-02 01:02:14,213 INFO Number of rows in the table, player : 2
+2020-12-02 01:04:21,335 INFO Query execution time: 0.002997875213623047
+2020-12-02 01:04:21,341 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:04:21,342 INFO Number of rows in the table, player : 2
+2020-12-02 01:04:21,342 INFO Number of rows in the table, team : 1
+2020-12-02 01:04:41,018 INFO Query execution time: 0.004998207092285156
+2020-12-02 01:04:41,018 INFO Query execution time: 0.004998207092285156
+2020-12-02 01:04:41,018 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:04:41,018 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:04:41,018 INFO Number of rows in the table, player : 2
+2020-12-02 01:04:41,018 INFO Number of rows in the table, player : 2
+2020-12-02 01:04:41,018 INFO Number of rows in the table, team : 1
+2020-12-02 01:04:41,018 INFO Number of rows in the table, team : 1
+2020-12-02 01:05:09,445 INFO Query execution time: 0.000997304916381836
+2020-12-02 01:05:09,445 INFO Query execution time: 0.000997304916381836
+2020-12-02 01:05:09,445 INFO Query execution time: 0.000997304916381836
+2020-12-02 01:05:09,446 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:05:09,446 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:05:09,446 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:05:09,446 INFO Number of rows in the table, player : 2
+2020-12-02 01:05:09,446 INFO Number of rows in the table, player : 2
+2020-12-02 01:05:09,446 INFO Number of rows in the table, player : 2
+2020-12-02 01:05:09,446 INFO Number of rows in the table, team : 1
+2020-12-02 01:05:09,446 INFO Number of rows in the table, team : 1
+2020-12-02 01:05:09,446 INFO Number of rows in the table, team : 1
+2020-12-02 01:07:45,703 INFO Query execution time: 0.001990795135498047
+2020-12-02 01:07:45,703 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:07:45,703 INFO Number of rows in the table, player : 2
+2020-12-02 01:07:45,703 INFO Number of rows in the table, team : 1
+2020-12-02 01:11:14,055 INFO Query execution time: 0.001985788345336914
+2020-12-02 01:11:14,060 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:11:14,061 INFO Number of rows in the table, player : 2
+2020-12-02 01:11:14,061 INFO Number of rows in the table, team : 1
+2020-12-02 01:11:28,385 INFO Query execution time: 0.004019975662231445
+2020-12-02 01:11:28,385 INFO Query execution time: 0.004019975662231445
+2020-12-02 01:11:28,386 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:11:28,386 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:11:28,386 INFO Number of rows in the table, player : 2
+2020-12-02 01:11:28,386 INFO Number of rows in the table, player : 2
+2020-12-02 01:11:28,386 INFO Number of rows in the table, team : 1
+2020-12-02 01:11:28,386 INFO Number of rows in the table, team : 1
+2020-12-02 01:11:53,806 INFO Query execution time: 0.0010006427764892578
+2020-12-02 01:11:53,806 INFO Query execution time: 0.0010006427764892578
+2020-12-02 01:11:53,806 INFO Query execution time: 0.0010006427764892578
+2020-12-02 01:11:53,812 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:11:53,812 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:11:53,812 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:11:53,812 INFO Number of rows in the table, player : 1
+2020-12-02 01:11:53,812 INFO Number of rows in the table, player : 1
+2020-12-02 01:11:53,812 INFO Number of rows in the table, player : 1
+2020-12-02 01:11:53,812 INFO Number of rows in the table, team : 1
+2020-12-02 01:11:53,812 INFO Number of rows in the table, team : 1
+2020-12-02 01:11:53,812 INFO Number of rows in the table, team : 1
+2020-12-02 01:12:01,514 INFO Query execution time: 0.0049953460693359375
+2020-12-02 01:12:01,514 INFO Query execution time: 0.0049953460693359375
+2020-12-02 01:12:01,514 INFO Query execution time: 0.0049953460693359375
+2020-12-02 01:12:01,514 INFO Query execution time: 0.0049953460693359375
+2020-12-02 01:12:01,514 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:12:01,514 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:12:01,514 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:12:01,514 INFO Number of tables in the database, 5408 is 2
+2020-12-02 01:12:01,515 INFO Number of rows in the table, player : 1
+2020-12-02 01:12:01,515 INFO Number of rows in the table, player : 1
+2020-12-02 01:12:01,515 INFO Number of rows in the table, player : 1
+2020-12-02 01:12:01,515 INFO Number of rows in the table, player : 1
+2020-12-02 01:12:01,515 INFO Number of rows in the table, team : 1
+2020-12-02 01:12:01,515 INFO Number of rows in the table, team : 1
+2020-12-02 01:12:01,515 INFO Number of rows in the table, team : 1
+2020-12-02 01:12:01,515 INFO Number of rows in the table, team : 1
