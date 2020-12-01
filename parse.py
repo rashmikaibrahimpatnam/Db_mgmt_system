@@ -5,6 +5,8 @@ from droptable import DropOp
 from usedb import UseDb
 from create import CreatQuery
 from insert import InsertQuery
+from update import Update
+from truncate import Truncate
 from display import Display
 from fileops import FileOps
 from export import Export_SQLDUMP
@@ -123,7 +125,7 @@ class ParseQuery():
             elif words[0].lower() == 'insert':
                 insertObj = InsertQuery()
                 try:
-                    status = insertObj.insert_row(username,dbname,query,logger)
+                    status = insertObj.insert_row(username,dbname,query,logger,fname)
                     if status:
                         return
                     else:
@@ -131,6 +133,29 @@ class ParseQuery():
                 except:
                     print("Error in your Insert query!!! Please check syntax!!")
                     logger.error("Error in your Insert query!!! Please check syntax!!")
+            elif words[0].lower() == 'update':
+                updateObj = Update()
+                try:
+                    status = updateObj.update_row(username, dbname, query, logger, fname)
+                    if status:
+                        return
+                    else:
+                        self.login_status(username, dbname, logger, start_time)
+                except:
+                    print("Error in your update query!!! Please check syntax!!")
+                    logger.error("Error in your update query!!! Please check syntax!!")
+
+            elif words[0].lower() == 'truncate':
+                truncateObj = Truncate()
+                try:
+                    status = truncateObj.truncate_table(username, dbname, query, logger, fname)
+                    if status:
+                        return
+                    else:
+                        self.login_status(username, dbname, logger, start_time)
+                except:
+                    print("Error in your update query!!! Please check syntax!!")
+                    logger.error("Error in your update query!!! Please check syntax!!")
             elif words[0].lower() == 'show':
                 try:
                     displayObj = Display()
