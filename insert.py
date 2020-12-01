@@ -182,6 +182,7 @@ class InsertQuery:
 # # query = "INSERT INTO Player(player_id,team_id,league_id,player_name,position,age) VALUES(2,2,1,'Robinder Dhillon','Goalie',22);"
 # #query = "INSERT INTO Player VALUES(24,1,2,'Sam','Forward',27);"
 # #query = "INSERT INTO Team(league_id) VALUES(7);"
+#query = "INSERT INTO Team(team_id,team_name,league_id) VALUES(1,'Robinder ki Team Lelo BHai',7);"
 # query = "INSERT INTO Player(league_id,player_name,position,age) VALUES(1,'Kethan','Forward',22);"
 # #query = "INSERT INTO Player(player_name) VALUES('Jordan');"
 #

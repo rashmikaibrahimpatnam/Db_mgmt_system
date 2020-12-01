@@ -1,5 +1,6 @@
 import json
 import pandas as pd
+import os
 from tabulate import tabulate
 from fileops import FileOps
 
@@ -19,20 +20,23 @@ class Display:
             print("\n")
 
     def print_datadictionary(self,file_name,datatype_dict_object):
+        fileopobj = FileOps()
         # add methods as required seperately donot modify these
-        print("\n======Data Dictionary=======")
+        #print("\n======Data Dictionary=======")
+        save_path = "/Users/yash/database_5408_project_create_insert/output"
+        full_name = os.path.join(save_path, file_name)
+        fileopobj.filewriter(full_name, "\n======Data Dictionary=======")
         for i in datatype_dict_object['Tables']:
-            print("\n")
-            print("Table Name: " + i['Table_name'].capitalize())
+            #print("\n")
+            #print("Table Name: " + i['Table_name'].capitalize())
+            fileopobj.filewriterAppend(full_name, "\nTable Name: " + i['Table_name'].capitalize()+"\n")
             tables_headers = list(i['Table_columns'][0].keys())
             tables_headers.remove("Relationship")
             val = i['Table_columns'][0]
-            print(tabulate(pd.DataFrame(val, columns=tables_headers),
+            #print(tabulate(pd.DataFrame(val, columns=tables_headers),headers='keys', tablefmt='psql'))
+            fileopobj.filewriterAppend(full_name,tabulate(pd.DataFrame(val, columns=tables_headers),
                            headers='keys', tablefmt='psql'))
-            fileopobj = FileOps()
-            fileopobj.filewriter(file_name,tabulate(pd.DataFrame(val, columns=tables_headers),
-                           headers='keys', tablefmt='psql'))
-            print("\n")
+            #print("\n")
 
     def print_relationships(self,datatype_dict_object):
         # add methods as required seperately donot modify these

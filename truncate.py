@@ -30,7 +30,11 @@ class Truncate:
         # query = "TRUNCATE table player;"
         if re.split(" ", query)[0].lower() == "truncate":
             is_truncate_query = True
-
+        file1 = open(filename, "r")
+        f1 = file1.read()
+        file1.close()
+        update_set_dict = {}
+        dict_obj = json.loads(f1)
         if (is_truncate_query):
             table_name = self.strip_text(re.findall(r'table(.*?);', query.lower())[0].strip())
             print(table_name)
