@@ -6,7 +6,7 @@ from lockstatus import LockStatus
 
 class Update:
 
-    def strip_text(self, text):
+    def strip_text(self,text):
         return re.sub(' +', ' ', text.strip())
 
     def update_row(self, username,dbname,query,logger,fname):
@@ -16,11 +16,9 @@ class Update:
         dest_dname = dbname + "_Tables_copy.txt"
         if fname is None:
             filename = src_fname
-            dtname = dbname + "_Tables_Datatypes.txt"
             status = False
         else:
             filename = dest_dname
-            dtname = dbname + "_Tables_Datatypes_copy.txt"
             status = True
         file1 = open(filename, "r")
         f1 = file1.read()
@@ -28,7 +26,7 @@ class Update:
         update_set_dict = {}
         dict_obj = json.loads(f1)
         is_update_query = False
-        # query = "UPDATE Player SET player_name = 'ABC', position = 'forward' WHERE team_id = 'Team 12';"
+        # query = "UPDATE Player SET player_name = 'ABC', position = 'forward' WHERE team_id = '1';"
         if re.split(" ", query)[0].lower() == "update":
             is_update_query = True
 
@@ -66,5 +64,9 @@ class Update:
                             inside_list_value.update(update_set_dict)
 
             print(dict_obj)
+            print(values)
             print('check')
-        return status
+            file1 = open(filename, "w+")
+            f1 = file1.write(json.dumps(dict_obj))
+            file1.close()
+            return status
