@@ -205,3 +205,43 @@
 2020-12-01 23:21:29,552 ERROR Error in your query!!! Please check syntax!! Show Tables;
 2020-12-01 23:21:29,552 INFO User sai has selected 5408 database
 2020-12-01 23:28:47,514 INFO DB query given by user is use 5408
+2020-12-02 00:17:14,489 INFO DB query given by user is use 5408
+2020-12-02 00:17:18,233 INFO Query sent by the user sai, is show tables
+2020-12-02 00:17:23,681 INFO User sai has selected 5408 database
+2020-12-02 00:18:03,562 INFO DB query given by user is use 5498
+2020-12-02 00:18:25,995 INFO DB query given by user is use 5408
+2020-12-02 00:18:32,180 INFO Query sent by the user sai, is export sql dump
+2020-12-02 00:18:50,196 INFO Query sent by the user sai, is show tables
+2020-12-02 00:18:57,220 INFO Query sent by the user sai, is export data dictionary
+2020-12-02 00:22:11,337 INFO Query sent by the user sai, is 0
+2020-12-02 00:22:11,338 INFO User sai has selected 5408 database
+2020-12-02 00:22:36,475 INFO DB query given by user is use 5408
+2020-12-02 00:22:50,827 INFO Query sent by the user sai, is export data dictionary
+2020-12-02 00:24:34,808 INFO Query sent by the user sai, is export data dictionary
+2020-12-02 00:27:40,525 INFO Query sent by the user sai, is export data dictionary
+2020-12-02 00:39:43,041 ERROR Error in your query!!! Please check syntax!! export data dictionary;
+2020-12-02 00:39:43,041 INFO User sai has selected 5408 database
+2020-12-02 00:40:22,865 INFO DB query given by user is use 5408
+2020-12-02 00:40:42,571 INFO Query sent by the user sai, is show tables
+2020-12-02 00:40:53,283 INFO Query sent by the user sai, is export data dictionary
+2020-12-02 00:42:40,383 INFO Query sent by the user sai, is CREATE TABLE Team (team_id int NOT NULL AUTO_INCREMENT,team_name int DEFAULT NULL,league_id int NOT NULL,PRIMARY KEY (team_id),FOREIGN KEY (league_id) REFERENCES League (league_id));
+2020-12-02 00:42:58,754 INFO Query sent by the user sai, is show tables
+2020-12-02 00:44:00,888 ERROR Error in your query!!! Please check syntax!! Show Tables;
+2020-12-02 00:44:00,889 INFO User sai has selected 5408 database
+2020-12-02 00:46:15,227 INFO DB query given by user is use 5408
+2020-12-02 00:46:25,140 INFO Query sent by the user sai, is show tables;
+2020-12-02 00:49:27,513 INFO Query sent by the user sai, is INSERT INTO Team(league_id) VALUES(7);
+2020-12-02 00:49:32,138 INFO Query sent by the user sai, is show tables
+2020-12-02 00:52:08,369 INFO Query sent by the user sai, is INSERT INTO Team(team_id,team_name,league_id) VALUES(1,'Robinder ki Team Lelo BHai',7);
+2020-12-02 00:52:08,372 INFO User sai has selected 5408 database
+2020-12-02 00:52:35,598 ERROR Invalid userame or password
+2020-12-02 00:53:26,521 INFO DB query given by user is use 5408
+2020-12-02 00:53:31,042 INFO Query sent by the user sai, is show tables;
+2020-12-02 01:06:25,595 INFO Query sent by the user sai, is show tables
+2020-12-02 01:10:21,978 INFO Query sent by the user sai, is 0
+2020-12-02 01:10:21,978 INFO User sai has selected 5408 database
+2020-12-02 01:11:00,627 INFO DB query given by user is use 5408
+2020-12-02 01:11:03,958 INFO Query sent by the user sai, is show tables
+2020-12-02 01:11:55,901 INFO Query sent by the user sai, is export data dictionary
+2020-12-02 01:12:49,181 ERROR Error in your query!!! Please check syntax!! export data dictionary;
+2020-12-02 01:12:49,181 INFO User sai has selected 5408 database
