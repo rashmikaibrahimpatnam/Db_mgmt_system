@@ -102,3 +102,34 @@
 2020-12-01 21:34:10,424 INFO data is deleted from the table player
 2020-12-01 21:34:30,557 ERROR Error in your Delete query!!! Please check syntax!!
 2020-12-01 21:34:30,557 INFO User sai has selected 5408_group2 database
+2020-12-01 21:37:30,163 INFO DB query given by user is show databases;
+2020-12-01 21:43:11,187 INFO Query sent by the user sai, is show tables
+2020-12-01 21:43:11,188 INFO User sai has selected 5408_group2 database
+2020-12-01 21:44:45,627 INFO DB query given by user is show databases;
+2020-12-01 21:44:59,463 INFO Query sent by the user sai, is show tables;
+2020-12-01 21:44:59,463 INFO User sai has selected 5408_group2 database
+2020-12-01 21:46:19,112 INFO DB query given by user is use 5408_group2
+2020-12-01 21:46:26,358 INFO Query sent by the user sai, is show tables;
+2020-12-01 21:51:12,259 INFO DB query given by user is use 5408_group2
+2020-12-01 21:51:26,707 INFO Query sent by the user sai, is export data
+2020-12-01 21:51:26,708 INFO User sai has selected 5408_group2 database
+2020-12-01 21:51:59,695 INFO DB query given by user is use 5408_group2
+2020-12-01 21:52:05,188 INFO Query sent by the user sai, is export data
+2020-12-01 21:53:16,459 INFO DB query given by user is use 5408_group2
+2020-12-01 21:53:20,835 INFO Query sent by the user sai, is export data
+2020-12-01 21:53:20,846 ERROR Error in your query!!! Please check syntax!! Show Tables;
+2020-12-01 21:53:20,847 INFO User sai has selected 5408_group2 database
+2020-12-01 21:55:24,611 INFO DB query given by user is use 5408_group2
+2020-12-01 21:55:36,275 INFO Query sent by the user sai, is show data
+2020-12-01 21:55:36,281 INFO User sai has selected 5408_group2 database
+2020-12-01 21:56:21,635 INFO DB query given by user is use 5408_group2
+2020-12-01 21:56:27,726 INFO Query sent by the user sai, is export data dictionary
+2020-12-01 21:56:27,738 ERROR Error in your query!!! Please check syntax!! Show Tables;
+2020-12-01 21:56:27,738 INFO User sai has selected 5408_group2 database
+2020-12-01 21:57:43,456 INFO DB query given by user is use 5408_group2
+2020-12-01 21:57:48,667 INFO Query sent by the user sai, is export data dictionary
+2020-12-01 21:59:29,396 ERROR Error in your query!!! Please check syntax!! Show Tables;
+2020-12-01 21:59:29,396 INFO User sai has selected 5408_group2 database
+2020-12-01 21:59:49,900 INFO DB query given by user is use 5408_group2
+2020-12-01 21:59:54,381 INFO Query sent by the user sai, is export data
+2020-12-01 21:59:54,400 INFO User sai has selected 5408_group2 database

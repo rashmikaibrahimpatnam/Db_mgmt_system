@@ -9,7 +9,9 @@
                 "update",
                 "select",
                 "delete",
-                "drop"
+                "drop",
+                "show",
+                "export"
             ]
         },
         {
