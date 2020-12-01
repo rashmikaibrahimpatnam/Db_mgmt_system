@@ -3,3 +3,102 @@
 2020-11-30 16:19:32,883 INFO parsing select query, select * from player;
 2020-11-30 16:19:32,884 INFO data fetched from the table  player
 2020-11-30 16:19:36,434 INFO User sai has selected 5408_group2 database
+2020-12-01 20:16:22,176 INFO DB query given by user is use 5408_group2
+2020-12-01 20:17:16,937 INFO Query sent by the user sai, is delete from player where player_id = 24;
+2020-12-01 20:17:16,938 INFO parsing delete query, delete from player where player_id = 24;
+2020-12-01 20:30:49,153 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 20:30:49,154 INFO User sai has selected 5408_group2 database
+2020-12-01 20:32:01,907 INFO DB query given by user is use 540_group2
+2020-12-01 20:32:54,890 INFO DB query given by user is use 5408_group2
+2020-12-01 20:33:16,339 INFO Query sent by the user sai, is delete from player where player_id=24
+2020-12-01 20:33:16,340 INFO parsing delete query, delete from player where player_id=24
+2020-12-01 20:39:23,717 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 20:39:23,718 INFO User sai has selected 5408_group2 database
+2020-12-01 20:39:50,536 INFO DB query given by user is use 5408_group2
+2020-12-01 20:39:59,772 INFO Query sent by the user sai, is delete from player where player_id=24
+2020-12-01 20:39:59,773 INFO parsing delete query, delete from player where player_id=24
+2020-12-01 20:41:19,321 INFO data is deleted from the table player
+2020-12-01 20:41:45,144 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 20:41:45,144 INFO User sai has selected 5408_group2 database
+2020-12-01 20:42:34,568 INFO DB query given by user is use 5408_group2
+2020-12-01 20:42:50,768 INFO Query sent by the user sai, is delete from player where player_id = 24
+2020-12-01 20:42:50,769 INFO parsing delete query, delete from player where player_id = 24
+2020-12-01 20:43:29,214 INFO data is deleted from the table player
+2020-12-01 20:43:47,742 INFO data is deleted from the table player
+2020-12-01 20:44:37,585 INFO Query sent by the user sai, is delete from player where player_id =24
+2020-12-01 20:44:37,586 INFO parsing delete query, delete from player where player_id =24
+2020-12-01 20:44:55,268 INFO data is deleted from the table player
+2020-12-01 20:45:21,575 INFO data is deleted from the table player
+2020-12-01 20:49:36,245 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 20:49:36,245 INFO User sai has selected 5408_group2 database
+2020-12-01 20:51:12,013 INFO DB query given by user is use 5408_group2
+2020-12-01 20:51:19,682 INFO Query sent by the user sai, is delete from player where player_id =24
+2020-12-01 20:51:19,683 INFO parsing delete query, delete from player where player_id =24
+2020-12-01 20:54:35,928 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 20:54:35,928 INFO User sai has selected 5408_group2 database
+2020-12-01 20:55:05,056 INFO DB query given by user is use 5408_group2
+2020-12-01 20:56:53,867 INFO Query sent by the user sai, is delete from player where player_id=24
+2020-12-01 20:56:53,867 INFO parsing delete query, delete from player where player_id=24
+2020-12-01 20:57:26,967 INFO data is deleted from the table player
+2020-12-01 20:57:52,308 INFO data is deleted from the table player
+2020-12-01 21:00:19,622 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 21:00:19,622 INFO User sai has selected 5408_group2 database
+2020-12-01 21:00:45,617 INFO DB query given by user is use 5408_group2
+2020-12-01 21:00:54,946 INFO Query sent by the user sai, is delete from player where player_id = 24
+2020-12-01 21:00:54,947 INFO parsing delete query, delete from player where player_id = 24
+2020-12-01 21:00:54,962 INFO data is deleted from the table player
+2020-12-01 21:00:54,963 INFO data is deleted from the table player
+2020-12-01 21:01:41,981 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 21:01:41,982 INFO User sai has selected 5408_group2 database
+2020-12-01 21:02:02,105 INFO DB query given by user is use 5408_group2
+2020-12-01 21:02:11,160 INFO Query sent by the user sai, is delete from player where player_id=24
+2020-12-01 21:02:11,161 INFO parsing delete query, delete from player where player_id=24
+2020-12-01 21:02:11,181 INFO data is deleted from the table player
+2020-12-01 21:02:11,183 INFO data is deleted from the table player
+2020-12-01 21:06:56,259 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 21:06:56,260 INFO User sai has selected 5408_group2 database
+2020-12-01 21:07:20,270 INFO DB query given by user is use 5408_group2
+2020-12-01 21:07:32,019 INFO Query sent by the user sai, is delete from player where player_id=24
+2020-12-01 21:07:32,019 INFO parsing delete query, delete from player where player_id=24
+2020-12-01 21:07:32,032 INFO data is deleted from the table player
+2020-12-01 21:07:32,033 INFO data is deleted from the table player
+2020-12-01 21:21:06,260 INFO DB query given by user is use 5408_group2
+2020-12-01 21:21:15,687 INFO Query sent by the user sai, is delete from player where player_id=24;
+2020-12-01 21:21:15,687 INFO parsing delete query, delete from player where player_id=24;
+2020-12-01 21:21:15,688 INFO data is deleted from the table player
+2020-12-01 21:21:15,688 INFO data is deleted from the table player
+2020-12-01 21:25:32,727 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 21:25:32,727 INFO User sai has selected 5408_group2 database
+2020-12-01 21:25:56,518 INFO DB query given by user is use 5408_group2
+2020-12-01 21:26:07,523 INFO Query sent by the user sai, is delete from player where player_id=24;
+2020-12-01 21:26:07,523 INFO parsing delete query, delete from player where player_id=24;
+2020-12-01 21:26:07,524 INFO data is deleted from the table player
+2020-12-01 21:26:07,524 INFO data is deleted from the table player
+2020-12-01 21:26:28,133 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 21:26:28,133 INFO User sai has selected 5408_group2 database
+2020-12-01 21:26:56,127 INFO DB query given by user is use 5408_group2
+2020-12-01 21:27:06,527 INFO Query sent by the user sai, is delete from player where player_id=24;
+2020-12-01 21:27:06,528 INFO parsing delete query, delete from player where player_id=24;
+2020-12-01 21:27:06,548 INFO data is deleted from the table player
+2020-12-01 21:27:06,550 INFO data is deleted from the table player
+2020-12-01 21:30:29,966 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 21:30:29,966 INFO User sai has selected 5408_group2 database
+2020-12-01 21:30:56,302 INFO DB query given by user is use 5408_group2
+2020-12-01 21:31:11,109 INFO Query sent by the user sai, is delete from player where player_id = 24;
+2020-12-01 21:31:11,111 INFO parsing delete query, delete from player where player_id = 24;
+2020-12-01 21:31:11,112 INFO data is deleted from the table player
+2020-12-01 21:31:11,113 INFO data is deleted from the table player
+2020-12-01 21:31:53,020 INFO Query sent by the user sai, is delete from player where player_id=30
+2020-12-01 21:31:53,021 INFO parsing delete query, delete from player where player_id=30
+2020-12-01 21:31:53,021 INFO data is deleted from the table player
+2020-12-01 21:33:29,527 INFO Query sent by the user sai, is delete from player where player_id=30
+2020-12-01 21:33:29,527 INFO parsing delete query, delete from player where player_id=30
+2020-12-01 21:33:29,527 INFO data is deleted from the table player
+2020-12-01 21:33:43,175 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 21:33:43,175 INFO User sai has selected 5408_group2 database
+2020-12-01 21:34:07,003 INFO DB query given by user is use 5408_group2
+2020-12-01 21:34:10,422 INFO Query sent by the user sai, is delete from player where player_id=30
+2020-12-01 21:34:10,422 INFO parsing delete query, delete from player where player_id=30
+2020-12-01 21:34:10,424 INFO data is deleted from the table player
+2020-12-01 21:34:30,557 ERROR Error in your Delete query!!! Please check syntax!!
+2020-12-01 21:34:30,557 INFO User sai has selected 5408_group2 database
