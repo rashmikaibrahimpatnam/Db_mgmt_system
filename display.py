@@ -45,8 +45,8 @@ class Display:
 
 #call from different method where queries are parsed
 fileopobj = FileOps()
-f1 = fileopobj.filereader("Tables.txt")
-f2 = fileopobj.filereader("Tables_Datatypes.txt")
+f1 = fileopobj.filereader("5408_group2_Tables.txt")
+f2 = fileopobj.filereader("5408_group2_Tables_Datatypes.txt")
 usertable_dict_obj = json.loads(f1)
 usertable_datatype_dict_obj = json.loads(f2)
 
