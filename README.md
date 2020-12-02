@@ -13,6 +13,11 @@ Database Management System
 
 **Teaching Faculty** : [Saurabh Dey](Saurabh.Dey@Dal.Ca)
 
+**Teaching Assistants** : 
+- [Anindita Guha](anindita.guha@dal.ca)
+- [Deep Muni](Deep.Muni@dal.ca)
+- [Monil Panchal](Monil.Panchal@dal.ca)
+
 ## Git repository
 
 Group2 - [Click here](https://git.cs.dal.ca/yna/database_5408_project.git)
