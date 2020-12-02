@@ -22,7 +22,7 @@ class Display:
         fileopobj = FileOps()
         # add methods as required seperately donot modify these
         #print("\n======Data Dictionary=======")
-        save_path = "/Users/yash/database_5408_project_create_insert/output"
+        save_path = "/Users/yash/database_5408_project_integration/output"
         full_name = os.path.join(save_path, file_name)
         fileopobj.filewriter(full_name, "\n===========Data Dictionary============\n")
         for i in datatype_dict_object['Tables']:
@@ -41,7 +41,7 @@ class Display:
         fileopobj = FileOps()
         # add methods as required seperately donot modify these
         #print("\n======Relationships between Tables=======")
-        save_path = "/Users/yash/database_5408_project_create_insert/output"
+        save_path = "/Users/yash/database_5408_project_integration/output"
         full_name = os.path.join(save_path, file_name)
         fileopobj.filewriter(full_name, "\n=========ER Diagram==========\n")
         fileopobj.filewriterAppend(full_name, "\nRelationships between Tables\n")

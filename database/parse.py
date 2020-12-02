@@ -35,14 +35,17 @@ class ParseQuery():
         end_time = time.time()
         total_time = end_time-start_time
         self.logrecords(dbname,total_time)
-        ask_usr = input("Enter 0 if you want to continue or any other key to exit: ")
-        if ask_usr == '0':
-            query= input("enter query in SQL to process: ")
+        ask_usr = input("Enter 0 if you want to continue or type exit to exit: ")
+
+        if ask_usr == 'exit':
+            SystemExit
+        else:
+            query = input("enter query in SQL to process: ")
             words = query.lower().split(' ')
             if words[0] == 'begin':
-                self.parse_transactions(username,dbname,logger)
+                self.parse_transactions(username, dbname, logger)
             else:
-                self.parse_query(username,dbname,query,logger)
+                self.parse_query(username, dbname, query, logger)
 
     def check_permissions(self,username):
         with open("user_details.json") as user_details:
@@ -96,6 +99,7 @@ class ParseQuery():
                 except:
                     print("Error in your Select query!!! Please check syntax!!")
                     logger.error("Error in your Select query!!! Please check syntax!!")
+                    self.login_status(username, dbname, logger, start_time)
             elif words[0].lower() == 'delete':
                 #delete parsing
                 try:
@@ -103,6 +107,7 @@ class ParseQuery():
                 except:
                     print("Error in your Delete query!!! Please check syntax!!")
                     logger.error("Error in your Delete query!!! Please check syntax!!")
+                    self.login_status(username, dbname, logger, start_time)
             elif words[0].lower() == 'drop':
                 #drop table
                 try:
@@ -110,6 +115,7 @@ class ParseQuery():
                 except:
                     print("Error in your drop query!!! Please check syntax!!")
                     logger.error("Error in your drop query!!! Please check syntax!!")
+                    self.login_status(username, dbname, logger, start_time)
             elif words[0].lower() == 'create':
                 crtObj = CreatQuery()
                 try:
@@ -121,6 +127,7 @@ class ParseQuery():
                 except:
                     print("Error in your Create query!!! Please check syntax!!")
                     logger.error("Error in your drop query!!! Please check syntax!!")
+                    self.login_status(username, dbname, logger, start_time)
             elif words[0].lower() == 'insert':
                 insertObj = InsertQuery()
                 try:
@@ -132,6 +139,7 @@ class ParseQuery():
                 except:
                     print("Error in your Insert query!!! Please check syntax!!")
                     logger.error("Error in your Insert query!!! Please check syntax!!")
+                    self.login_status(username, dbname, logger, start_time)
             elif words[0].lower() == 'update':
                 updateObj = Update()
                 try:
@@ -143,6 +151,7 @@ class ParseQuery():
                 except:
                     print("Error in your update query!!! Please check syntax!!")
                     logger.error("Error in your update query!!! Please check syntax!!")
+                    self.login_status(username, dbname, logger, start_time)
             elif words[0].lower() == 'truncate':
                 truncateObj = Truncate()
                 try:
@@ -154,6 +163,7 @@ class ParseQuery():
                 except:
                     print("Error in your truncate query!!! Please check syntax!!")
                     logger.error("Error in your truncate query!!! Please check syntax!!")
+                    self.login_status(username, dbname, logger, start_time)
             elif words[0].lower() == 'show':
                 try:
                     displayObj = Display()
@@ -168,6 +178,7 @@ class ParseQuery():
                 except:
                     print("Error in your query!!! Please check syntax!! Show Tables;")
                     logger.error("Error in your query!!! Please check syntax!! Show Tables;")
+                    self.login_status(username, dbname, logger, start_time)
             elif (words[0].lower() == 'export' and words[1].lower() == 'data') and (words[2].lower() == 'dictionary' or words[2].lower() == 'dictionary;'):
                 try:
                     displayObj = Display()
@@ -176,7 +187,7 @@ class ParseQuery():
                     usertable_datatype_dict_obj = json.loads(f1)
                     status = displayObj.print_datadictionary("DataDictionary.txt",usertable_datatype_dict_obj)
                     print("Data Dictionary exported. Check your output folder.")
-                    logger.error("Data Dictionary exported. Check your output folder.")
+                    logger.info("Data Dictionary exported. Check your output folder.")
                     if status:
                         return
                     else:
@@ -184,6 +195,7 @@ class ParseQuery():
                 except:
                     print("Error in your query!!! Please check syntax!! export data dictionary;")
                     logger.error("Error in your query!!! Please check syntax!! export data dictionary;")
+                    self.login_status(username, dbname, logger, start_time)
             elif (words[0].lower() == 'export') and (words[1].lower() == 'erd' or words[1].lower() == 'erd;'):
                 try:
                     displayObj = Display()
@@ -192,7 +204,7 @@ class ParseQuery():
                     usertable_datatype_dict_obj = json.loads(f1)
                     status = displayObj.print_relationships("ERD.txt",usertable_datatype_dict_obj)
                     print("ERD exported. Check your output folder.")
-                    logger.error("ERD exported. Check your output folder.")
+                    logger.info("ERD exported. Check your output folder.")
                     if status:
                         return
                     else:
@@ -200,12 +212,13 @@ class ParseQuery():
                 except:
                     print("Error in your query!!! Please check syntax!! export erd;")
                     logger.error("Error in your query!!! Please check syntax!! export erd;")
+                    self.login_status(username, dbname, logger, start_time)
             elif (words[0].lower() == 'export' and words[1].lower() == 'sql') and (words[2].lower() == 'dump' or words[2].lower() == 'dump;'):
                 try:
                     sqldumpObj = Export_SQLDUMP()
                     status = sqldumpObj.export_sql_dump(dbname,query)
                     print("SQL Dump exported. Check your output folder.")
-                    logger.error("SQL Dump exported. Check your output folder.")
+                    logger.info("SQL Dump exported. Check your output folder.")
                     if status:
                         return
                     else:
@@ -213,11 +226,14 @@ class ParseQuery():
                 except:
                     print("Error in your query!!! Please check syntax!! export sql dump;")
                     logger.error("Error in your query!!! Please check syntax!! export sql dump;")
+                    self.login_status(username, dbname, logger, start_time)
             else:
                 print("Invalid query!!! Please check syntax!!")
                 logger.error("Invalid query!!! Please check syntax!!")
+                self.login_status(username, dbname, logger, start_time)
         else:
             print("no permissions granted")
+            self.login_status(username, dbname, logger, start_time)
 
     def parse_transactions(self,username,db_name,logger):
         try:

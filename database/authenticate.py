@@ -1,12 +1,13 @@
 import json
+import getpass
 from database.parse import ParseQuery
 
 
 class Login():
     def user_login(self,logger):
         print("-------------------Login----------------------")
-        username = input("enter username: ")
-        password = input("enter password: ")
+        username = input("Username: ")
+        password = getpass.getpass()
         with open("user_details.json") as user_details:
             data = json.load(user_details)
             usrs = data['User_Details']

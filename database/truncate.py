@@ -37,22 +37,22 @@ class Truncate:
         dict_obj = json.loads(f1)
         if (is_truncate_query):
             table_name = self.strip_text(re.findall(r'table(.*?);', query.lower())[0].strip())
-            print(table_name)
+            #print(table_name)
             tables_info = dict_obj['Tables']
-            print(tables_info)
+            #print(tables_info)
             for values in tables_info:
                 if values.get("Table_name") == table_name:
-                    print("found")
+                    #print("found")
                     values_info = values['Table_columns']
-                    print(values_info)
+                    #print(values_info)
                     del values_info[:1]
-                    print(values_info)
+                    #print(values_info)
                     for column_values in values_info:
                         for columns in column_values:
                             column_values[columns] = 'defnull'
-                        print(column_values)
-            print(tables_info)
-            print(dict_obj)
+                        #print(column_values)
+            #print(tables_info)
+            #print(dict_obj)
             file1 = open(filename, "w+")
             f1 = file1.write(json.dumps(dict_obj))
             file1.close()

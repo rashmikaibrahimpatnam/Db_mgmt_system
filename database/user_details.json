@@ -11,7 +11,8 @@
                 "delete",
                 "drop",
                 "show",
-                "export"
+                "export",
+                "truncate"
             ]
         },
         {
@@ -22,8 +23,30 @@
             ]
         },
         {
-            "username": "qwe",
-            "password": "Qwerty@123",
+            "username": "yash",
+            "password": "Yash@123",
+            "granted_privileges": [
+                "create",
+                "insert",
+                "update",
+                "select",
+                "delete",
+                "drop",
+                "show",
+                "export",
+                "truncate"
+            ]
+        },
+        {
+            "username": "Rob",
+            "password": "Rob@1234",
+            "granted_privileges": [
+                "select"
+            ]
+        },
+        {
+            "username": "Sam",
+            "password": "Sam@1234",
             "granted_privileges": [
                 "select"
             ]

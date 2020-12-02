@@ -3,6 +3,11 @@
 
 Relationships between Tables
 
+Table Name: League
++----------------+
+| Relationship   |
+|----------------|
++----------------+
 Table Name: Player
 +----+-------------------------------------------------------------------------------------------+
 |    | Relationship                                                                              |
@@ -10,24 +15,3 @@ Table Name: Player
 |  0 | Foreign Key: team_id in Table:player References Primary Key: team_id in Table: team       |
 |  1 | Foreign Key: league_id in Table:player References Primary Key: league_id in Table: league |
 +----+-------------------------------------------------------------------------------------------+
-Table Name: Team
-+----+-----------------------------------------------------------------------------------------+
-|    | Relationship                                                                            |
-|----+-----------------------------------------------------------------------------------------|
-|  0 | Foreign Key: league_id in Table:team References Primary Key: league_id in Table: league |
-+----+-----------------------------------------------------------------------------------------+
-Table Name: Temp create table temp
-+----------------+
-| Relationship   |
-|----------------|
-+----------------+
-Table Name: Temp
-+----------------+
-| Relationship   |
-|----------------|
-+----------------+
-Table Name: Temp3
-+----------------+
-| Relationship   |
-|----------------|
-+----------------+
