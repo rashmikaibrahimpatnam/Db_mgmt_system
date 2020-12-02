@@ -1,4 +1,4 @@
-# database_5408_project
+# database_5408_project_group2
 
 Database Management System
 
