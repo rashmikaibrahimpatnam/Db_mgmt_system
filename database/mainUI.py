@@ -19,6 +19,5 @@ class MainUi():
         else:
             print('enter correct option')
 
-
 if __name__=="__main__":
     MainUi().ask_user()

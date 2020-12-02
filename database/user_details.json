@@ -1,7 +1,7 @@
 {
     "User_Details": [
         {
-            "username": "Rashmika",
+            "username": "sai",
             "password": "Sai@9697",
             "granted_privileges": [
                 "create",
@@ -23,8 +23,8 @@
             ]
         },
         {
-            "username": "Yash",
-            "password": "Yash@1234",
+            "username": "yash",
+            "password": "Yash@123",
             "granted_privileges": [
                 "create",
                 "insert",
@@ -35,6 +35,20 @@
                 "show",
                 "export",
                 "truncate"
+            ]
+        },
+        {
+            "username": "Rob",
+            "password": "Rob@1234",
+            "granted_privileges": [
+                "select"
+            ]
+        },
+        {
+            "username": "Sam",
+            "password": "Sam@1234",
+            "granted_privileges": [
+                "select"
             ]
         }
     ]
